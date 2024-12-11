@@ -170,6 +170,7 @@ def main():
         
         for i, article in enumerate(articles[:config['articles']['limit']], 1):
             original_title = article.get('title', '')
+            optimized_title = article.get('optimized_title', original_title)
             description = article.get('description', '')
             link = article.get('link', '')
             
@@ -187,13 +188,13 @@ def main():
                     logging.info(f'Waiting {delay}s before next request')
                     time.sleep(delay)
                     
-                category = determine_category(client, original_title, original_title, description)
+                category = determine_category(client, original_title, optimized_title, description)
                 print(f"Category: {category}")
                 print("-" * 50)
                 
                 categorized_article = {
                     "original_title": original_title,
-                    "optimized_title": original_title,
+                    "optimized_title": optimized_title,
                     "category": category,
                     "description": description,
                     "link": article.get('link', ''),
