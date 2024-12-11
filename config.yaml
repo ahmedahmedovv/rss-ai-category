@@ -7,12 +7,12 @@ paths:
   logs_dir: "logs"
   log_file: "ai_category.log"
   data_dir: "data"
-  optimized_titles_file: "optimized_titles.json"
+  categorized_articles_file: "categorized_articles.json"
 
 # Articles Source
 articles:
   source_url: "https://raw.githubusercontent.com/ahmedahmedovv/rss-fetch-and-translate/refs/heads/main/data/translated_feeds.json"
-  limit: 10  # Limit for demo purposes
+  limit: 17  # Limit for demo purposes
 
 # Optimization Settings
 optimization:
@@ -25,7 +25,12 @@ optimization:
 # Logging
 logging:
   level: "INFO"
-  format: "%(asctime)s - %(levelname)s - %(message)s"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_size_limit: 10485760  # 10MB in bytes
+  backup_count: 5
+  handlers:
+    - file
+    - console
 
 # AI Configuration
 ai:

@@ -1,4 +1,4 @@
-name: Title Optimizer
+name: Article Categorizer
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:    # Enables manual trigger from GitHub UI
 
 jobs:
-  optimize:
+  categorize:
     runs-on: ubuntu-latest
     
     steps:
@@ -33,13 +33,13 @@ jobs:
       run: |
         echo "MISTRAL_API_KEY=${{ secrets.MISTRAL_API_KEY }}" > .env
     
-    - name: Run title optimizer
-      run: python title_optimizer.py
+    - name: Run article categorizer
+      run: python ai_category.py
     
     - name: Commit and push if changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add data/optimized_titles.json
-        git commit -m "Update optimized titles" || exit 0
+        git add data/categorized_articles.json
+        git commit -m "Update article categories" || exit 0
         git push 

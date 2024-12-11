@@ -8,6 +8,7 @@ from pathlib import Path
 import logging
 import requests
 import yaml
+from logging.handlers import RotatingFileHandler
 
 # Load environment variables from .env file
 load_dotenv()
@@ -18,22 +19,41 @@ def load_config():
         return yaml.safe_load(f)
 
 def setup_logging():
-    """Configure logging for the application"""
-    config = load_config()
-    log_dir = Path(config['paths']['logs_dir'])
-    log_dir.mkdir(exist_ok=True)
-    
-    log_file = log_dir / config['paths'].get('log_file', 'title_optimizer.log')
-    
-    logging.basicConfig(
-        level=getattr(logging, config['logging']['level']),
-        format=config['logging']['format'],
-        handlers=[
-            logging.FileHandler(log_file, encoding='utf-8'),
-            logging.StreamHandler()
-        ]
-    )
-    logging.info('Starting title optimization process')
+    """Configure logging for the application with enhanced features"""
+    try:
+        config = load_config()
+        log_dir = Path(config['paths']['logs_dir'])
+        log_dir.mkdir(exist_ok=True)
+        
+        log_file = log_dir / config['paths'].get('log_file', 'ai_category.log')
+        
+        # Create rotating file handler
+        file_handler = RotatingFileHandler(
+            log_file,
+            maxBytes=10*1024*1024,  # 10MB
+            backupCount=5,
+            encoding='utf-8'
+        )
+        
+        # Create console handler
+        console_handler = logging.StreamHandler()
+        
+        # Create formatter
+        formatter = logging.Formatter(config['logging']['format'])
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        # Setup root logger
+        root_logger = logging.getLogger()
+        root_logger.setLevel(getattr(logging, config['logging']['level']))
+        root_logger.addHandler(file_handler)
+        root_logger.addHandler(console_handler)
+        
+        logging.info('Logging system initialized successfully')
+        
+    except Exception as e:
+        print(f"Failed to setup logging: {str(e)}")
+        raise
 
 def load_articles():
     """Load articles from remote URL"""
@@ -46,77 +66,6 @@ def load_articles():
     except Exception as e:
         logging.error(f"Error loading articles from URL: {str(e)}")
         raise
-
-def load_existing_optimizations():
-    """Load existing optimized titles if they exist"""
-    config = load_config()
-    output_path = Path(config['paths']['data_dir']) / config['paths']['optimized_titles_file']
-    if output_path.exists():
-        with open(output_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            # Create a dictionary of original_title -> optimized_article for easy lookup
-            return {
-                article['original_title']: article 
-                for article in data.get('articles', [])
-            }
-    return {}
-
-def save_optimized_titles(articles, append=False):
-    """Save optimized titles to data/optimized_titles.json"""
-    config = load_config()
-    data_dir = Path(config['paths']['data_dir'])
-    output_path = data_dir / config['paths']['optimized_titles_file']
-    
-    # If appending and file exists, load existing data
-    if append and output_path.exists():
-        with open(output_path, 'r', encoding='utf-8') as f:
-            existing_data = json.load(f)
-            articles = existing_data.get('articles', []) + articles
-    
-    output_data = {
-        "optimization_timestamp": datetime.now().isoformat(),
-        "articles": articles
-    }
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
-    
-    logging.info(f'Saved optimized titles to: {output_path}')
-
-def optimize_title(client, title, description, retry_count=0):
-    """Generate an optimized title using Mistral AI with retry logic"""
-    config = load_config()
-    logging.info(f'Optimizing title: "{title}"')
-    
-    prompt = config['ai']['prompt_template'].format(
-        title=title,
-        description=description
-    )
-
-    try:
-        response = client.chat.complete(
-            model=config['api']['mistral_model'],
-            messages=[{"role": "user", "content": prompt}]
-        )
-        optimized = response.choices[0].message.content.strip('"')
-        logging.info(f'Successfully optimized title to: "{optimized}"')
-        return optimized
-    except Exception as e:
-        if "rate limit" in str(e).lower() and retry_count < config['optimization']['max_retries']:
-            # Calculate delay with exponential backoff
-            if config['optimization'].get('exponential_backoff', False):
-                delay = min(
-                    config['optimization']['retry_delay'] * (2 ** retry_count),
-                    config['optimization'].get('max_backoff', 30)
-                )
-            else:
-                delay = config['optimization']['retry_delay']
-            
-            logging.warning(f'Rate limit hit, retrying in {delay}s (attempt {retry_count + 1}/{config["optimization"]["max_retries"]})')
-            time.sleep(delay)
-            return optimize_title(client, title, description, retry_count + 1)
-        logging.error(f'Error optimizing title: {str(e)}')
-        raise e
 
 def setup_directories():
     """Create necessary directories at startup"""
@@ -188,6 +137,18 @@ def save_categorized_articles(articles, append=False):
     
     logging.info(f'Saved categorized articles to: {output_path}')
 
+def load_existing_categories():
+    """Load existing categorized articles to avoid re-categorization"""
+    config = load_config()
+    data_dir = Path(config['paths']['data_dir'])
+    output_path = data_dir / 'categorized_articles.json'
+    
+    if output_path.exists():
+        with open(output_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return {article['link']: article for article in data.get('articles', [])}
+    return {}
+
 def main():
     config = load_config()
     setup_directories()
@@ -204,11 +165,19 @@ def main():
         
         print("\n=== Article Categorization Tool ===\n")
         
+        # Load existing categorized articles
+        existing_categories = load_existing_categories()
+        
         for i, article in enumerate(articles[:config['articles']['limit']], 1):
             original_title = article.get('title', '')
-            optimized_title = article.get('optimized_title', original_title)
             description = article.get('description', '')
+            link = article.get('link', '')
             
+            # Skip if article already categorized
+            if link in existing_categories:
+                logging.info(f'Skipping already categorized article: {original_title}')
+                continue
+                
             print(f"\nArticle {i}:")
             print(f"Title: {original_title}")
             
@@ -218,13 +187,13 @@ def main():
                     logging.info(f'Waiting {delay}s before next request')
                     time.sleep(delay)
                     
-                category = determine_category(client, original_title, optimized_title, description)
+                category = determine_category(client, original_title, original_title, description)
                 print(f"Category: {category}")
                 print("-" * 50)
                 
                 categorized_article = {
                     "original_title": original_title,
-                    "optimized_title": optimized_title,
+                    "optimized_title": original_title,
                     "category": category,
                     "description": description,
                     "link": article.get('link', ''),

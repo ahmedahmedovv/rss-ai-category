@@ -35,7 +35,7 @@ data/*
 !data/.gitkeep
 !data/translated_feeds.json
 *.backup
-!data/optimized_titles.json
+!data/categorized_articles.json
 
 # IDE
 .idea/
