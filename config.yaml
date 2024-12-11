@@ -5,14 +5,14 @@ api:
 # File Paths
 paths:
   logs_dir: "logs"
-  log_file: "title_optimizer.log"
+  log_file: "ai_category.log"
   data_dir: "data"
   optimized_titles_file: "optimized_titles.json"
 
 # Articles Source
 articles:
   source_url: "https://raw.githubusercontent.com/ahmedahmedovv/rss-fetch-and-translate/refs/heads/main/data/translated_feeds.json"
-  limit: 110  # Limit for demo purposes
+  limit: 10  # Limit for demo purposes
 
 # Optimization Settings
 optimization:
@@ -30,33 +30,42 @@ logging:
 # AI Configuration
 ai:
   prompt_template: |
-    Task: Optimize the following article title while maintaining its core message.
+    Task: Analyze the following article content and determine the most appropriate category.
 
-    Original Title: "{title}"
+    Article Title: "{title}"
+    Optimized Title: "{optimized_title}"
     Article Description: "{description}"
 
-    Requirements for the new title:
-    1. Length: Must contain between 10-20 words
-    2. Style:
-       - Make it engaging and attention-grabbing
-       - Avoid clickbait tactics (no excessive promises or sensationalism)
-       - Use active voice when possible
-    3. Content:
-       - Maintain complete factual accuracy
-       - Include key topics from the original title
-       - Ensure clarity for the target audience
-    4. Format:
-       - Use proper capitalization
-       - Avoid unnecessary punctuation
-       - No hashtags or special characters
+    Requirements:
+    1. Choose ONE primary category from the following list:
+       - Technology
+       - Business
+       - Politics
+       - Science
+       - Health
+       - Entertainment
+       - Sports
+       - Education
+       - Environment
+       - World News
+    
+    2. Base your decision on:
+       - Main topic of the article
+       - Key themes in both titles
+       - Context from description
+       - Target audience
+    
+    Important: Provide only the category name in your response, without any additional text or explanations.
 
-    Important: Provide only the optimized title in your response, without any additional text or explanations.
-
-  optimization_criteria:
-    max_words: 20
-    min_words: 10
-    preserve_keywords: true
-    style_guidelines:
-      avoid_clickbait: true
-      use_active_voice: true
-      maintain_professionalism: true
+  category_criteria:
+    primary_categories:
+      - Technology
+      - Business
+      - Politics
+      - Science
+      - Health
+      - Entertainment
+      - Sports
+      - Education
+      - Environment
+      - World News

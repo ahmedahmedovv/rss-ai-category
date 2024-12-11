@@ -131,70 +131,114 @@ def setup_directories():
     
     logging.info('Created necessary directories')
 
+def determine_category(client, title, optimized_title, description, retry_count=0):
+    """Determine the most suitable category using Mistral AI with retry logic"""
+    config = load_config()
+    logging.info(f'Determining category for: "{title}"')
+    
+    prompt = config['ai']['prompt_template'].format(
+        title=title,
+        optimized_title=optimized_title,
+        description=description
+    )
+
+    try:
+        response = client.chat.complete(
+            model=config['api']['mistral_model'],
+            messages=[{"role": "user", "content": prompt}]
+        )
+        category = response.choices[0].message.content.strip()
+        logging.info(f'Category determined: "{category}"')
+        return category
+    except Exception as e:
+        if "rate limit" in str(e).lower() and retry_count < config['optimization']['max_retries']:
+            # Calculate delay with exponential backoff
+            if config['optimization'].get('exponential_backoff', False):
+                delay = min(
+                    config['optimization']['retry_delay'] * (2 ** retry_count),
+                    config['optimization'].get('max_backoff', 30)
+                )
+            else:
+                delay = config['optimization']['retry_delay']
+            
+            logging.warning(f'Rate limit hit, retrying in {delay}s (attempt {retry_count + 1}/{config["optimization"]["max_retries"]})')
+            time.sleep(delay)
+            return determine_category(client, title, optimized_title, description, retry_count + 1)
+        logging.error(f'Error determining category: {str(e)}')
+        raise e
+
+def save_categorized_articles(articles, append=False):
+    """Save categorized articles to data/categorized_articles.json"""
+    config = load_config()
+    data_dir = Path(config['paths']['data_dir'])
+    output_path = data_dir / 'categorized_articles.json'
+    
+    if append and output_path.exists():
+        with open(output_path, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+            articles = existing_data.get('articles', []) + articles
+    
+    output_data = {
+        "categorization_timestamp": datetime.now().isoformat(),
+        "articles": articles
+    }
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    
+    logging.info(f'Saved categorized articles to: {output_path}')
+
 def main():
     config = load_config()
     setup_directories()
     setup_logging()
     
     try:
-        # Get API key from .env file
         api_key = os.getenv("MISTRAL_API_KEY")
         if not api_key:
             logging.error("MISTRAL_API_KEY not found in .env file")
             raise ValueError("MISTRAL_API_KEY not found in .env file")
         
-        # Initialize Mistral client with API key
         client = Mistral(api_key=api_key)
-        
-        # Load articles and existing optimizations
         articles = load_articles()
-        existing_optimizations = load_existing_optimizations()
         
-        print("\n=== Title Optimization Tool ===\n")
+        print("\n=== Article Categorization Tool ===\n")
         
-        # Process each article
         for i, article in enumerate(articles[:config['articles']['limit']], 1):
             original_title = article.get('title', '')
+            optimized_title = article.get('optimized_title', original_title)
             description = article.get('description', '')
             
             print(f"\nArticle {i}:")
-            print(f"Original: {original_title}")
+            print(f"Title: {original_title}")
             
-            # Check if we already have an optimization for this title
-            if original_title in existing_optimizations:
-                existing_article = existing_optimizations[original_title]
-                print(f"Optimized (existing): {existing_article['optimized_title']}")
-                print("-" * 50)
-                continue
-                
             try:
-                # Increase initial delay between requests
                 if i > 1:
                     delay = config['optimization']['request_delay']
                     logging.info(f'Waiting {delay}s before next request')
                     time.sleep(delay)
                     
-                optimized_title = optimize_title(client, original_title, description)
-                print(f"Optimized (new): {optimized_title}")
+                category = determine_category(client, original_title, optimized_title, description)
+                print(f"Category: {category}")
                 print("-" * 50)
                 
-                # Create and save single optimized article immediately
-                optimized_article = {
+                categorized_article = {
                     "original_title": original_title,
                     "optimized_title": optimized_title,
+                    "category": category,
                     "description": description,
                     "link": article.get('link', ''),
                     "published": article.get('published', ''),
-                    "optimized_at": datetime.now().isoformat()
+                    "categorized_at": datetime.now().isoformat()
                 }
-                save_optimized_titles([optimized_article], append=True)
+                save_categorized_articles([categorized_article], append=True)
                 
             except Exception as e:
-                print(f"Error optimizing title: {str(e)}")
+                print(f"Error categorizing article: {str(e)}")
                 logging.error(f'Error processing article {i}: {str(e)}')
                 continue
         
-        logging.info('Title optimization process completed')
+        logging.info('Article categorization process completed')
         
     except Exception as e:
         logging.error(f'Fatal error in main process: {str(e)}')

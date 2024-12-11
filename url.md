@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/ahmedahmedovv/rss-fetch-and-translate/refs/heads/main/data/translated_feeds.json
+https://raw.githubusercontent.com/ahmedahmedovv/rss-ai-title/refs/heads/main/data/optimized_titles.json
