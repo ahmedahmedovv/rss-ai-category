@@ -12,7 +12,7 @@ paths:
 # Articles Source
 articles:
   source_url: "https://raw.githubusercontent.com/ahmedahmedovv/rss-fetch-and-translate/refs/heads/main/data/translated_feeds.json"
-  limit: 17  # Limit for demo purposes
+  limit: 20  # Limit for demo purposes
 
 # Optimization Settings
 optimization:
@@ -43,34 +43,77 @@ ai:
 
     Requirements:
     1. Choose ONE primary category from the following list:
-       - Technology
-       - Business
-       - Politics
-       - Science
-       - Health
-       - Entertainment
-       - Sports
-       - Education
-       - Environment
+       # Polish-Specific Categories
+       - Polish Politics & Government
+       - Polish Economy
+       - Polish Society
+       - Polish Regional News
+       - Polish Education System
+       - Polish Healthcare
+       - Polish Military & Defense
+       - Polish National Security
+       
+       # European & International
+       - European Union Affairs
+       - International Relations
        - World News
-    
+       - NATO & Military Cooperation
+       - International Security
+       
+       # Business & Economy
+       - Business & Markets
+       - Industry & Manufacturing
+       - Agriculture & Farming
+       
+       # Society & Culture
+       - Culture & Arts
+       - Religion & Traditions
+       - Education & Research
+       - Health & Lifestyle
+       - Sports & Recreation
+       
+       # Current Affairs
+       - Environment & Climate
+       - Technology & Innovation
+       - Defense & Security
+       - Transportation & Infrastructure
+       - Labor & Employment
+       - Military Operations & Exercises
+       - Defense Industry & Technology
+       - Cybersecurity & Digital Defense
+       - Border Security & Immigration
+       - Armed Forces & Personnel
+       - Military Equipment & Modernization
+       - Strategic Defense Planning
+       - Intelligence & Surveillance
+
     2. Base your decision on:
        - Main topic of the article
        - Key themes in both titles
        - Context from description
-       - Target audience
+       - Primary relevance to Polish audience
     
     Important: Provide only the category name in your response, without any additional text or explanations.
 
   category_criteria:
     primary_categories:
-      - Technology
-      - Business
-      - Politics
-      - Science
-      - Health
-      - Entertainment
-      - Sports
-      - Education
-      - Environment
+      - National Affairs
+      - European Union
+      - Economy & Business
+      - Society & Culture
       - World News
+      - Politics
+      - Regional News
+      - Science & Education
+      - Health & Lifestyle
+      - Sports
+      - Technology & Innovation
+      - Environment & Climate
+      - Defense & Security
+      - Culture & Entertainment
+      - Military Operations
+      - Defense Industry
+      - National Security
+      - Armed Forces
+      - Cybersecurity
+      - NATO Affairs
