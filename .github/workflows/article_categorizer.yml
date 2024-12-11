@@ -3,9 +3,9 @@ name: Article Categorizer
 on:
   schedule:
     - cron: '0 */2 * * *'  # Runs every 2 hours
+  workflow_dispatch:    # Enables manual trigger
   push:
-    branches: [ main ]  # Triggers on commits to main branch
-  workflow_dispatch:    # Enables manual trigger from GitHub UI
+    branches: [ main ]  # Optional: trigger on push to main
 
 jobs:
   categorize:
@@ -13,6 +13,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0   # Fetch all history for proper git operations
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -24,22 +26,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
-    - name: Create necessary directories
+    - name: Create directories
       run: |
         mkdir -p data
         mkdir -p logs
     
-    - name: Create .env file
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    
+    - name: Set up environment
       run: |
         echo "MISTRAL_API_KEY=${{ secrets.MISTRAL_API_KEY }}" > .env
     
-    - name: Run article categorizer
+    - name: Run categorizer
       run: python ai_category.py
     
-    - name: Commit and push if changes
+    - name: Commit and push changes
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
         git add data/categorized_articles.json
-        git commit -m "Update article categories" || exit 0
-        git push 
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update article categories [skip ci]" && git push) 
