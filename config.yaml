@@ -1,29 +1,8 @@
 # AI Configuration
 ai:
-  prompt_template: |
-    Task: Analyze the following article content and determine the most appropriate category.
-
-    Article Title: "{title}"
-    Optimized Title: "{optimized_title}"
-    Article Description: "{description}"
-
-    Requirements:
-    1. Choose ONE primary category from the following list:
-       # Main Categories
-       - Politics
-       - Business 
-       - Military
-
-    2. Base your decision on:
-       - Main topic of the article
-       - Key themes in both titles
-       - Context from description
-       - Primary relevance to Polish audience
-    
-    Important: Provide only the category name in your response, without any additional text or explanations.
-
   category_criteria:
-    primary_categories:
-      - Politics
-      - Business
-      - Military
+    categories:
+      - "politics"
+      - "business"
+      - "military"
+      # ... more categories ...

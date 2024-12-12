@@ -12,7 +12,7 @@ def analyze_and_categorize_data():
         config = yaml.safe_load(file)
     
     # Extract categories from config
-    categories = config['ai']['category_criteria']['primary_categories']
+    categories = config['ai']['category_criteria']['categories']
     categories_str = ", ".join(categories)
     
     # Initialize Mistral client
@@ -103,7 +103,7 @@ def analyze_and_categorize_data():
                         Description: {entry.get('description', 'No description available')}
                         """
 
-                        # Get category from Mistral AI
+                        # Get category from Mistral AI with simplified prompt
                         response = client.chat.complete(
                             model="mistral-small-latest",
                             messages=[
