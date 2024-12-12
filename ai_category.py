@@ -99,8 +99,7 @@ def analyze_and_categorize_data():
                                 "role": "user",
                                 "content": combined_text
                             }
-                        ],
-                        timeout=30  # Add timeout parameter
+                        ]
                     )
                     
                     category = response.choices[0].message.content.strip()
