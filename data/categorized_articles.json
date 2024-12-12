@@ -16288,5 +16288,41 @@
         "published": "Thu, 12 Dec 2024 22:11:00 +0100",
         "optimized_at": "2024-12-12T22:24:47.701768",
         "category": "entertainment"
+    },
+    {
+        "original_title": "Jagiellonia is no longer unbeaten in the Conference League. Dieguez hits his rival",
+        "optimized_title": "Jagiellonia's Unbeaten Run Ends in Conference League Defeat; Dieguez Sent Off",
+        "description": "Jagiellonia Białystok found a winner in the Conference League. In the 5th round, Adrian Siemieniec's team lost 0:1 (0:0) away to the Czech FK Mlada Boleslav. The Polish champions finished the match with ten players, because Adrian Dieguez was shown a red card in added time for hitting an opponent.",
+        "link": "https://sport.dziennik.pl/pilka-nozna/liga-konferencji/artykuly/9689137,jagiellonia-juz-nie-jest-niepokonana-w-lidze-konferencji-dieguez-uder.html",
+        "published": "2024-12-12T22:26:01.000Z",
+        "optimized_at": "2024-12-12T22:48:42.377430",
+        "category": "Sports"
+    },
+    {
+        "original_title": "Krzysztof Piątek with an assist and another goal in the Conference League",
+        "optimized_title": "Krzysztof Piątek Scores Again, Adds Assist in Conference League Win",
+        "description": "Krzysztof Piątek can't complain about a lack of effectiveness in the Conference League. In the 5th round, his Istanbul Basaksehir defeated the German Heidenheim 3-1, and the national team striker recorded his fourth goal in this competition in this match. The 29-year-old also had an assist.",
+        "link": "https://sport.dziennik.pl/pilka-nozna/liga-konferencji/artykuly/9688928,krzysztof-piatek-z-asysta-i-kolejnym-golem-w-lidze-konferencji.html",
+        "published": "2024-12-12T20:28:27.000Z",
+        "optimized_at": "2024-12-12T22:48:46.408453",
+        "category": "Sports"
+    },
+    {
+        "original_title": "They dragged the teenager to the gate. Eight men arrested",
+        "optimized_title": "Police Arrest Eight Men for Beating, Dragging Teenager",
+        "description": "Police officers from the Katowice City Police Headquarters detained eight men who brutally beat a 16-year-old resident of Bytom and then dragged him into one of the gates.",
+        "link": "https://wiadomosci.wp.pl/wciagali-nastolatka-do-bramy-osmiu-mezczyzn-zatrzymanych-7102634649303712a",
+        "published": "Thu, 12 Dec 2024 23:27:25 +0100",
+        "optimized_at": "2024-12-12T22:48:49.164727",
+        "category": "Law and Justice"
+    },
+    {
+        "original_title": "Israel Attacks Gaza Building, Leaves 25 Dead",
+        "optimized_title": "Israel Strikes Gaza Building, Killing 25, Including Children",
+        "description": "Many children were among the injured.",
+        "link": "http://www.tvp.info/83964928/ponad-40-osob-rannych-i-az-25-zabitych-po-ataku-armii-izraelskiej-w-strefie-gazy-ofiary-to-przesiedlency-z-centrum-kraju",
+        "published": "Thu, 12 Dec 24 23:02:00 +0100",
+        "optimized_at": "2024-12-12T22:48:52.060355",
+        "category": "International Relations"
     }
 ]
