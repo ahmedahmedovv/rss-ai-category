@@ -12,7 +12,7 @@ paths:
 # Articles Source
 articles:
   source_url: "https://raw.githubusercontent.com/ahmedahmedovv/rss-fetch-and-translate/refs/heads/main/data/translated_feeds.json"
-  limit: 50  # Limit for demo purposes
+  limit: 5  # Limit for demo purposes
 
 # Optimization Settings
 optimization:

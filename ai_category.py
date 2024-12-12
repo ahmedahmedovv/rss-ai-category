@@ -56,13 +56,46 @@ def setup_logging():
         raise
 
 def load_articles():
-    """Load articles from remote URL"""
+    """Load articles from remote URL and save to data folder"""
     config = load_config()
     url = config['articles']['source_url']
+    
     try:
+        # Download JSON data
         response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for bad status codes
-        return response.json()
+        response.raise_for_status()
+        remote_articles = response.json()
+        
+        # Standardize the data structure
+        articles_to_process = remote_articles if isinstance(remote_articles, list) else remote_articles.get('articles', [])
+        standardized_articles = []
+        for article in articles_to_process:
+            standardized_article = {
+                "original_title": article.get("original_title", ""),
+                "optimized_title": article.get("optimized_title", ""),
+                "description": article.get("description", ""),
+                "link": article.get("link", ""),
+                "published": article.get("published", ""),
+                "optimized_at": article.get("optimized_at", datetime.now().isoformat())
+            }
+            standardized_articles.append(standardized_article)
+        
+        # Create data directory if needed and save file
+        data_dir = Path(config['paths']['data_dir'])
+        data_dir.mkdir(exist_ok=True)
+        
+        output_data = {
+            "fetch_timestamp": datetime.now().isoformat(),
+            "articles": standardized_articles
+        }
+        
+        source_path = data_dir / 'source_articles.json'
+        with open(source_path, 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, indent=2, ensure_ascii=False)
+        
+        logging.info(f'Saved standardized articles to: {source_path}')
+        return standardized_articles
+        
     except Exception as e:
         logging.error(f"Error loading articles from URL: {str(e)}")
         raise
@@ -117,25 +150,39 @@ def determine_category(client, title, optimized_title, description, retry_count=
         raise e
 
 def save_categorized_articles(articles, append=False):
-    """Save categorized articles to data/categorized_articles.json"""
+    """Save categorized articles to data/categorized_articles.json while preventing duplicates"""
     config = load_config()
     data_dir = Path(config['paths']['data_dir'])
     output_path = data_dir / 'categorized_articles.json'
     
+    # Initialize articles list
+    existing_articles = []
+    
+    # Load existing articles if file exists and append is True
     if append and output_path.exists():
         with open(output_path, 'r', encoding='utf-8') as f:
             existing_data = json.load(f)
-            articles = existing_data.get('articles', []) + articles
+            existing_articles = existing_data.get('articles', [])
+    
+    # Create a set of existing links to check for duplicates
+    existing_links = {article['link'] for article in existing_articles}
+    
+    # Only add new articles that don't exist yet
+    new_articles = existing_articles
+    for article in articles:
+        if article['link'] not in existing_links:
+            new_articles.append(article)
+            existing_links.add(article['link'])
     
     output_data = {
         "categorization_timestamp": datetime.now().isoformat(),
-        "articles": articles
+        "articles": new_articles
     }
     
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
-    logging.info(f'Saved categorized articles to: {output_path}')
+    logging.info(f'Saved {len(articles)} unique categorized articles to: {output_path}')
 
 def load_existing_categories():
     """Load existing categorized articles to avoid re-categorization"""
@@ -169,7 +216,7 @@ def main():
         existing_categories = load_existing_categories()
         
         for i, article in enumerate(articles[:config['articles']['limit']], 1):
-            original_title = article.get('title', '')
+            original_title = article.get('original_title', '')
             optimized_title = article.get('optimized_title', original_title)
             description = article.get('description', '')
             link = article.get('link', '')

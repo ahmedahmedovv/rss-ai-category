@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "categorization_timestamp": "2024-12-11T23:34:13.520216",
   "articles": [
@@ -450,6 +451,25 @@
       "link": "https://zbiam.pl/boeing-z-pierwsza-umowa-produkcyjna-w-programie-modernizacji-f-15j-eagle/",
       "published": "Wed, 11 Dec 2024 10:29:18 -0000",
       "categorized_at": "2024-12-11T23:34:13.514943"
+=======
+[
+    {
+        "original_title": "Iconic Polish teen novel published in English",
+        "optimized_title": "Iconic Polish Teen Novel Now Available in English",
+        "description": "Iconic Polish teen novel published in English",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3456780,iconic-polish-teen-novel-published-in-english",
+        "published": "Wed, 11 Dec 2024 11:02:59 -0000",
+        "optimized_at": "2024-12-11T22:11:12.836230",
+        "category": "Literature"
+    },
+    {
+        "original_title": "Olga Tokarczuk attends 2024 Nobel Prize ceremony as special guest",
+        "optimized_title": "Olga Tokarczuk to Attend 2024 Nobel Prize Ceremony as Special Guest",
+        "description": "Olga Tokarczuk attends 2024 Nobel Prize ceremony as special guest",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3457545,olga-tokarczuk-attends-2024-nobel-prize-ceremony-as-special-guest",
+        "published": "Wed, 11 Dec 2024 10:47:59 -0000",
+        "optimized_at": "2024-12-11T22:11:16.826933",
+        "category": "Literature"
+>>>>>>> a844242 (v7)
     }
-  ]
-}
+]
