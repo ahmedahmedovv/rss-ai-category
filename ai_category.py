@@ -1,265 +1,125 @@
+import os
+import requests
 from mistralai import Mistral
 import json
-import os
 import time
-from datetime import datetime
-from dotenv import load_dotenv
-from pathlib import Path
-import logging
-import requests
+import sys
 import yaml
-from logging.handlers import RotatingFileHandler
 
-# Load environment variables from .env file
-load_dotenv()
-
-def load_config():
-    """Load configuration from config.yaml"""
-    with open('config.yaml', 'r') as f:
-        return yaml.safe_load(f)
-
-def setup_logging():
-    """Configure logging for the application with enhanced features"""
-    try:
-        config = load_config()
-        log_dir = Path(config['paths']['logs_dir'])
-        log_dir.mkdir(exist_ok=True)
-        
-        log_file = log_dir / config['paths'].get('log_file', 'ai_category.log')
-        
-        # Create rotating file handler
-        file_handler = RotatingFileHandler(
-            log_file,
-            maxBytes=10*1024*1024,  # 10MB
-            backupCount=5,
-            encoding='utf-8'
-        )
-        
-        # Create console handler
-        console_handler = logging.StreamHandler()
-        
-        # Create formatter
-        formatter = logging.Formatter(config['logging']['format'])
-        file_handler.setFormatter(formatter)
-        console_handler.setFormatter(formatter)
-        
-        # Setup root logger
-        root_logger = logging.getLogger()
-        root_logger.setLevel(getattr(logging, config['logging']['level']))
-        root_logger.addHandler(file_handler)
-        root_logger.addHandler(console_handler)
-        
-        logging.info('Logging system initialized successfully')
-        
-    except Exception as e:
-        print(f"Failed to setup logging: {str(e)}")
-        raise
-
-def load_articles():
-    """Load articles from remote URL and save to data folder"""
-    config = load_config()
-    url = config['articles']['source_url']
+def analyze_and_categorize_data():
+    # Load config file
+    with open('config.yaml', 'r') as file:
+        config = yaml.safe_load(file)
     
-    try:
-        # Download JSON data
-        response = requests.get(url)
-        response.raise_for_status()
-        remote_articles = response.json()
-        
-        # Standardize the data structure
-        articles_to_process = remote_articles if isinstance(remote_articles, list) else remote_articles.get('articles', [])
-        standardized_articles = []
-        for article in articles_to_process:
-            standardized_article = {
-                "original_title": article.get("original_title", ""),
-                "optimized_title": article.get("optimized_title", ""),
-                "description": article.get("description", ""),
-                "link": article.get("link", ""),
-                "published": article.get("published", ""),
-                "optimized_at": article.get("optimized_at", datetime.now().isoformat())
-            }
-            standardized_articles.append(standardized_article)
-        
-        # Create data directory if needed and save file
-        data_dir = Path(config['paths']['data_dir'])
-        data_dir.mkdir(exist_ok=True)
-        
-        output_data = {
-            "fetch_timestamp": datetime.now().isoformat(),
-            "articles": standardized_articles
-        }
-        
-        source_path = data_dir / 'source_articles.json'
-        with open(source_path, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
-        
-        logging.info(f'Saved standardized articles to: {source_path}')
-        return standardized_articles
-        
-    except Exception as e:
-        logging.error(f"Error loading articles from URL: {str(e)}")
-        raise
+    # Extract categories from config
+    categories = config['ai']['category_criteria']['primary_categories']
+    categories_str = ", ".join(categories)
+    
+    # Initialize Mistral client
+    client = Mistral(api_key=os.getenv('MISTRAL_API_KEY'))
 
-def setup_directories():
-    """Create necessary directories at startup"""
-    config = load_config()
-    # Create logs directory
-    log_dir = Path(config['paths']['logs_dir'])
-    log_dir.mkdir(exist_ok=True)
+    # Fetch data from GitHub URL instead of local file
+    github_url = "https://raw.githubusercontent.com/ahmedahmedovv/rss-ai-title/refs/heads/main/data/optimized_titles.json"
+    response = requests.get(github_url)
+    data = response.json()
     
-    # Create data directory
-    data_dir = Path(config['paths']['data_dir'])
-    data_dir.mkdir(exist_ok=True)
-    
-    logging.info('Created necessary directories')
+    # Extract the articles array from the data
+    data = data.get('articles', [])
 
-def determine_category(client, title, optimized_title, description, retry_count=0):
-    """Determine the most suitable category using Mistral AI with retry logic"""
-    config = load_config()
-    logging.info(f'Determining category for: "{title}"')
-    
-    prompt = config['ai']['prompt_template'].format(
-        title=title,
-        optimized_title=optimized_title,
-        description=description
-    )
+    # Verify data is a list
+    if not isinstance(data, list):
+        print(f"Error: Expected a list but got {type(data)}")
+        return
 
-    try:
-        response = client.chat.complete(
-            model=config['api']['mistral_model'],
-            messages=[{"role": "user", "content": prompt}]
-        )
-        category = response.choices[0].message.content.strip()
-        logging.info(f'Category determined: "{category}"')
-        return category
-    except Exception as e:
-        if "rate limit" in str(e).lower() and retry_count < config['optimization']['max_retries']:
-            # Calculate delay with exponential backoff
-            if config['optimization'].get('exponential_backoff', False):
-                delay = min(
-                    config['optimization']['retry_delay'] * (2 ** retry_count),
-                    config['optimization'].get('max_backoff', 30)
-                )
-            else:
-                delay = config['optimization']['retry_delay']
-            
-            logging.warning(f'Rate limit hit, retrying in {delay}s (attempt {retry_count + 1}/{config["optimization"]["max_retries"]})')
-            time.sleep(delay)
-            return determine_category(client, title, optimized_title, description, retry_count + 1)
-        logging.error(f'Error determining category: {str(e)}')
-        raise e
+    print("Data type:", type(data))
+    print("First entry:", data[:100] if isinstance(data, str) else data[0])
 
-def save_categorized_articles(articles, append=False):
-    """Save categorized articles to data/categorized_articles.json while preventing duplicates"""
-    config = load_config()
-    data_dir = Path(config['paths']['data_dir'])
-    output_path = data_dir / 'categorized_articles.json'
-    
-    # Initialize articles list
-    existing_articles = []
-    
-    # Load existing articles if file exists and append is True
-    if append and output_path.exists():
+    # Load existing categorized data if available
+    output_path = os.path.join('data', 'categorized_articles.json')
+    existing_categorized = {}
+    if os.path.exists(output_path):
         with open(output_path, 'r', encoding='utf-8') as f:
             existing_data = json.load(f)
-            existing_articles = existing_data.get('articles', [])
-    
-    # Create a set of existing links to check for duplicates
-    existing_links = {article['link'] for article in existing_articles}
-    
-    # Only add new articles that don't exist yet
-    new_articles = existing_articles
-    for article in articles:
-        if article['link'] not in existing_links:
-            new_articles.append(article)
-            existing_links.add(article['link'])
-    
-    output_data = {
-        "categorization_timestamp": datetime.now().isoformat(),
-        "articles": new_articles
-    }
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
-    
-    logging.info(f'Saved {len(articles)} unique categorized articles to: {output_path}')
+            # Create lookup dictionary using original_title as key
+            existing_categorized = {item['original_title']: item for item in existing_data}
 
-def load_existing_categories():
-    """Load existing categorized articles to avoid re-categorization"""
-    config = load_config()
-    data_dir = Path(config['paths']['data_dir'])
-    output_path = data_dir / 'categorized_articles.json'
-    
-    if output_path.exists():
-        with open(output_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return {article['link']: article for article in data.get('articles', [])}
-    return {}
+    categorized_data = list(existing_categorized.values())  # Convert existing data to list
 
-def main():
-    config = load_config()
-    setup_directories()
-    setup_logging()
-    
+    def save_progress():
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(categorized_data, f, indent=4, ensure_ascii=False)
+        print(f"💾 Progress saved to {output_path}")
+
     try:
-        api_key = os.getenv("MISTRAL_API_KEY")
-        if not api_key:
-            logging.error("MISTRAL_API_KEY not found in .env file")
-            raise ValueError("MISTRAL_API_KEY not found in .env file")
-        
-        client = Mistral(api_key=api_key)
-        articles = load_articles()
-        
-        print("\n=== Article Categorization Tool ===\n")
-        
-        # Load existing categorized articles
-        existing_categories = load_existing_categories()
-        
-        for i, article in enumerate(articles[:config['articles']['limit']], 1):
-            original_title = article.get('original_title', '')
-            optimized_title = article.get('optimized_title', original_title)
-            description = article.get('description', '')
-            link = article.get('link', '')
-            
-            # Skip if article already categorized
-            if link in existing_categories:
-                logging.info(f'Skipping already categorized article: {original_title}')
+        # Add rate limiting handling
+        retry_count = 0
+        max_retries = 3
+        retry_delay = 5  # seconds
+
+        for entry in data:
+            # Skip if already categorized
+            if entry['original_title'] in existing_categorized:
+                print(f"⏩ Skipping already categorized: {entry['original_title']}")
                 continue
-                
-            print(f"\nArticle {i}:")
-            print(f"Title: {original_title}")
-            
-            try:
-                if i > 1:
-                    delay = config['optimization']['request_delay']
-                    logging.info(f'Waiting {delay}s before next request')
-                    time.sleep(delay)
+
+            while retry_count < max_retries:
+                try:
+                    # Combine text for analysis
+                    combined_text = f"""
+                    Original Title: {entry['original_title']}
+                    Optimized Title: {entry['optimized_title']}
+                    Description: {entry.get('description', 'No description available')}
+                    """
+
+                    # Get category from Mistral AI
+                    response = client.chat.complete(
+                        model="mistral-small-latest",
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": f"You are a content categorizer. Analyze the given content and assign ONE category from the following list: {categories_str}. Return ONLY the category name, nothing else."
+                            },
+                            {
+                                "role": "user",
+                                "content": combined_text
+                            }
+                        ]
+                    )
                     
-                category = determine_category(client, original_title, optimized_title, description)
-                print(f"Category: {category}")
-                print("-" * 50)
-                
-                categorized_article = {
-                    "original_title": original_title,
-                    "optimized_title": optimized_title,
-                    "category": category,
-                    "description": description,
-                    "link": article.get('link', ''),
-                    "published": article.get('published', ''),
-                    "categorized_at": datetime.now().isoformat()
-                }
-                save_categorized_articles([categorized_article], append=True)
-                
-            except Exception as e:
-                print(f"Error categorizing article: {str(e)}")
-                logging.error(f'Error processing article {i}: {str(e)}')
+                    category = response.choices[0].message.content.strip()
+
+                    # Add category to entry
+                    categorized_entry = entry.copy()
+                    categorized_entry['category'] = category
+                    categorized_data.append(categorized_entry)
+                    
+                    print(f"✅ Categorized: {entry['original_title']} -> {category}")
+                    
+                    # Save progress after each successful categorization
+                    save_progress()
+                    
+                    retry_count = 0
+                    break
+                except Exception as e:
+                    if "429" in str(e):
+                        retry_count += 1
+                        print(f"Rate limit hit, waiting {retry_delay} seconds... (Attempt {retry_count}/{max_retries})")
+                        time.sleep(retry_delay)
+                        continue
+                    else:
+                        print(f"❌ Error analyzing entry: {str(e)}")
+                        break
+            
+            if retry_count >= max_retries:
+                print("Maximum retries reached, skipping entry")
+                retry_count = 0
                 continue
-        
-        logging.info('Article categorization process completed')
-        
-    except Exception as e:
-        logging.error(f'Fatal error in main process: {str(e)}')
-        raise
+                
+    except KeyboardInterrupt:
+        print("\n🛑 Process interrupted by user.")
+        save_progress()
+        sys.exit(0)
 
 if __name__ == "__main__":
-    main()
+    print("🔍 Analyzing and categorizing content...")
+    analyze_and_categorize_data()
