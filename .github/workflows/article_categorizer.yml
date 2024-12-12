@@ -2,7 +2,7 @@ name: Article Categorizer
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Runs every 2 hours
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
   workflow_dispatch:    # Enables manual trigger
   push:
     branches: [ main ]  # Optional: trigger on push to main
