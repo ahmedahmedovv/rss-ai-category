@@ -16459,5 +16459,32 @@
         "published": "Thu, 12 Dec 2024 21:32:58 +0000",
         "optimized_at": "2024-12-12T23:24:49.223030",
         "category": "Polish Energy Policy"
+    },
+    {
+        "original_title": "Swimming: Poland's Chmielewski wins butterfly bronze in Budapest",
+        "optimized_title": "Poland's Chmielewski Secures Butterfly Bronze in Budapest",
+        "description": "Swimming: Poland's Chmielewski wins butterfly bronze in Budapest",
+        "link": "https://www.polskieradio.pl/395/7790/Artykul/3458508,swimming-polands-chmielewski-wins-butterfly-bronze-in-budapest",
+        "published": "Thu, 12 Dec 2024 23:37:25 -0000",
+        "optimized_at": "2024-12-12T23:48:45.851614",
+        "category": "Sports"
+    },
+    {
+        "original_title": "Trump Doesn't Have a Plan for Ukraine? He Opposes NATO Invitation",
+        "optimized_title": "Trump Opposes Ukraine's NATO Bid, Suggests European Troops for Ceasefire",
+        "description": "Donald Trump, the president-elect of the United States, suggested in a conversation with French President Emmanuel Macron that European troops should monitor the ceasefire in Ukraine. According to the Wall Street Journal, Trump also opposed inviting Ukraine to NATO.",
+        "link": "https://wiadomosci.wp.pl/trump-nie-ma-planu-na-ukraine-sprzeciwia-sie-zaproszeniu-do-nato-7102651009079936a",
+        "published": "Fri, 13 Dec 2024 00:28:15 +0100",
+        "optimized_at": "2024-12-12T23:48:49.380841",
+        "category": "International Relations"
+    },
+    {
+        "original_title": "First defeats of Legia and Jagiellonia in the Conference League",
+        "optimized_title": "Legia and Jagiellonia Suffer First Conference League Defeats in 1/8 Finals Push",
+        "description": "Both teams are fighting to advance to the 1/8 finals of the LK.",
+        "link": "http://www.tvp.info/83965034/legia-przegrala-z-lugano-a-jagiellonia-z-fk-mlada-boleslav-w-lidze-konferencji-oba-zespoly-wciaz-walcza-o-awans-do-18-finalu",
+        "published": "Thu, 12 Dec 24 23:45:00 +0100",
+        "optimized_at": "2024-12-12T23:48:53.980524",
+        "category": "Sports"
     }
 ]
