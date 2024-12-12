@@ -16,7 +16,10 @@ def analyze_and_categorize_data():
     categories_str = ", ".join(categories)
     
     # Initialize Mistral client
-    client = Mistral(api_key=os.getenv('MISTRAL_API_KEY'))
+    api_key = os.getenv('MISTRAL_API_KEY')
+    if not api_key:
+        raise ValueError("MISTRAL_API_KEY environment variable is not set")
+    client = Mistral(api_key=api_key)
 
     # Fetch data from GitHub URL instead of local file
     github_url = "https://raw.githubusercontent.com/ahmedahmedovv/rss-ai-title/refs/heads/main/data/optimized_titles.json"
