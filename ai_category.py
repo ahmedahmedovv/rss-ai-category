@@ -72,65 +72,79 @@ def analyze_and_categorize_data():
         max_retries = 3
         retry_delay = 5  # seconds
 
-        for entry in data:
-            # Skip if already categorized
-            if entry['original_title'] in existing_categorized:
-                print(f"⏩ Skipping already categorized: {entry['original_title']}")
-                continue
+        # Add timeout handling and improved rate limiting
+        BATCH_SIZE = 10  # Process in smaller batches
+        BATCH_TIMEOUT = 240  # 4 minutes per batch
+        start_time = time.time()
 
-            while retry_count < max_retries:
-                try:
-                    # Combine text for analysis
-                    combined_text = f"""
-                    Original Title: {entry['original_title']}
-                    Optimized Title: {entry['optimized_title']}
-                    Description: {entry.get('description', 'No description available')}
-                    """
-
-                    # Get category from Mistral AI
-                    response = client.chat.complete(
-                        model="mistral-small-latest",
-                        messages=[
-                            {
-                                "role": "system",
-                                "content": f"You are a content categorizer. Analyze the given content and assign ONE category from the following list: {categories_str}. Return ONLY the category name, nothing else."
-                            },
-                            {
-                                "role": "user",
-                                "content": combined_text
-                            }
-                        ]
-                    )
-                    
-                    category = response.choices[0].message.content.strip()
-
-                    # Add category to entry
-                    categorized_entry = entry.copy()
-                    categorized_entry['category'] = category
-                    categorized_data.append(categorized_entry)
-                    
-                    print(f"✅ Categorized: {entry['original_title']} -> {category}")
-                    
-                    # Save progress after each successful categorization
-                    save_progress()
-                    
-                    retry_count = 0
-                    break
-                except Exception as e:
-                    if "429" in str(e):
-                        retry_count += 1
-                        print(f"Rate limit hit, waiting {retry_delay} seconds... (Attempt {retry_count}/{max_retries})")
-                        time.sleep(retry_delay)
-                        continue
-                    else:
-                        print(f"❌ Error analyzing entry: {str(e)}")
-                        break
+        for i in range(0, len(data), BATCH_SIZE):
+            batch = data[i:i+BATCH_SIZE]
+            batch_start = time.time()
             
-            if retry_count >= max_retries:
-                print("Maximum retries reached, skipping entry")
+            # Check overall execution time
+            if time.time() - start_time > BATCH_TIMEOUT:
+                print("⚠️ Approaching timeout limit, saving progress and exiting")
+                save_progress()
+                return
+
+            for entry in batch:
+                # Skip if already categorized
+                if entry['original_title'] in existing_categorized:
+                    print(f"⏩ Skipping already categorized: {entry['original_title']}")
+                    continue
+
                 retry_count = 0
-                continue
-                
+                while retry_count < max_retries:
+                    try:
+                        # Combine text for analysis
+                        combined_text = f"""
+                        Original Title: {entry['original_title']}
+                        Optimized Title: {entry['optimized_title']}
+                        Description: {entry.get('description', 'No description available')}
+                        """
+
+                        # Get category from Mistral AI
+                        response = client.chat.complete(
+                            model="mistral-small-latest",
+                            messages=[
+                                {
+                                    "role": "system",
+                                    "content": f"You are a content categorizer. Analyze the given content and assign ONE category from the following list: {categories_str}. Return ONLY the category name, nothing else."
+                                },
+                                {
+                                    "role": "user",
+                                    "content": combined_text
+                                }
+                            ]
+                        )
+                        
+                        category = response.choices[0].message.content.strip()
+
+                        # Add category to entry
+                        categorized_entry = entry.copy()
+                        categorized_entry['category'] = category
+                        categorized_data.append(categorized_entry)
+                        
+                        print(f"✅ Categorized: {entry['original_title']} -> {category}")
+                        
+                        # Add exponential backoff for rate limiting
+                        retry_delay = 5 * (2 ** retry_count)  # Exponential backoff
+                        time.sleep(1)  # Basic rate limiting between successful requests
+                        break
+                    except Exception as e:
+                        if "429" in str(e):
+                            retry_count += 1
+                            print(f"Rate limit hit, waiting {retry_delay} seconds... (Attempt {retry_count}/{max_retries})")
+                            time.sleep(retry_delay)
+                            continue
+                        else:
+                            print(f"❌ Error analyzing entry: {str(e)}")
+                            break
+
+            # Save progress after each batch
+            save_progress()
+            print(f"✅ Completed batch {i//BATCH_SIZE + 1}, time taken: {time.time() - batch_start:.2f}s")
+
     except KeyboardInterrupt:
         print("\n🛑 Process interrupted by user.")
         save_progress()
