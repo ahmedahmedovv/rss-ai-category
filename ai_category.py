@@ -23,11 +23,24 @@ def analyze_and_categorize_data():
 
     # Fetch data from GitHub URL instead of local file
     github_url = "https://raw.githubusercontent.com/ahmedahmedovv/rss-ai-title/refs/heads/main/data/optimized_titles.json"
+    print(f"Debug: Attempting to fetch data from GitHub URL: {github_url}")
     response = requests.get(github_url)
-    data = response.json()
+    print(f"Debug: Response status code: {response.status_code}")
+    
+    try:
+        data = response.json()
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON response: {e}")
+        print(f"Response content: {response.text[:500]}...")  # Print first 500 chars
+        return
     
     # Extract the articles array from the data
     data = data.get('articles', [])
+    
+    # Add more debug information
+    print(f"Debug: Number of articles to process: {len(data)}")
+    print(f"Debug: API Key present: {'Yes' if api_key else 'No'}")
+    print(f"Debug: First few characters of API key: {api_key[:4]}..." if api_key else "No API key")
 
     # Verify data is a list
     if not isinstance(data, list):
@@ -86,7 +99,8 @@ def analyze_and_categorize_data():
                                 "role": "user",
                                 "content": combined_text
                             }
-                        ]
+                        ],
+                        timeout=30  # Add timeout parameter
                     )
                     
                     category = response.choices[0].message.content.strip()
