@@ -1,5 +1,3 @@
-
-
 # AI Configuration
 ai:
   prompt_template: |
@@ -11,49 +9,10 @@ ai:
 
     Requirements:
     1. Choose ONE primary category from the following list:
-       # Polish-Specific Categories
-       - Polish Politics & Government
-       - Polish Economy
-       - Polish Society
-       - Polish Regional News
-       - Polish Education System
-       - Polish Healthcare
-       - Polish Military & Defense
-       - Polish National Security
-       
-       # European & International
-       - European Union Affairs
-       - International Relations
-       - World News
-       - NATO & Military Cooperation
-       - International Security
-       
-       # Business & Economy
-       - Business & Markets
-       - Industry & Manufacturing
-       - Agriculture & Farming
-       
-       # Society & Culture
-       - Culture & Arts
-       - Religion & Traditions
-       - Education & Research
-       - Health & Lifestyle
-       - Sports & Recreation
-       
-       # Current Affairs
-       - Environment & Climate
-       - Technology & Innovation
-       - Defense & Security
-       - Transportation & Infrastructure
-       - Labor & Employment
-       - Military Operations & Exercises
-       - Defense Industry & Technology
-       - Cybersecurity & Digital Defense
-       - Border Security & Immigration
-       - Armed Forces & Personnel
-       - Military Equipment & Modernization
-       - Strategic Defense Planning
-       - Intelligence & Surveillance
+       # Main Categories
+       - Politics
+       - Business 
+       - Military
 
     2. Base your decision on:
        - Main topic of the article
@@ -65,23 +24,6 @@ ai:
 
   category_criteria:
     primary_categories:
-      - National Affairs
-      - European Union
-      - Economy & Business
-      - Society & Culture
-      - World News
       - Politics
-      - Regional News
-      - Science & Education
-      - Health & Lifestyle
-      - Sports
-      - Technology & Innovation
-      - Environment & Climate
-      - Defense & Security
-      - Culture & Entertainment
-      - Military Operations
-      - Defense Industry
-      - National Security
-      - Armed Forces
-      - Cybersecurity
-      - NATO Affairs
+      - Business
+      - Military
