@@ -8188,5 +8188,635 @@
         "optimized_at": "2024-12-12T04:23:24.627593",
         "category": "Education",
         "summary": "The article discusses the limited public perception of health education, which primarily focuses on human sexual health despite a diverse curriculum. Joanna Ćwiek-Świdecka expresses hope that this narrow focus is due to political reasons rather than a genuine lack of awareness."
+    },
+    {
+        "original_title": "Hołownia in Helsinki, or full speed ahead to the north",
+        "optimized_title": "Hołownia's Visit to Helsinki: Polish Diplomacy in Action",
+        "description": "The visit of Marshal Szymon Hołownia to Helsinki, and earlier the participation of Prime Minister Donald Tusk in the so-called NB8 format summit in Harpsund, best show the current direction of Polish diplomacy and international strategy. And this at a key moment for the region.",
+        "link": "https://www.rp.pl/polityka/art41568561-holownia-w-helsinkach-czyli-cala-naprzod-na-polnoc",
+        "published": "Thu, 12 Dec 2024 04:38:00 +0100",
+        "optimized_at": "2024-12-12T04:22:28.532513",
+        "category": "Polish International Relations",
+        "summary": "The visit of Marshal Szymon Hołownia to Helsinki and Prime Minister Donald Tusk's participation in the NB8 format summit in Harpsund highlight the current direction of Polish diplomacy and international strategy, occurring at a critical moment for the region."
+    },
+    {
+        "original_title": "The AI ​​revolution in Polish banks is already underway. Will people lose their jobs?",
+        "optimized_title": "AI Transforms Polish Banks: 70% Work Automated, But Job Losses Not Inevitable",
+        "description": "More than 70 percent of work in the finance industry could be fully performed by or with the support of AI. But that doesn’t have to mean layoffs, according to a report by Accenture.",
+        "link": "https://pro.rp.pl/raporty-ekonomiczne/art41568691-rewolucja-ai-w-polskich-bankach-juz-trwa-czy-ludzie-straca-prace",
+        "published": "Thu, 12 Dec 2024 04:59:00 +0100",
+        "optimized_at": "2024-12-12T04:23:02.625046",
+        "category": "Polish Business",
+        "summary": "The implementation of AI in Polish banks has seen over 70% of financial tasks either fully automated or supported by AI, according to a report by Accenture. Despite this shift, the report suggests that widespread job losses are not inevitable, indicating a potential shift in job roles rather than outright redundancies."
+    },
+    {
+        "original_title": "Export of Polish arms is to be made easier",
+        "optimized_title": "Poland Set to Ease Arms Export Rules for Foreign Governments",
+        "description": "In the coming months, a change in the law is to be introduced that will allow the Ministry of National Defense to buy weapons from Polish manufacturers for other governments. The mechanism is to work similarly to the American FMS.",
+        "link": "https://www.rp.pl/biznes/art41568701-eksport-polskiego-uzbrojenia-ma-byc-prostszy",
+        "published": "Thu, 12 Dec 2024 04:43:00 +0100",
+        "optimized_at": "2024-12-12T04:23:11.504836",
+        "category": "Polish Defense",
+        "summary": "Poland is set to ease arms export rules to facilitate sales to foreign governments. The new legislation will enable the Ministry of National Defense to purchase weapons from Polish manufacturers on behalf of other countries, similar to the U.S. Foreign Military Sales (FMS) program. This move aims to simplify the export process and boost the domestic defense industry."
+    },
+    {
+        "original_title": "Tusk's government wants to restrict migrants' right to asylum. Experts: unacceptable",
+        "optimized_title": "Tusk's Govt. to Temporarily Ban Asylum Applications at Border: Experts Outraged",
+        "description": "The President of the Council of Ministers will be able to issue a regulation designating a border area where it will not be possible to accept applications for international protection for 60 days.",
+        "link": "https://www.rp.pl/cudzoziemcy/art41568801-rzad-tuska-chce-ograniczac-migrantom-prawo-do-azylu-eksperci-niedopuszczalne",
+        "published": "Thu, 12 Dec 2024 04:31:00 +0100",
+        "optimized_at": "2024-12-12T04:23:28.607573",
+        "category": "Border Security",
+        "summary": "The Polish government is planning to restrict migrants' right to asylum by allowing the President of the Council of Ministers to designate border areas where asylum applications cannot be accepted for 60 days. Experts have expressed strong opposition to this measure."
+    },
+    {
+        "original_title": "We have seen the series \"One Hundred Years of Solitude\". There will be a discussion among fans of the novel",
+        "optimized_title": "Join Us: Discussing 'One Hundred Years of Solitude' on Netflix",
+        "description": "The first eight episodes of “One Hundred Years of Solitude,” based on Márquez’s masterpiece, are streaming on Netflix on December 11. There’s plenty to watch and plenty to argue about.",
+        "link": "https://www.rp.pl/platformy-streamingowe/art41568831-widzielismy-serial-sto-lat-samotnosci-bedzie-dyskusja-wsrod-fanow-powiesci",
+        "published": "Thu, 12 Dec 2024 04:31:00 +0100",
+        "optimized_at": "2024-12-12T04:23:31.590865",
+        "category": "Entertainment",
+        "summary": "The first eight episodes of the Netflix series \"One Hundred Years of Solitude,\" based on Gabriel García Márquez's novel, are available for streaming starting December 11. Fans of the book can discuss and argue about the adaptation's interpretation and representation of the classic story."
+    },
+    {
+        "original_title": "It's going to be an expensive holiday. And we'll have to get used to it",
+        "optimized_title": "Brace for Skyrocketing Holiday Costs: Butter, Chocolate, Veggies Soar",
+        "description": "Many popular products have seen double-digit price increases in recent weeks. Butter, chocolate and vegetables all saw record increases. Prices have not fallen in any category.",
+        "link": "https://www.rp.pl/handel/art41570591-to-beda-drogie-swieta-i-musimy-sie-do-tego-przyzwyczaic",
+        "published": "Thu, 12 Dec 2024 04:31:00 +0100",
+        "optimized_at": "2024-12-12T04:23:40.571043",
+        "category": "Economy",
+        "summary": "Consumers are facing significant price increases on popular holiday items such as butter, chocolate, and vegetables. Recent weeks have seen double-digit price hikes, with no signs of a downturn in any category. This trend is likely to make the upcoming holiday season more expensive than previous years."
+    },
+    {
+        "original_title": "Expensive holidays are coming up again. What has gone up the most?",
+        "optimized_title": "Holiday Staples Soar: Butter, Veggies, Fruit, Coffee, Chocolate Up Double Digits",
+        "description": "In November, prices rose by an average of 5.5 percent, but many products often bought for the holidays have gone up in price by double digits. This includes not only butter, but also vegetables, fruit, coffee and chocolate.",
+        "link": "https://www.rp.pl/handel/art41569111-znowu-szykuja-sie-drogie-swieta-co-zdrozalo-najmocniej",
+        "published": "Thu, 12 Dec 2024 04:30:00 +0100",
+        "optimized_at": "2024-12-12T04:23:45.033909",
+        "category": "Economy",
+        "summary": "In November, prices in general rose by an average of 5.5 percent, but holiday staples such as butter, vegetables, fruit, coffee, and chocolate saw double-digit increases. This presents a significant financial challenge for consumers preparing for holiday meals and celebrations."
+    },
+    {
+        "original_title": "When you divorce your wife, you also have to part with some of the cows.",
+        "optimized_title": "Divorce Splits More Than Just Marriage: Husband Faces Cow Herd Division",
+        "description": "For a dozen or so years, the husband maintained a herd of cows that he received from his parents. After the divorce and division of the marital property, it turns out that the herd is now part of the joint property and must be divided.",
+        "link": "https://www.rp.pl/prawo-rodzinne/art41567281-przy-rozwodzie-z-zona-trzeba-sie-tez-rozstac-z-czescia-krow",
+        "published": "Thu, 12 Dec 2024 04:27:00 +0100",
+        "optimized_at": "2024-12-12T04:23:48.234708",
+        "category": "Law and Justice",
+        "summary": "The case involves a man who, as part of the divorce settlement, must divide a herd of cows he inherited from his parents, as the court considers the herd joint marital property. The decision highlights the complexities and potential surprises that can arise during the division of marital assets."
+    },
+    {
+        "original_title": "Bluetongue in Poland. GIW issued a statement",
+        "optimized_title": "Poland Faces Bluetongue Outbreak: GIW Issues Statement",
+        "description": "Bluetongue in Poland. GIW issued a statement",
+        "link": "https://www.pap.pl/aktualnosci/choroba-niebieskiego-jezyka-w-polsce-giw-wydal-komunikat",
+        "published": "Thu, 12 Dec 2024 06:09:55 -0000",
+        "optimized_at": "2024-12-12T08:24:08.388306",
+        "category": "Health",
+        "summary": "Poland is experiencing an outbreak of Bluetongue, a viral disease affecting livestock. The General Veterinary Inspectorate (GIW) has issued a statement, likely advising farmers and the public on preventive measures and control strategies."
+    },
+    {
+        "original_title": "Sikorsky to demonstrate autonomous system to U.S. Marine Corps",
+        "optimized_title": "Sikorsky to Showcase Autonomous Tech to U.S. Marines",
+        "description": "Sikorsky to demonstrate autonomous system to U.S. Marine Corps",
+        "link": "https://zbiam.pl/sikorsky-zaprezentuje-korpusowi-piechoty-morskiej-stanow-zjednoczonych-system-autonomicznego-lotu-matrix/",
+        "published": "Thu, 12 Dec 2024 06:24:21 -0000",
+        "optimized_at": "2024-12-12T08:24:13.131447",
+        "category": "Defense Technology",
+        "summary": "Sikorsky, a prominent aerospace company, is set to showcase its autonomous technology to the U.S. Marine Corps. This demonstration aims to highlight advanced unmanned systems that can enhance operational capabilities and efficiency for the Marines. The event underscores the military's interest in leveraging cutting-edge technology to meet future challenges."
+    },
+    {
+        "original_title": "T-AO 208 handed over to recipient",
+        "optimized_title": "T-AO 208 Officially Delivered to Recipient",
+        "description": "T-AO 208 handed over to recipient",
+        "link": "https://zbiam.pl/t-ao-208-przekazany-odbiorcy/",
+        "published": "Thu, 12 Dec 2024 06:09:21 -0000",
+        "optimized_at": "2024-12-12T08:24:16.291865",
+        "category": "Naval Operations",
+        "summary": "The naval tanker T-AO 208 was officially delivered to its recipient, marking a significant milestone in the fleet's operational readiness and resupply capabilities. The vessel is designed to support naval operations by providing fuel and other crucial supplies to ships at sea."
+    },
+    {
+        "original_title": "The military is wasting space opportunity. We have promising companies and little time",
+        "optimized_title": "Poland's Military Missing Space Tech's Strategic Shift",
+        "description": "The use of space technologies is becoming a key element of the defense strategies of many countries. Poland, a member of NATO and the European Union, did not see such a need for a long time. This is changing, but slowly.",
+        "link": "https://www.wnp.pl/przemysl-obronny/wojsko-marnuje-kosmiczna-okazje-mamy-obiecujace-firmy-i-malo-czasu,895127.html",
+        "published": "Thu, 12 Dec 2024 06:01:00",
+        "optimized_at": "2024-12-12T08:24:20.231203",
+        "category": "Polish Military",
+        "summary": "The military is increasingly relying on space technologies for defense strategies, but Poland, a member of NATO and the EU, has been slow to adopt and integrate these advancements. While promising companies exist, the country is lagging behind in capitalizing on this strategic shift."
+    },
+    {
+        "original_title": "This will be the happiest day in 2025. Numerologists already know",
+        "optimized_title": "Numerologists Predict Happiest Day in 2025",
+        "description": "The year 2025 is fast approaching. What it will bring is a great unknown, but numerologists already know which day will be the happiest. This is when great things will happen. The prophecies speak of warm feelings and peace. The energy of this day will be especially felt by people who will celebrate their birthdays. What date is it? When should you look for happiness?",
+        "link": "https://kobieta.dziennik.pl/porady/artykuly/9687943,to-bedzie-najszczesliwszy-dzien-w-2025-roku-numerolodzy-juz-wiedza.html",
+        "published": "2024-12-12T06:12:46.000Z",
+        "optimized_at": "2024-12-12T08:24:23.769642",
+        "category": "Health",
+        "summary": "Numerologists have predicted the happiest day in 2025, citing warm feelings and peace as the dominant energies. This day is particularly significant for those celebrating their birthdays, suggesting a positive influence on individuals' well-being and emotions."
+    },
+    {
+        "original_title": "Bloody murder in the shadow of the Tatra Mountains\". The wait for a new Polish crime series is over.",
+        "optimized_title": "Discover 'Śleboda': Polish Crime Series Premieres on SkyShowtime",
+        "description": "The long-awaited premiere of the first Polish series commissioned by SkyShowtime has finally taken place. \"Śleboda\", a six-episode adaptation of the popular ethno-crime novel by Małgorzata Fugiel-Kuźmińska and Michał Kuźmiński, is available on the service from today, December 12. How many episodes will we see?",
+        "link": "https://film.dziennik.pl/news/artykuly/9686203,krwawy-mord-w-cieniu-tatr-koniec-oczekiwania-na-nowy-polski-serial.html",
+        "published": "2024-12-12T06:00:00.000Z",
+        "optimized_at": "2024-12-12T08:24:27.772023",
+        "category": "Entertainment",
+        "summary": "The Polish crime series 'Śleboda' has premiered on SkyShowtime, marking the first Polish series commissioned by the service. Based on a novel by Małgorzata Fugiel-Kuźmińska and Michał Kuźmiński, the series is available from December 12 and consists of six episodes."
+    },
+    {
+        "original_title": "Fierce fighting for Pokrovsk. The fate of a key city in Ukraine is at stake",
+        "optimized_title": "Russian Troops Advance on Pokrovsk, Ukraine's Key Coal Hub in Peril",
+        "description": "Russian troops have destroyed or captured several Ukrainian positions near the eastern Ukrainian city of Pokrovsk, the Ukrainian army said Wednesday. The Russians intend to attack the strategic logistics center that is home to Ukraine's only coking coal mine, which is used for most of the country's steel production.",
+        "link": "https://wiadomosci.dziennik.pl/swiat/artykuly/9688163,zaciekle-walki-o-pokrowsk-waza-sie-losy-kluczowego-miasta-w-ukrainie.html",
+        "published": "2024-12-12T05:37:45.000Z",
+        "optimized_at": "2024-12-12T08:24:30.905685",
+        "category": "Military",
+        "summary": "Russian troops are advancing on Pokrovsk, a strategic city in eastern Ukraine, with the aim of capturing a key logistics center and coking coal mine crucial for the country's steel production. Intense fighting is ongoing, with Ukrainian positions being destroyed or captured by Russian forces."
+    },
+    {
+        "original_title": "Full Moon on December 15. What will it bring us? [HOROSCOPE FOR ALL ZODIAC SIGNS]",
+        "optimized_title": "Full Moon in Gemini on Dec 15: Communication & Relationships in Focus",
+        "description": "The Full Moon in Gemini will occur on December 15, 2024 at 10:01 AM. This time brings with it intense energies, especially affecting communication, interpersonal relationships, and personal development.",
+        "link": "https://edukacja.dziennik.pl/aktualnosci/artykuly/9688162,pelnia-ksiezyca-15-grudnia-co-nam-przyniesie-horoskop-dla-wszystkic.html",
+        "published": "2024-12-12T05:23:49.000Z",
+        "optimized_at": "2024-12-12T08:24:35.127988",
+        "category": "Entertainment",
+        "summary": "The article discusses the astrological event of the Full Moon in Gemini occurring on December 15, 2024. It explains how this event will influence communication, interpersonal relationships, and personal development."
+    },
+    {
+        "original_title": "A sensationally good recipe for herring salad. Szuba will delight during Christmas Eve",
+        "optimized_title": "Quick & Delightful: Szuba Herring Salad for Christmas Eve",
+        "description": "Fish are the stars of Christmas Eve dinner. That evening we try all 12 dishes \"for luck\". If we like something, we of course take more. This herring salad, called szuba, looks beautiful and tastes great. It is quick to make. It can be prepared literally at the last minute before Christmas Eve.",
+        "link": "https://gotowanie.dziennik.pl/przepisy/artykuly/9688145,rewelacyjnie-dobry-przepis-na-salatke-sledziowa-szuba-zachwyci-podcza.html",
+        "published": "2024-12-12T05:10:00.000Z",
+        "optimized_at": "2024-12-12T08:24:37.945856",
+        "category": "Polish Culture",
+        "summary": "The article features a traditional Polish herring salad, known as szuba, which is a staple dish during Christmas Eve dinner. The recipe is easy to prepare and is one of the 12 dishes served for good luck."
+    },
+    {
+        "original_title": "Sandra Kubicka complains about being lonely with a child again. What does Baron say about it?",
+        "optimized_title": "Sandra Kubicka's Lonely Posts: What Does Aleksander Baron Say?",
+        "description": "Sandra Kubicka likes to talk about what's going on with her and her little son, Leonard. She sometimes posts sad posts. Recently, she has been increasingly suggesting on social media that she feels lonely. This fuels rumors about a crisis in her relationship with Aleksander Baron. The model has once again taken a dig at her partner.",
+        "link": "https://zyciegwiazd.dziennik.pl/plotki/artykuly/9688149,sandra-kubicka-znowu-skarzy-sie-na-samotnosc-z-dzieckiem-co-na-to-bar.html",
+        "published": "2024-12-12T05:06:01.000Z",
+        "optimized_at": "2024-12-12T08:24:41.216997",
+        "category": "Polish Culture",
+        "summary": "Sandra Kubicka, a Polish model, has been posting about feeling lonely, sparking rumors about a crisis in her relationship with Aleksander Baron. She has been sharing her feelings on social media, including her experiences with her son, Leonard."
+    },
+    {
+        "original_title": "[QUIZ] Geography of Poland. Do you remember from primary school? Less than 12/15 is a disgrace",
+        "optimized_title": "Test Your Polish Geography Knowledge: Score 12/15 to Pass",
+        "description": "This quick quiz tests your knowledge of Polish geography. Good luck!",
+        "link": "https://edukacja.dziennik.pl/aktualnosci/quizy/9688159,quiz-geografia-polski-pamietasz-z-podstawowki-mniej-niz-1215-to-wstyd.html",
+        "published": "2024-12-12T04:49:45.000Z",
+        "optimized_at": "2024-12-12T08:24:45.131616",
+        "category": "Polish Geography",
+        "summary": "This quiz tests your knowledge of Polish geography. It challenges users to score 12 out of 15 to pass, reminiscent of a primary school exam. Good luck!"
+    },
+    {
+        "original_title": "The company has flown away with style and price. Here is a new car for the people",
+        "optimized_title": "Discover Hyundai Inster: Spacious, Affordable, and Packed with Features",
+        "description": "The new Hyundai Inster is 20 cm longer than the city Hyundai i10, and its interior space is comparable to cars two classes larger, such as the compact i30. It debuts on the market with two engines to choose from, in five equipment versions and at affordable prices. How much does it cost?",
+        "link": "https://auto.dziennik.pl/aktualnosci/artykuly/9688148,koncern-odlecial-ze-stylem-i-cena-oto-nowe-auto-dla-ludu.html",
+        "published": "2024-12-12T04:31:26.000Z",
+        "optimized_at": "2024-12-12T08:24:50.433378",
+        "category": "Polish Business",
+        "summary": "Hyundai has launched the new Inster model in Poland, which is longer and more spacious than the i10, comparable to the i30. It offers two engine options, five equipment versions, and is priced affordably."
+    },
+    {
+        "original_title": "You have 1 day to do it. From January 1, PLN 9,330 fine for late drivers",
+        "optimized_title": "January 1, 2025: PLN 9,330 Fine for Uninsured Drivers, Minimum Wage Rises to PLN 4,666",
+        "description": "Two changes will come into effect in January 2025. The minimum wage will increase to PLN 4,666. Better earnings automatically mean harsher sanctions for not having third-party liability insurance. A penalty of PLN 9,330 is foreseen for being late, which is PLN 730 more than currently. UFG is already pursuing drivers with summonses…",
+        "link": "https://auto.dziennik.pl/aktualnosci/artykuly/9687679,masz-na-to-1-dzien-od-1-stycznia-9330-zl-kary-dla-spoznialskich-kierowcow.html",
+        "published": "2024-12-12T04:28:36.000Z",
+        "optimized_at": "2024-12-12T08:24:53.565219",
+        "category": "Law and Justice",
+        "summary": "Starting January 1, 2025, Poland will implement stricter penalties for uninsured drivers, with fines increasing to PLN 9,330. This change comes alongside a rise in the minimum wage to PLN 4,666. The increased fines are calculated to reflect the new wage levels."
+    },
+    {
+        "original_title": "37 new cameras are already catching drivers. 15 points and 2000 PLN in the bank",
+        "optimized_title": "37 New Cameras Fines and Points: Be Warned",
+        "description": "37 new cameras have joined the CANARD network and are already catching drivers in new locations. For impatience, you can get a 2,000 PLN fine and as many as 15 penalty points. That is why many people will soon be surprised by a letter from GITD, because no road signs warn against these devices. Where to be careful?",
+        "link": "https://auto.dziennik.pl/aktualnosci/artykuly/9687913,37-nowych-kamer-juz-lowi-kierowcow-15-punktow-i-2000-zl-jak-w-banku.html",
+        "published": "2024-12-12T04:27:47.000Z",
+        "optimized_at": "2024-12-12T08:24:56.569255",
+        "category": "Law and Justice",
+        "summary": "Thirty-seven new cameras have been added to the CANARD network, issuing fines of 2,000 PLN and up to 15 penalty points for driving infractions. Drivers may be unaware of these cameras as there are no warning signs, leading to potential surprises from the General Directorate for National Roads and Motorways (GITD)."
+    },
+    {
+        "original_title": "Lotto Results 11.12.2024, Wednesday [Multi Multi, Kaskada, Mini Lotto, Extra Penalty, Extra Bonus]",
+        "optimized_title": "**\"Wednesday's Lotto Results: Multi Multi, Kaskada, Mini Lotto, Extra Draws (11.12.2024)\"**",
+        "description": "Lotto Results 11/12/2024. Check if your numbers were drawn in the Lotto game draws on Wednesday, December 11th?",
+        "link": "https://gospodarka.dziennik.pl/finanse/artykuly/9688155,wyniki-lotto-11122024-sroda-multi-multi-kaskada-mini-lotto-ekst.html",
+        "published": "2024-12-11T21:19:59.000Z",
+        "optimized_at": "2024-12-12T08:25:00.026197",
+        "category": "Entertainment",
+        "summary": "The article provides the results of various lottery games, including Multi Multi, Kaskada, Mini Lotto, and extra draws, for the date of December 11, 2024, allowing readers to check if their numbers were drawn."
+    },
+    {
+        "original_title": "End of the year with price increases in commission shops. Cars have become younger, though",
+        "optimized_title": "Used Car Prices Soar 6.2% by Year's End; Vehicles Get Younger, Log Less Miles",
+        "description": "On average, by 6.2 percent – ​​this is how much the median offer price for used cars in Poland increased over the course of a year – according to AAA Auto data. However, used cars available in Polish dealerships in November were on average 2.5 years younger and had traveled 15 thousand fewer kilometers compared to the previous year.",
+        "link": "https://www.bankier.pl/wiadomosc/Koniec-roku-z-podwyzkami-w-komisach-Auta-jednak-odmlodnialy-8859682.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:03.107826",
+        "category": "Polish Economy",
+        "summary": "The average price for used cars in Poland rose by 6.2% by the end of the year, with vehicles becoming younger and logging fewer miles. This trend suggests an increased demand for newer, less-used vehicles."
+    },
+    {
+        "original_title": "Bank Blocks Accounts? Customers Complain About Credit Agricole",
+        "optimized_title": "Credit Agricole Customers Locked Out of Accounts, Complain of Inaccessible Funds",
+        "description": "Even two days without access to money and the ability to make transactions - these are the problems that Credit Agricole bank customers complain about. After signals from readers, we asked for an explanation at the source.",
+        "link": "https://www.bankier.pl/wiadomosc/Bank-blokuje-konta-Klienci-skarza-sie-na-Credit-Agricole-8859999.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:11.110555",
+        "category": "Business",
+        "summary": "Customers of Credit Agricole bank have been experiencing issues with accessing their accounts and performing transactions for up to two days. The bank has received complaints from users who are unable to access their funds, prompting an investigation into the root cause of these issues."
+    },
+    {
+        "original_title": "There has been no such data since the beginning of measurements. The year 2024 brought record low unemployment",
+        "optimized_title": "2024 Sets Record Low Unemployment, Migration Woes, and AI Fears",
+        "description": "Record low unemployment, problems with\nmigration policy, fears of artificial intelligence and rising employment costs are undoubtedly the main features of the labor market in 2024.\n\nWe checked what was most important here from the point of view of specialists in this field.",
+        "link": "https://www.bankier.pl/wiadomosc/Wyzsze-place-klopoty-z-migracja-i-strach-przed-AI-Tak-zmienil-sie-rynek-pracy-w-2024-roku-8859885.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:14.766464",
+        "category": "Economy",
+        "summary": "In 2024, the labor market in Poland was marked by record low unemployment rates, but was also challenged by issues related to migration policies and rising employment costs. Additionally, fears about the impact of artificial intelligence on the job market emerged as significant concerns among specialists."
+    },
+    {
+        "original_title": "Seven-figure security fees in Silicon Valley are no surprise. This is how corporations protect their CEOs",
+        "optimized_title": "Seven-figure CEO Protection in Silicon Valley: How Corporations Guard Their Top Executives",
+        "description": "UnitedHealthcare CEO Brian Thompson had a bodyguard assigned to him during his trip to New York, but he was not with his client at the time of the attack. Most companies cite the loss of top executives through death or some other, less dramatic, departure as a risk factor. The cost of protection is factored into the business.",
+        "link": "https://www.bankier.pl/wiadomosc/Siedmiocyfrowe-kwoty-za-ochrone-w-Dolinie-Krzemowej-nie-dziwia-Tak-korporacje-chronia-swoich-CEO-8859785.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:18.654328",
+        "category": "Cyber Security",
+        "summary": "UnitedHealthcare CEO Brian Thompson was assigned a bodyguard during a trip to New York, but the guard was not present during an attack. Companies often cite the risk of losing top executives as a justification for high-cost security measures, which are factored into business expenses."
+    },
+    {
+        "original_title": "Battle over PiS election report. Ministry of Finance will not listen to Supreme Court",
+        "optimized_title": "Ministry Defies Court, Stands by Election Report",
+        "description": "For the Ministry of Finance, the decisions of the National Electoral Commission are binding - the ministry wrote in response to PAP's question about whether it will pay the subsidy to PiS after the Supreme Court's decision.",
+        "link": "https://www.bankier.pl/wiadomosc/Batalia-wokol-sprawozdania-wyborczego-PiS-Ministerstwo-Finansow-nie-poslucha-Sadu-Najwyzszego-8860088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Wed, 11 Dec 2024 21:11:00 +0100",
+        "optimized_at": "2024-12-12T08:25:21.445591",
+        "category": "Polish Politics",
+        "summary": "The Ministry of Finance in Poland has refused to comply with a Supreme Court decision regarding electoral subsidies for the Law and Justice (PiS) party, stating that it will only adhere to the decisions made by the National Electoral Commission. This move highlights a growing tension between the government and the judicial system in Poland."
+    },
+    {
+        "original_title": "They will pay more again. This tax has increased by 60 percent in a decade",
+        "optimized_title": "Property Tax Hikes: Owners to Pay 60% More by 2025",
+        "description": "Property tax will once again reach deeper into the pockets of owners of flats, houses and land. Individuals and entrepreneurs will pay a higher tax for each square meter of property they own from January 2025. According to Bankier.pl's analysis, almost all provincial city mayors in Poland have decided to increase property tax to the maximum available rate set by the Minister of Finance.",
+        "link": "https://www.bankier.pl/wiadomosc/Wlasciciele-mieszkan-i-domow-zaplaca-wiecej-Podwyzki-podatku-dotkna-takze-firmy-8859591.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:24.026247",
+        "category": "Polish Economy",
+        "summary": "Property taxes in Poland are set to increase significantly by 2025, with owners of flats, houses, and land facing a 60% hike. Nearly all provincial city mayors have decided to raise property tax rates to the maximum limit set by the Minister of Finance."
+    },
+    {
+        "original_title": "Take Care of Your Financial Tomorrow – A Conversation About Regular Saving and Investing",
+        "optimized_title": "**Secure Your Financial Future: Expert Insights on Saving & Investing**",
+        "description": "What is the importance of regular saving in today's world? Is it a relic of the past or, on the contrary, a form of financial management that is experiencing a renaissance? You will find the answer to these and many other questions in the latest episode of the Bankier.pl series \"Shortcuts to a higher pension\". Michał Niewiadomski talks to Eliza Dąbrowska, director of investment advisory service development at Noble Securities.",
+        "link": "https://www.bankier.pl/wiadomosc/Zadbaj-o-swoje-finansowe-jutro-rozmowa-o-regularnym-oszczedzaniu-i-inwestowaniu-8859619.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:27.815062",
+        "category": "Economy",
+        "summary": "The importance of regular saving and investing is discussed in the context of modern financial management. The conversation explores whether regular saving is still relevant or experiencing a resurgence. Michał Niewiadomski interviews Eliza Dąbrowska from Noble Securities to provide insights on these topics."
+    },
+    {
+        "original_title": "Ranking of the cheapest cash loans for PLN 25,000",
+        "optimized_title": "Compare Cheapest PLN 25,000 Cash Loans: Save Hundreds Over 5 Years",
+        "description": "A cash loan of PLN 25,000 with a repayment period of 5 years will translate into a monthly installment of PLN 525 to PLN 600. Among the best offers, the differences in the amount of monthly installments are only a few zlotys, which, however, translates into significant amounts over the entire credit period. Check which bank has the lowest total loan costs.",
+        "link": "https://www.bankier.pl/wiadomosc/Ranking-najtanszych-pozyczek-gotowkowych-na-25-tys-zl-8859741.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:37.468520",
+        "category": "Polish Economy",
+        "summary": "This article compares the cheapest cash loans for PLN 25,000 in Poland, focusing on the monthly installment variations over a 5-year repayment period. It highlights the significant savings potential despite minimal differences in monthly installments between banks."
+    },
+    {
+        "original_title": "Who is the IKE/IKZE brokerage account for?",
+        "optimized_title": "Discover Who Benefits Most from IKE/IKZE Brokerage Accounts",
+        "description": "Individual Retirement Accounts (IKE) and Individual Retirement Security Accounts (IKZE) are becoming increasingly popular in Poland. One of the options for saving in these forms is brokerage IKE/IKZE accounts. Who are they suitable for and what is worth knowing before opening them?",
+        "link": "https://www.bankier.pl/wiadomosc/Dla-kogo-maklerski-rachunek-IKE-IKZE-8859634.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:42.519198",
+        "category": "Polish Economy",
+        "summary": "Individual Retirement Accounts (IKE) and Individual Retirement Security Accounts (IKZE) are gaining traction in Poland, with brokerage accounts being a common savings option. This content explores who these accounts are suitable for and important considerations before opening them."
+    },
+    {
+        "original_title": "How to implement sustainable development in your company? Get ready with us",
+        "optimized_title": "Prepare for EU CSRD: Implement Sustainable Development Now",
+        "description": "At the end of the first quarter of next year, the first companies will submit reports on their ESG activities in accordance with the EU CSRD directive. The next group of entities should already start collecting information in this area, but also introduce changes in order to submit their sustainability reports in 2026.",
+        "link": "https://www.bankier.pl/wiadomosc/Jak-wdrozyc-zrownowazony-rozwoj-w-firmie-Praktyczny-przewodnik-dla-przedsiebiorstw-8859689.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:25:45.089890",
+        "category": "Business",
+        "summary": "The description discusses the upcoming requirement for companies to report on their ESG activities under the EU CSRD directive, with the first reports due at the end of the first quarter of next year. Companies should begin collecting information and making necessary changes to submit their sustainability reports by 2026."
+    },
+    {
+        "original_title": "Trump already has a list of invitations for his inauguration. Will Xi come?",
+        "optimized_title": "Trump Invites Xi to Inauguration: Will Chinese Leader Attend?",
+        "description": "US President-elect Donald Trump has invited Chinese leader Xi Jinping to his inauguration in Washington, CBS News reported Wednesday. Hungarian Prime Minister Viktor Orban is also mentioned as a possible guest.",
+        "link": "https://www.bankier.pl/wiadomosc/Trump-ma-juz-liste-zaproszen-na-swoja-inauguracje-Czy-Xi-przyjedzie-8860114.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 02:11:00 +0100",
+        "optimized_at": "2024-12-12T08:25:51.052062",
+        "category": "International Relations",
+        "summary": "US President-elect Donald Trump has extended an invitation to Chinese leader Xi Jinping to attend his inauguration in Washington. This gesture follows a recent phone call between the two leaders, signaling a potential for improving US-China relations. Additionally, Hungarian Prime Minister Viktor Orban is also being considered as a guest."
+    },
+    {
+        "original_title": "The End of Government's Leniency. Voters Are Getting Impatient",
+        "optimized_title": "Voters' Patience Wanes: Majority Dissatisfied with Tusk's Government",
+        "description": "A year after the inauguration, the majority of Poles have a negative opinion of Donald Tusk's government, reports Thursday's \"Dziennik Gazeta Prawna\".",
+        "link": "https://www.bankier.pl/wiadomosc/Koniec-taryfy-ulgowej-dla-rzadu-Wyborcy-sie-niecierpliwia-8860120.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+        "published": "Thu, 12 Dec 2024 04:51:00 +0100",
+        "optimized_at": "2024-12-12T08:25:57.027398",
+        "category": "Polish Politics",
+        "summary": "A year after Donald Tusk's government took office, a majority of Polish voters are now expressing dissatisfaction with its performance, according to a report by \"Dziennik Gazeta Prawna.\" The government's handling of various issues has led to increasing impatience and negative opinions among the public."
+    },
+    {
+        "original_title": "Poll: How many Poles are disappointed with Donald Tusk?",
+        "optimized_title": "Poles Disappointed: Tusk Tops Ruling Coalition Leaders in Survey",
+        "description": "In a United Surveys poll for Dziennik Gazeta Prawna and RMF FM, participants were asked which of the leaders of the ruling coalition was their greatest disappointment.",
+        "link": "https://www.rp.pl/polityka/art41572201-sondaz-jak-wielu-polakow-jest-rozczarowanych-donaldem-tuskiem",
+        "published": "Thu, 12 Dec 2024 07:00:50 +0100",
+        "optimized_at": "2024-12-12T08:26:00.478379",
+        "category": "Polish Politics",
+        "summary": "A recent survey conducted by United Surveys for Dziennik Gazeta Prawna and RMF FM revealed that Donald Tusk, the leader of the Civic Coalition, is considered the biggest disappointment among the leaders of the ruling coalition in Poland. The poll highlights the public's dissatisfaction with Tusk's leadership and performance."
+    },
+    {
+        "original_title": "Bought a dud? Here's how to get your money back without hiring a lawyer!",
+        "optimized_title": "Bought a Dud? Here's How to Get Your Money Back Without a Lawyer",
+        "description": "Each of us has encountered the problem of buying a product that did not meet expectations or was defective at least once in our lives. Instead of reaching for a lawyer's help, it is worth knowing what tools consumer law gives us. In the following guide, we explain step by step how to effectively file a complaint and get your money back.",
+        "link": "https://prawo.gazetaprawna.pl/artykuly/9687263,kupiles-bubel-oto-jak-odzyskac-swoje-pieniadze-bez-wynajmowania-praw.html",
+        "published": "2024-12-12T06:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:03.846275",
+        "category": "Consumer Rights",
+        "summary": "This article provides guidance on how consumers can effectively file a complaint and get their money back for defective or unsatisfactory products, without needing to hire a lawyer. It outlines the steps to take advantage of consumer protection laws."
+    },
+    {
+        "original_title": "We will complete inheritance formalities at the notary's office faster",
+        "optimized_title": "Streamline Inheritance Formalities at the Notary",
+        "description": "Heirs and vindicative legatees who become owners of real estate under a deed of inheritance certification will have a simplified way to disclose their rights in the land and mortgage registers.",
+        "link": "https://serwisy.gazetaprawna.pl/orzeczenia/artykuly/9687819,szybciej-zalatwimy-formalnosci-spadkowe-u-notariusza.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:06.939331",
+        "category": "Law and Justice",
+        "summary": "The process for heirs and vindicative legatees to register their rights in land and mortgage registers is being simplified, allowing them to complete inheritance formalities more efficiently at the notary's office."
+    },
+    {
+        "original_title": "How to determine minimum daily rest for an employee of a cultural institution?",
+        "optimized_title": "Calculating Minimum Daily Rest for Cultural Institution Employees",
+        "description": "In accordance with the work regulations in force in the cultural institution, we use an intermittent system combined with an equivalent system. Work is performed at very different times of the day. One of our employees is scheduled to work from 8:00 to 14:00, then a five-hour break and then work from 18:00 to 22:00 (a total of 10 hours of work). The next day, he is scheduled to work from 10:00. Is this schedule correct?",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686814,jak-ustalac-minimalny-odpoczynek-dobowy-dla-pracownika-instytucji-kult.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:09.709989",
+        "category": "Labor Law",
+        "summary": "The description discusses the work schedule of an employee in a cultural institution, which involves a combination of intermittent and equivalent systems. The employee works from 8:00 to 14:00, takes a five-hour break, and then works from 18:00 to 22:00, totaling 10 hours of work. The next day, the employee is scheduled to start work at 10:00, raising questions about the legality and correctness of this work schedule under current labor laws."
+    },
+    {
+        "original_title": "How to account for the additional work of a part-time employee employed in the equivalent system?",
+        "optimized_title": "Managing Part-Time Overtime: A 3/4 FTE Example",
+        "description": "Our employee works three-quarters of a full-time equivalent job in monthly settlement periods. The work is planned in daily hours, usually from 6 to 12 hours. In the employment contract, we have specified that he is entitled to an overtime allowance after exceeding an average of 38 hours per week in the settlement period.",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686812,jak-rozliczyc-dodatkowa-prace-niepelnoetatowca-zatrudnionego-w-systemi.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:14.773846",
+        "category": "Business",
+        "summary": "The article discusses how to manage overtime for a part-time employee who works three-quarters of a full-time job. It explains the daily hours the employee works and the conditions under which they are entitled to overtime pay."
+    },
+    {
+        "original_title": "Ministry of Labor and National Labor Inspectorate: Pensioners cannot be omitted from the regulations of the Employee Benefits Fund",
+        "optimized_title": "Pensioners Can't Be Excluded from Employee Benefits Fund: Labor Ministry",
+        "description": "Former employees receiving pensions are included in the statutory list of those entitled to social benefits. Their last employers cannot exclude them from it under internal company regulations.",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686816,resort-pracy-i-pip-nie-mozna-pomijac-emerytow-w-regulaminach-zfss.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:18.704436",
+        "category": "Social Issues",
+        "summary": "The Ministry of Labor and the National Labor Inspectorate have clarified that pensioners cannot be excluded from the regulations of the Employee Benefits Fund, as they are included in the statutory list of beneficiaries. This means that their last employers cannot deny them these social benefits based on internal company rules."
+    },
+    {
+        "original_title": "The remuneration for special leave granted together with the jubilee allowance is subject to contributions",
+        "optimized_title": "Special Leave Remuneration: Jubilee Bonus & Contributions",
+        "description": "We intend to introduce additional bonuses for employees who are entitled to a jubilee bonus. We want to adopt the principle that, along with the cash bonus, every five years the employee will be entitled to one day off as an additional form of bonus, while retaining the right to remuneration. This leave will not accumulate and will be carried over to subsequent years. Is such remuneration subject to contributions, since it is also awarded as a jubilee bonus?",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686692,wynagrodzenie-za-urlop-okolicznosciowy-przyznane-wraz-z-jubileuszowka.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:23.198897",
+        "category": "Business",
+        "summary": "The company plans to offer employees a jubilee bonus every five years, including one day off with pay. The remuneration for this special leave is being considered for contribution subject status, similar to the jubilee bonus."
+    },
+    {
+        "original_title": "Is illegal parking always taxable?",
+        "optimized_title": "Parking Managers Must Pay VAT on Unclaimed Fees",
+        "description": "Parking managers should pay VAT on additional fees they collect, for example, for exceeding the parking time, even if they are unable to establish who the driver was or cannot enforce a fine against him, said the head of the National Revenue Administration.",
+        "link": "https://podatki.gazetaprawna.pl/artykuly/9687812,czy-oplata-za-nieregulaminowe-parkowanie-jest-zawsze-opodatkowana.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:26.667128",
+        "category": "Business",
+        "summary": "The National Revenue Administration in Poland has clarified that parking managers must pay Value Added Tax (VAT) on additional fees they collect, even if they cannot identify or enforce fines against the drivers. This ruling applies to situations where drivers exceed their parking time and incur extra charges."
+    },
+    {
+        "original_title": "The Whistleblower Protection Act. This is the final call for the internal reporting procedure",
+        "optimized_title": "Whistleblower Protection Act: Mandatory by January 1, 2025",
+        "description": "There are several views on when large employers should implement it. Regardless of which one they consider correct, they definitely need to consider January 1, 2025.",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686810,ustawa-o-ochronie-sygnalistow-to-ostatni-dzwonek-na-procedure-zglosze.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:29.575707",
+        "category": "Law and Justice",
+        "summary": "The Whistleblower Protection Act is due for mandatory internal reporting procedures by January 1, 2025. Large employers are urged to implement these procedures regardless of their views on the timeline, ensuring compliance with the upcoming deadline."
+    },
+    {
+        "original_title": "Appeals of court presidents. WSA shows the way to labor courts",
+        "optimized_title": "Labor Courts Lead on President Dismissals: WSA Guides the Way",
+        "description": "The letter of dismissal from the position of the president of the court is an authoritative act of an internal nature, resulting from official subordination. Therefore, it is not subject to the cognition of administrative courts.",
+        "link": "https://serwisy.gazetaprawna.pl/orzeczenia/artykuly/9687845,odwolania-prezesow-sadow-wsa-wskazuje-droge-do-sadow-pracy.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:32.855756",
+        "category": "Law and Justice",
+        "summary": "The dismissal of court presidents is considered an internal administrative act, making it outside the jurisdiction of administrative courts. Instead, labor courts are leading the way in handling such dismissals, as guided by the Supreme Administrative Court (WSA)."
+    },
+    {
+        "original_title": "Should an employee be paid a retirement severance payment if they became entitled to a retirement pension several days after the termination of their employment contract? [HR Consulting]",
+        "optimized_title": "Should Severance Pay Be Paid If Pension Entitlement Begins Post-Termination?",
+        "description": "Our employee left work by mutual agreement on December 2, 2024. ZUS granted him a pension from December 5, 2024. Should we pay him a retirement severance payment even though the employee had not yet been granted the right to a pension on the date of termination of the employment contract?",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686818,czy-pracownikowi-nalezy-wyplacic-odprawe-emerytalna-gdy-nabyl-prawo-d.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:36.054889",
+        "category": "Labor and Employment Law",
+        "summary": "The query discusses whether an employee who mutually agreed to terminate their employment contract should receive severance pay if their pension entitlement begins a few days after the termination date. The specific concern is about the employee's eligibility for retirement severance despite not being granted a pension on the exact termination date."
+    },
+    {
+        "original_title": "Taking advantage of the start-up allowance will not prevent you from receiving the allowance from full-time employment.",
+        "optimized_title": "Sick Leave to Startup: Can You Claim Both?",
+        "description": "I am currently on sick leave until the end of January. My notice period ends on December 31, 2024. However, I would like to formally start running a business from the beginning of January 2025. I want to take advantage of the start-up relief. Can ZUS challenge my right to sickness benefit since I will formally be running a business while still on sick leave?",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686694,korzystanie-z-ulgi-na-start-nie-przeszkodzi-w-pobieraniu-zasilku-z-eta.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:44.653229",
+        "category": "Polish Business",
+        "summary": "The content discusses the compatibility of receiving sick leave benefits and starting a business simultaneously in Poland. The author is on sick leave until the end of January and plans to start a business in January 2025, seeking clarity on whether this affects their sickness benefit from the Social Insurance Institution (ZUS)."
+    },
+    {
+        "original_title": "How are Christmas bonuses paid? [Insurance advice]",
+        "optimized_title": "**\"Maximizing Christmas Bonuses: Tax Implications & Insurance Tips\"**",
+        "description": "We want to pay our employees Christmas bonuses. These will not be benefits from the company social benefits fund, but we want to differentiate them depending on the earnings of the person. Can we exclude such a bonus from the basis for calculating contributions?",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686696,jak-sa-oskladkowane-premie-swiateczne-poradnia-ubezpieczeniowa.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:48.359643",
+        "category": "Business",
+        "summary": "The content discusses how to maximize and differentiate Christmas bonuses for employees based on their earnings. It explores the tax implications and seeks advice on whether such bonuses can be excluded from the basis for calculating contributions."
+    },
+    {
+        "original_title": "Dismissing an employee via text message is flawed but effective",
+        "optimized_title": "Firing via Text: Legal but Risky, Court Rules",
+        "description": "A declaration of termination of an employment contract submitted in this way leads to the termination of cooperation, even though it violates the regulations. Therefore, in the case considered by the Supreme Court, the employer had to pay compensation.",
+        "link": "https://www.gazetaprawna.pl/praca/artykuly/9686820,zwolnienie-pracownika-z-wykorzystaniem-wiadomosci-sms-jest-wadliwe-al.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:51.558777",
+        "category": "Law and Justice",
+        "summary": "The Supreme Court ruled that firing an employee via text message is legally binding, even though it violates regulations. The employer was ordered to pay compensation in the case, highlighting the risks and potential legal repercussions of such an informal method of termination."
+    },
+    {
+        "original_title": "A special allowance may be included in the benefit base",
+        "optimized_title": "**Special Allowance May Impact Benefit Base: Here's Why**",
+        "description": "However, it all depends on whether the employee retains the right to the supplement for the periods of receiving benefits. If so, such a component must be excluded from the basis for their assessment.",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686686,dodatek-specjalny-moze-byc-uwzgledniony-w-podstawie-zasilku.html",
+        "published": "2024-12-12T00:00:00.000Z",
+        "optimized_at": "2024-12-12T08:26:58.164051",
+        "category": "Veterans Affairs",
+        "summary": "The article discusses how special allowances for employees may affect their benefit base, depending on whether they retain the right to these supplements during periods of receiving benefits. If they do, these allowances must be excluded from the assessment basis for their benefits."
+    },
+    {
+        "original_title": "An heir who did not take over the running of the business is also liable for the entrepreneur's contribution debts.",
+        "optimized_title": "Inheriting Father's Business Debt: Am I Liable?",
+        "description": "My father, who ran a business, died and, as it turned out, had a large debt to ZUS. My siblings took over the business and established a civil partnership for this purpose, which took over my father's employees. I did not join the partnership, but I did not reject the inheritance either. ZUS issued a decision in which it recognized me as the debtor's heir. Is the decision correct, since other people took over the business?",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686688,spadkobierca-ktory-nie-przejal-prowadzenia-dzialalnosci-tez-odpowiad.html",
+        "published": "2024-12-11T23:50:40.000Z",
+        "optimized_at": "2024-12-12T08:27:02.884222",
+        "category": "Business",
+        "summary": "The author inquires about liability for their father's business debts after his death. Despite not taking over the business, the author is being held responsible by ZUS for the debts. The author seeks clarity on whether this decision is correct, given that siblings have taken over the business."
+    },
+    {
+        "original_title": "An employee may receive a care allowance for the child's sick days chosen by him/her",
+        "optimized_title": "Employee Can Choose Days for Child Sick Leave Allowance",
+        "description": "The employee applied for care allowance only for some days of the period indicated on the medical certificate as the period of care for a sick child under 14. The certificate covers, among other things, the weekend, but the employee applied for payment of the allowance only for Saturday. Is this permissible?",
+        "link": "https://serwisy.gazetaprawna.pl/emerytury-i-renty/artykuly/9686690,pracownik-moze-otrzymac-zasilek-opiekunczy-za-wybrane-przez-niego-dni.html",
+        "published": "2024-12-11T23:00:00.000Z",
+        "optimized_at": "2024-12-12T08:27:06.460085",
+        "category": "Social Issues",
+        "summary": "The article discusses whether an employee can select specific days within a period covered by a medical certificate for child sick leave allowance. It specifically addresses whether an employee can choose to apply for payment only for certain days, such as a weekend, while the certificate covers a longer period."
+    },
+    {
+        "original_title": "NASA Discovers Seven More 'Dark Comets': Do We Owe Them for Life on Earth?",
+        "optimized_title": "NASA Uncovers Seven More 'Dark Comets': Could They Be Life's Seeds?",
+        "description": "NASA scientists have discovered seven more mysterious \"dark comets\" in different parts of the solar system. Researchers suspect that they are responsible for the presence of water on Earth and, ultimately, the emergence of life. What are these objects?",
+        "link": "https://www.rp.pl/kosmos/art41568411-nasa-odkryla-siedem-kolejnych-ciemnych-komet-to-im-zawdzieczamy-zycie-na-ziemi",
+        "published": "Thu, 12 Dec 2024 07:15:06 +0100",
+        "optimized_at": "2024-12-12T08:27:09.938356",
+        "category": "Science",
+        "summary": "NASA scientists have recently found seven new \"dark comets\" in the solar system, which are believed to be crucial in delivering water to Earth. These comets are hypothesized to have played a significant role in the origin of life on our planet by bringing water and other essential elements."
+    },
+    {
+        "original_title": "Poll: How many Poles are disappointed with Donald Tusk?",
+        "optimized_title": "Poles' Biggest Disappointment: Donald Tusk in United Surveys Poll",
+        "description": "In the United Surveys poll for Dziennik Gazeta Prawna and RMF FM, participants were asked which of the leaders of the ruling coalition was their greatest disappointment.",
+        "link": "https://www.rp.pl/polityka/art41572201-sondaz-jak-wielu-polakow-jest-rozczarowanych-donaldem-tuskiem",
+        "published": "Thu, 12 Dec 2024 07:00:50 +0100",
+        "optimized_at": "2024-12-12T08:27:13.838907",
+        "category": "Polish Politics",
+        "summary": "A recent United Surveys poll conducted for Dziennik Gazeta Prawna and RMF FM revealed that among the leaders of the ruling coalition, Donald Tusk is perceived as the biggest disappointment by a significant number of Poles."
+    },
+    {
+        "original_title": "This is how Stal will be tempered. In Gorzów they have a repair plan, they are waiting for the city to make a move",
+        "optimized_title": "Stal Gorzów's Repair Plan Awaits City's Move for 2025 Survival",
+        "description": "Stal Gorzów, struggling with serious financial problems, has obtained a supervised license for the 2025 season, which gives hope for survival and reconstruction.",
+        "link": "https://sport.rp.pl/zuzel/art41567711-tak-bedzie-hartowac-sie-stal-w-gorzowie-maja-plan-naprawczy-czekaja-na-ruch-miasta",
+        "published": "Thu, 12 Dec 2024 07:00:00 +0100",
+        "optimized_at": "2024-12-12T08:27:16.588740",
+        "category": "Sports",
+        "summary": "Stal Gorzów, facing severe financial struggles, has secured a supervised license for the 2025 season, offering a glimmer of hope for the club's survival and rebuilding efforts. The team is currently waiting for the city to take action on their repair plan."
+    },
+    {
+        "original_title": "Sending Christmas greetings can break the law. What to watch out for?",
+        "optimized_title": "Sending Online Christmas Greetings? Watch Out for Copyright Law",
+        "description": "By sending out ready-made Christmas greetings found on the Internet (in the form of rhymes, graphics, photos, etc.) we can break copyright law. What should we watch out for and in what situations is the risk the greatest?",
+        "link": "https://www.rp.pl/internet-i-prawo-autorskie/art41568211-wysylajac-zyczenia-bozonarodzeniowe-mozna-zlamac-prawo-na-co-uwazac",
+        "published": "Thu, 12 Dec 2024 06:31:00 +0100",
+        "optimized_at": "2024-12-12T08:27:25.811582",
+        "category": "Law and Justice",
+        "summary": "The article discusses the potential legal implications of sending online Christmas greetings that use copyrighted materials such as rhymes, graphics, and photos without proper authorization. It highlights the importance of understanding copyright laws to avoid inadvertent violations."
+    },
+    {
+        "original_title": "New tourist package - train plus hotel. Initiative of the railway carrier",
+        "optimized_title": "Deutsche Bahn Launches Train-Hotel Tour Packages",
+        "description": "The German railway, Deutsche Bahn, has launched tourist packages that combine a train journey with overnight stays in a hotel. The offer includes trips to large cities, and the first partners in the venture are German tour operators.",
+        "link": "https://turystyka.rp.pl/kolej/art41568821-nowy-pakiet-turystyczny-pociag-plus-hotel-inicjatywa-przewoznika-kolejowego",
+        "published": "Thu, 12 Dec 2024 06:27:00 +0100",
+        "optimized_at": "2024-12-12T08:27:30.629926",
+        "category": "Business",
+        "summary": "Deutsche Bahn has introduced new tourist packages that bundle train travel with hotel stays. The initiative, in partnership with German tour operators, aims to provide convenient and comprehensive travel experiences to major cities across the country."
+    },
+    {
+        "original_title": "Trade war pushes stores into debt",
+        "optimized_title": "**\"Trade War & E-commerce Push Stores Deeper into Debt\"**",
+        "description": "Sellers are traditionally the most indebted industry in Poland, and are currently in the red by over PLN 2.4 billion. The economic situation is definitely not favorable for them, and the current problems and cost increases are compounded by the price war of discount stores and e-commerce competition.",
+        "link": "https://www.rp.pl/handel/art41558761-wojna-handlowa-wpedza-sklepy-w-dlugi",
+        "published": "Tue, 10 Dec 2024 04:40:00 +0100",
+        "optimized_at": "2024-12-12T08:27:34.088440",
+        "category": "Polish Economy",
+        "summary": "The Polish retail sector, particularly e-commerce and discount stores, is pushing traditional sellers deeper into debt. The industry is currently in the red by over PLN 2.4 billion, with ongoing economic challenges and cost increases exacerbating the situation."
+    },
+    {
+        "original_title": "Joanna Kalinowska: New obligations of employers in 2025",
+        "optimized_title": "Joanna Kalinowska: Employers Brace for New 2025 Obligations",
+        "description": "The upcoming year 2025 will not spare the wallets of employers and entrepreneurs. They will also have to face new obligations.",
+        "link": "https://pro.rp.pl/kadry-i-place/art41566671-joanna-kalinowska-nowe-obowiazki-pracodawcow-w-2025-roku",
+        "published": "Thu, 12 Dec 2024 06:00:00 +0100",
+        "optimized_at": "2024-12-12T08:27:38.112379",
+        "category": "Polish Economy",
+        "summary": "Joanna Kalinowska discusses the impending financial challenges for employers and entrepreneurs in Poland in 2025, highlighting the introduction of new obligations that will impact their budgets."
+    },
+    {
+        "original_title": "South Korea's President Breaks Silence, Explains Why He Introduced Martial Law",
+        "optimized_title": "Yoon Suk-yeol Vows to 'Fight to the End,' Explains Martial Law Decision",
+        "description": "South Korean President Yoon Suk-yeol, in a speech broadcast on South Korean television, announced that regardless of whether he is impeached or targeted for investigation, he will \"fight to the end.",
+        "link": "https://www.rp.pl/polityka/art41572171-prezydent-korei-pld-przerywa-milczenie-tlumaczy-dlaczego-wprowadzil-stan-wojenny",
+        "published": "Thu, 12 Dec 2024 05:58:37 +0100",
+        "optimized_at": "2024-12-12T08:27:41.462992",
+        "category": "Politics",
+        "summary": "South Korean President Yoon Suk-yeol publicly vowed to fight against impeachment or investigations, emphasizing his commitment to the end. He gave a televised speech explaining his decision to introduce martial law, indicating a significant political development in the country."
+    },
+    {
+        "original_title": "Flood 2024. What help can you get from PFRON?",
+        "optimized_title": "Flood 2024: PFRON Aid for Disabled Workers' Job Security",
+        "description": "Affected entrepreneurs can apply for, among other things, financing of the costs of maintaining jobs for disabled people or permission to flexibly use the funds. What conditions must be met?",
+        "link": "https://pro.rp.pl/kadry-i-place/art41566681-powodz-2024-jaka-pomoc-mozna-uzyskac-z-pfron",
+        "published": "Thu, 12 Dec 2024 05:50:00 +0100",
+        "optimized_at": "2024-12-12T08:27:44.398470",
+        "category": "Disaster Relief",
+        "summary": "The article discusses the assistance available from the Polish State Fund for Rehabilitation of the Disabled (PFRON) for entrepreneurs impacted by the 2024 floods. This aid includes financial support to maintain jobs for disabled workers and flexible funding usage. The conditions required to access these benefits are also mentioned."
+    },
+    {
+        "original_title": "Extremely heavy fighting.\" Russians approach strategic city",
+        "optimized_title": "Russians Close In on Pokrovsk, Heavy Fighting Reported",
+        "description": "The Russians have approached Pokrovsk to a distance of six kilometers, ISW analysts reported. DeepState researchers, in turn, indicate even greater enemy progress. General Syrsky, head of the Ukrainian Armed Forces, said that the fighting in the area is exceptionally heavy, and the situation requires non-standard solutions.",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-12/wyjatkowo-ciezkie-walki-rosjanie-zblizaja-sie-do-strategicznego-miasta/",
+        "published": "Thu, 12 Dec 2024 07:19:00 +0100",
+        "optimized_at": "2024-12-12T08:27:48.277808",
+        "category": "Military",
+        "summary": "The Russian forces have advanced to within six kilometers of Pokrovsk, according to ISW analysts, while DeepState researchers report even greater progress. Ukrainian General Syrsky described the fighting in the area as exceptionally heavy, requiring unconventional solutions."
+    },
+    {
+        "original_title": "Lotto Results for December 11, 2024. Check Your Winnings",
+        "optimized_title": "Wednesday's Lotto Results: December 11, 2024 - Check Your Numbers!",
+        "description": "On Wednesday, December 11, 2024, the draws for the number games run by Totalizator Sportowy took place. Which numbers turned out to be lucky? Here are the results of the draw: Ekstra Pensja, Ekstra Premia, Kaskada, Mini Lotto, Multi Multi.",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-12/wyniki-lotto-na-11-grudnia-2024/",
+        "published": "Thu, 12 Dec 2024 06:06:00 +0100",
+        "optimized_at": "2024-12-12T08:27:52.341534",
+        "category": "Entertainment",
+        "summary": "The results for several lottery games, including Ekstra Pensja, Ekstra Premia, Kaskada, Mini Lotto, and Multi Multi, were announced on Wednesday, December 11, 2024. Players are encouraged to check their numbers to see if they have won any prizes."
     }
 ]
