@@ -23131,16 +23131,6 @@
     },
     {
         "original_title": "PPL employee caught copying data. The case is being investigated by ABW",
-        "optimized_title": "IT Employee Caught Stealing Data from Polish Airports; ABW Investigates",
-        "description": "An employee of the Polish Airports company's IT department was caught downloading sensitive data from PPL servers to an external hard drive, the media reports. The Internal Security Agency is investigating the case. The airport spokeswoman emphasizes that Chopin Airport does not have access to airline passenger databases, so there is no risk of their dissemination.",
-        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/pracownik-ppl-przylapany-na-kopiowaniu-danych-sprawe-bada-abw/",
-        "published": "Fri, 13 Dec 2024 12:29:00 +0100",
-        "optimized_at": "2024-12-13T11:49:13.071812",
-        "category": "Cyber Security",
-        "summary": "An IT employee of Polish Airports (PPL) was discovered copying sensitive data to an external hard drive. The Internal Security Agency (ABW) is currently investigating the incident. The airport spokeswoman reassured that there is no risk to passenger data as the airport does not have access to airline passenger databases."
-    },
-    {
-        "original_title": "PPL employee caught copying data. The case is being investigated by ABW",
         "optimized_title": "PPL Employee Caught Stealing Sensitive Data: ABW Investigates",
         "description": "An employee of the Polish Airports company's IT department was caught downloading sensitive data from PPL servers to an external hard drive, the media reports. The Internal Security Agency is investigating the case. The airport spokeswoman emphasizes that Chopin Airport does not have access to airline passenger databases, so there is no risk of their dissemination.",
         "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/pracownik-ppl-przylapany-na-kopiowaniu-danych-sprawe-bada-abw/",
@@ -23268,16 +23258,6 @@
         "optimized_at": "2024-12-13T11:50:13.676756",
         "category": "Social Issues",
         "summary": "A tragic house fire in Idalin, Lublin Province, resulted in the deaths of four people, including three children. Two survivors, a mother and a child, were rescued. The fire department and prosecutor's office are investigating the cause of the fire. Neighbors expressed sympathy for the family who had recently moved to the town."
-    },
-    {
-        "original_title": "Polish FM highlights top 10 diplomatic achievements of 2024",
-        "optimized_title": "Polish FM Unveils Top 10 Diplomatic Wins of 2024",
-        "description": "Polish FM highlights top 10 diplomatic achievements of 2024",
-        "link": "https://www.polskieradio.pl/395/7784/Artykul/3458734,polish-fm-highlights-top-10-diplomatic-achievements-of-2024",
-        "published": "Fri, 13 Dec 2024 12:30:14 -0000",
-        "optimized_at": "2024-12-13T12:49:32.554433",
-        "category": "International Relations",
-        "summary": "The Polish Foreign Minister has presented the top 10 diplomatic achievements of 2024, showcasing key international successes and strategic partnerships forged throughout the year. These accomplishments underscore Poland's growing influence and role in global diplomacy."
     },
     {
         "original_title": "Polish FM highlights top 10 diplomatic achievements of 2024",
@@ -23508,5 +23488,705 @@
         "optimized_at": "2024-12-13T12:52:54.127127",
         "category": "Social Issues",
         "summary": "Iran has introduced a new law toughening penalties for those who violate the dress code, making it punishable by fines, prison time, and even the death penalty. The law also includes the use of artificial intelligence to monitor compliance."
+    },
+    {
+        "original_title": "World Cup qualifiers. When and against whom will the Polish national team play?",
+        "optimized_title": "Poland's World Cup Qualifiers: Who They'll Face After Spain, Netherlands Draw",
+        "description": "The loser of the Spain-Netherlands match, Finland, Lithuania and Malta will be the rivals of the Polish national team in the World Cup qualifications. Our team proved to be the strongest on the day of the draw.",
+        "link": "https://sport.rp.pl/pilka-nozna/art41578271-eliminacje-mistrzostw-swiata-kiedy-i-z-kim-zagra-reprezentacja-polski",
+        "published": "Fri, 13 Dec 2024 13:06:00 +0100",
+        "optimized_at": "2024-12-13T12:53:00.162976",
+        "category": "Sports",
+        "summary": "Poland's national football team will compete against the loser of the Spain-Netherlands match, Finland, Lithuania, and Malta in the World Cup qualifiers. The team showed strength in the draw, setting up interesting matches for the upcoming qualification rounds."
+    },
+    {
+        "original_title": "Emmanuel Macron has named France's new prime minister",
+        "optimized_title": "Macron Names Bayrou France's New Prime Minister After Barnier's Resignation",
+        "description": "Centrist Francois Bayrou has been named by Emmanuel Macron as France's new prime minister following the resignation of Michel Barnier.",
+        "link": "https://www.rp.pl/polityka/art41578831-emmanuel-macron-wskazal-nowego-premiera-francji",
+        "published": "Fri, 13 Dec 2024 12:51:48 +0100",
+        "optimized_at": "2024-12-13T12:53:05.252631",
+        "category": "Politics",
+        "summary": "French President Emmanuel Macron appointed centrist Francois Bayrou as the new prime minister after Michel Barnier resigned from the position. This move signals a shift in France's political landscape as Bayrou takes over the key role in the government."
+    },
+    {
+        "original_title": "Michał Szułdrzyński: Rafał, excuse me, my French!",
+        "optimized_title": "Rafał Trzaskowski's French Lesson: Elitism or Connection?",
+        "description": "Rafał Trzaskowski delighted his supporters with a conversation in French with Emmanuel Macron. However, in the context of a campaign that was supposed to dispel his elitist image, the question arises whether this does not distance him from the average voter.",
+        "link": "https://www.rp.pl/komentarze/art41578741-michal-szuldrzynski-rafal-pardon-maj-frencz",
+        "published": "Fri, 13 Dec 2024 12:51:00 +0100",
+        "optimized_at": "2024-12-13T12:53:10.260701",
+        "category": "Polish Politics",
+        "summary": "Rafał Trzaskowski's use of French in a conversation with Emmanuel Macron has sparked debate about whether it enhances his image or alienates average voters, particularly in a campaign aimed at dispelling perceptions of elitism. The incident highlights the delicate balance between appearing internationally savvy and remaining relatable to local constituents."
+    },
+    {
+        "original_title": "Tomasz Pietryga: Judges December 13, a short reflection",
+        "optimized_title": "Tomasz Pietryga: Reflects on Martial Law Judges' Controversial Entry into Third Republic",
+        "description": "For many citizens wronged in the times of the Polish People's Republic, the entry of martial law judges into the Third Polish Republic was unacceptable. The inability of the Solidarity people to block this entry took away respect for Themis for decades.",
+        "link": "https://www.rp.pl/opinie-prawne/art41578681-tomasz-pietryga-sedziowie-13-grudnia-krotka-refleksja",
+        "published": "Fri, 13 Dec 2024 12:50:00 +0100",
+        "optimized_at": "2024-12-13T12:53:14.162862",
+        "category": "Polish Politics",
+        "summary": "Tomasz Pietryga reflects on the controversial entry of martial law judges into the Third Polish Republic, highlighting the anger and disrespect felt by many citizens who were wronged during the Polish People's Republic era. He touches on the inability of the Solidarity movement to prevent this, which led to a long-term loss of respect for the judicial system."
+    },
+    {
+        "original_title": "A new list of reimbursed drugs from January. We know what will be on it",
+        "optimized_title": "Health Minister Unveils New Reimbursed Drugs List for 2025",
+        "description": "Health Minister Izabela Leszczyna and Deputy Minister Marek Kos announced a new list of reimbursed drugs on Friday. It will be in force from January 1, 2025.",
+        "link": "https://www.rp.pl/zdrowie/art41578771-od-stycznia-nowa-lista-lekow-refundowanych-wiemy-co-sie-na-niej-znajdzie",
+        "published": "Fri, 13 Dec 2024 12:41:00 +0100",
+        "optimized_at": "2024-12-13T12:53:17.453758",
+        "category": "Health",
+        "summary": "Health Minister Izabela Leszczyna and Deputy Minister Marek Kos have unveiled a new list of reimbursed drugs, which will come into effect on January 1, 2025. The list aims to improve access to essential medications for patients, ensuring that they can afford necessary treatments."
+    },
+    {
+        "original_title": "Poles have found out who their rivals will be in the 2026 World Cup qualifiers. It will be very difficult to advance directly",
+        "optimized_title": "Poland's Tough Road to 2026 World Cup: Faces Spain, Netherlands, Finland, Lithuania, Malta in Qualifiers",
+        "description": "It wasn't the best draw for the Polish national football team. It will be very difficult to take first place in the group, which guarantees direct qualification to the 2026 World Cup. The white and reds met in the qualifiers: the loser of the Spain-Netherlands match, Finland, Lithuania, Malta.",
+        "link": "https://sport.dziennik.pl/pilka-nozna/artykuly/9689287,polacy-poznali-rywali-w-eliminacjach-ms-2026-o-bezposredni-awans-bedz.html",
+        "published": "2024-12-13T12:04:41.000Z",
+        "optimized_at": "2024-12-13T12:53:21.747562",
+        "category": "Sports",
+        "summary": "Poland's national football team faces a challenging group in the 2026 World Cup qualifiers, drawing against strong opponents such as Spain and the Netherlands. The team will have to work hard to secure direct qualification, as their group also includes Finland, Lithuania, and Malta."
+    },
+    {
+        "original_title": "The unrecognizable star in the new film. \"The daughter ran away screaming",
+        "optimized_title": "Mark Wahlberg Unrecognizable in Mel Gibson's New Thriller",
+        "description": "Mel Gibson, after years of directorial silence, returns to cinemas with the film \"3000 meters above the ground\" (\"Flight Risk\"). The creator, who has accustomed us for years to historical and war spectacles such as \"Braveheart\", \"Apocalypto\" or \"Hacksaw Ridge\", this time opted for a minimalist action thriller with three characters in a closed space. The star of the film is Mark Wahlberg, who surprises with his appearance.",
+        "link": "https://film.dziennik.pl/news/artykuly/9688151,gwiazdor-nie-do-poznania-w-nowym-filmie-corka-uciekla-z-krzykiem.html",
+        "published": "2024-12-13T12:00:00.000Z",
+        "optimized_at": "2024-12-13T12:53:24.548587",
+        "category": "Entertainment",
+        "summary": "Mel Gibson returns to directing with a minimalist action thriller called \"3000 meters above the ground,\" starring Mark Wahlberg, who appears unrecognizable in the film. The movie features a closed-space setting with three characters, marking a departure from Gibson's previous historical and war epics."
+    },
+    {
+        "original_title": "Inspections have started all over Poland. Fines are pouring in. Fines of up to PLN 10,000",
+        "optimized_title": "Poland's Sewer Inspections Uncover Illegal Connections, Fines Up to PLN 10,000",
+        "description": "Municipal and city inspectors are currently conducting inspections of sewage networks. The aim of these activities is to detect illegal connections to the water and sewage system. As part of these inspections, in Niepołomice, on the area of ​​one street, as many as 16 cases of improper discharge of rainwater into the sewage network were revealed. Similar inspections are also being conducted in Szczecin and Izabelin.",
+        "link": "https://wiadomosci.dziennik.pl/wydarzenia/artykuly/9689329,ruszyly-kontrole-w-calej-polsce-sypia-sie-mandaty-kara-nawet-10-tys.html",
+        "published": "2024-12-13T11:45:00.000Z",
+        "optimized_at": "2024-12-13T12:53:34.676308",
+        "category": "Environment",
+        "summary": "Municipal and city inspectors in Poland have begun inspecting sewage networks to detect illegal connections to the water and sewage system. In Niepołomice, 16 cases of improper rainwater discharge into the sewage network were discovered, with fines reaching up to PLN 10,000. Similar inspections are ongoing in Szczecin and Izabelin."
+    },
+    {
+        "original_title": "8,250 workers to be laid off. Gloomy news before the holidays",
+        "optimized_title": "Bosch to Lay Off 8,250 Workers Worldwide",
+        "description": "German industrial giant Bosch plans to lay off about 8,250 employees worldwide, a company spokesman told CNN. The job cuts will hit its Mobility division, which supplies parts to automotive companies, the hardest. The planned layoffs will cover almost 2 percent of the company's total workforce.",
+        "link": "https://gospodarka.dziennik.pl/news/artykuly/9689356,8250-pracownikow-do-zwolnienia-ponure-wiesci-przed-swietami.html",
+        "published": "2024-12-13T11:20:12.000Z",
+        "optimized_at": "2024-12-13T12:53:52.982989",
+        "category": "Business",
+        "summary": "German industrial giant Bosch is planning to lay off about 8,250 employees worldwide, which represents nearly 2% of its total workforce. The job cuts will primarily affect the Mobility division, which supplies parts to automotive companies."
+    },
+    {
+        "original_title": "How do I settle the CPR overpayment after switching to Active Parent?",
+        "optimized_title": "Handling CPR Overpayments: A Guide for Active Parents",
+        "description": "ZUS introduced a support program for families with small children – Active Parent. This program partially replaced the family care capital and nursery subsidies. For many parents who have already used RKO, the question arises: what to do with the overpayment?",
+        "link": "https://gospodarka.dziennik.pl/finanse/artykuly/9689354,jak-rozliczyc-nadplate-rko-po-przejsciu-na-aktywny-rodzic.html",
+        "published": "2024-12-13T11:15:40.000Z",
+        "optimized_at": "2024-12-13T12:53:58.811329",
+        "category": "Veterans Affairs",
+        "summary": "The article discusses the process of handling overpayments from the ZUS support program for families with small children, known as Active Parent, which replaces certain previous family benefits. It aims to guide parents who have already received benefits and now face overpayment issues."
+    },
+    {
+        "original_title": "Housing for the Young\" is coming back? A new housing program based on proven solutions",
+        "optimized_title": "Reviving 'Housing for the Young': New Program Aims to Replicate Past Success",
+        "description": "The Ministry of Development and Technology (MRiT) is working on a new housing program that is to be based on proven instruments known from previous programs, such as \"Housing for the Young,\" informed Jakub Stefaniak, spokesman for the ministry. He noted that implementing the new strategy requires agreement in the ruling coalition.",
+        "link": "https://gospodarka.dziennik.pl/finanse/artykuly/9689349,mieszkanie-dla-mlodych-wraca-nowy-program-mieszkaniowy-oparty-na-sp.html",
+        "published": "2024-12-13T11:02:42.000Z",
+        "optimized_at": "2024-12-13T12:54:07.414310",
+        "category": "Polish Economy",
+        "summary": "The Ministry of Development and Technology (MRiT) is developing a new housing program inspired by past successful initiatives like \"Housing for the Young.\" The program aims to replicate proven methods but requires agreement within the ruling coalition for its implementation."
+    },
+    {
+        "original_title": "The Polish film is breathtaking. \"For 15 minutes after the screening I was unable to utter a word",
+        "optimized_title": "Breathtaking Polish Film 'Światłoczuła' Leaves Audience Speechless",
+        "description": "We are learning more details about the new Polish film \"Światłoczuła\" directed by Tadeusz Śliwa, the creator of the hits \"(Nie)znajomi\" and \"Gang Zielonej Rękawiczki\". The main roles are played by rising film stars - Matylda Giegżno known from \"Kosa\" and Ignacy Liss from \"Znachor\". When is the premiere of the long-awaited romance?",
+        "link": "https://film.dziennik.pl/news/artykuly/9688147,polski-film-az-zapiera-dech-przez-15-minut-po-projekcji-nie-bylam-w.html",
+        "published": "2024-12-13T11:00:00.000Z",
+        "optimized_at": "2024-12-13T12:54:10.711969",
+        "category": "Entertainment",
+        "summary": "The new Polish film \"Światłoczuła\" directed by Tadeusz Śliwa, known for his previous hits, is gaining attention for its captivating romance story. Starring rising stars Matylda Giegżno and Ignacy Liss, the film is anticipated to be a notable addition to Polish cinema."
+    },
+    {
+        "original_title": "Tomasz Jakubiak has issued a statement. He talks about the costs of treatment and the collection",
+        "optimized_title": "Tomasz Jakubiak Reveals Costs of Rare Cancer Treatment in Israel",
+        "description": "Tomasz Jakubiak is struggling with a rare cancer. It is duodenal cancer. The cook has metastases to the bones and attacks of severe pain. He cannot eat. He is now undergoing treatment in a clinic in Israel. The treatment is expensive. Jakubiak explained what the money collected for his therapy is intended for and how it is spent.",
+        "link": "https://zyciegwiazd.dziennik.pl/news/artykuly/9689324,tomasz-jakubiak-wydal-oswiadczenie-mowi-o-kosztach-leczenia-i-zbiorce.html",
+        "published": "2024-12-13T10:34:49.000Z",
+        "optimized_at": "2024-12-13T12:54:30.837778",
+        "category": "Health",
+        "summary": "Tomasz Jakubiak has revealed the costs associated with his treatment for a rare form of duodenal cancer in Israel. He explained how the funds raised are being used to cover the expensive therapy, which includes managing metastases and severe pain."
+    },
+    {
+        "original_title": "Important changes in 800 plus. ZUS has decided. Some will receive money today",
+        "optimized_title": "ZUS Advances 800 Plus: Payments Shift to December 13",
+        "description": "ZUS has decided to transfer the 800 plus benefit earlier on three selected December dates, which is to make it easier for families to prepare for the upcoming holidays. In connection with these modifications, ZUS has announced a postponement of the payment date from 14 to 13 December this year. Here are the details.",
+        "link": "https://wiadomosci.dziennik.pl/wydarzenia/artykuly/9689301,wazne-zmiany-w-800-plus-zus-zdecydowal-niektorzy-dostana-pieniadze-j.html",
+        "published": "2024-12-13T10:25:00.000Z",
+        "optimized_at": "2024-12-13T12:54:40.375247",
+        "category": "Social Issues",
+        "summary": "ZUS has announced that the 800 plus benefit will be transferred earlier on three selected December dates to help families prepare for the holidays. The payment date has been adjusted from December 14 to December 13."
+    },
+    {
+        "original_title": "Captain Wrona's son is dead. All of Poland collected money for his treatment",
+        "optimized_title": "Hero Pilot's Son Dies After Nationwide Fundraising",
+        "description": "Captain Tadeusz Wrona became famous 13 years ago for saving over 200 people when he had to make an emergency landing at Okęcie Airport. Recently, there was a lot of talk about his fight for his son's health. Mikołaj, also a pilot, was struggling with acute myeloid leukemia. Polsat reported that he had died.",
+        "link": "https://wiadomosci.dziennik.pl/wydarzenia/artykuly/9689323,nie-zyje-syn-kapitana-wrony-cala-polska-zbierala-pieniadze-na-jego-le.html",
+        "published": "2024-12-13T10:22:27.000Z",
+        "optimized_at": "2024-12-13T12:54:49.268843",
+        "category": "Polish Military",
+        "summary": "Mikołaj Wrona, the son of renowned Polish pilot Captain Tadeusz Wrona, has passed away after a publicized battle with acute myeloid leukemia. The elder Wrona gained national fame for his heroic emergency landing at Okęcie Airport 13 years ago, saving over 200 lives. The story of Mikołaj's health struggle had garnered significant attention and support from the Polish public."
+    },
+    {
+        "original_title": "Winter will attack this weekend. Snowstorms and frost on the horizon. IMGW warns",
+        "optimized_title": "Brace for Winter's Strike: IMGW Warns of Snowstorms and Frost This Weekend",
+        "description": "The upcoming weekend will be marked by frosty weather. The Institute of Meteorology and Water Management warns that rain and snowfall are possible throughout the country. Let's not forget about warm jackets. The temperature can drop to -6 degrees Celsius. Here is a detailed weather forecast for December 13, 14 and 15.",
+        "link": "https://pogoda.dziennik.pl/aktualnosci/artykuly/9689314,zima-zaatakuje-w-weekend-na-horyzoncie-sniezyce-i-mroz-imgw-ostrzega.html",
+        "published": "2024-12-13T10:04:12.000Z",
+        "optimized_at": "2024-12-13T12:55:09.867098",
+        "category": "Environment",
+        "summary": "The Institute of Meteorology and Water Management (IMGW) has issued a warning of snowstorms and frost for the upcoming weekend. Temperatures are expected to drop as low as -6 degrees Celsius, and rain and snowfall are anticipated across the country."
+    },
+    {
+        "original_title": "Are you buying this product for the holidays? You better watch out",
+        "optimized_title": "Choose Wisely: Poppy Seeds & Holiday Health",
+        "description": "The approaching Christmas is a time of culinary preparations, and poppy seeds are one of the most popular ingredients of holiday baking. Unfortunately, the wrong choice of this product can pose a threat to our health. The Chief Sanitary Inspector reminds us to exercise special caution when buying poppy seeds.",
+        "link": "https://zdrowie.dziennik.pl/aktualnosci/artykuly/9689313,kupujesz-ten-produkt-na-swieta-lepiej-uwazaj.html",
+        "published": "2024-12-13T10:03:57.000Z",
+        "optimized_at": "2024-12-13T12:55:19.839793",
+        "category": "Health",
+        "summary": "The article discusses the potential health risks associated with consuming improperly sourced poppy seeds during the holiday season. The Chief Sanitary Inspector warns consumers to be cautious when purchasing poppy seeds to ensure they are safe for consumption."
+    },
+    {
+        "original_title": "TVN shows its cards. \"You Can Dance\" jury includes a Polsat star",
+        "optimized_title": "TVN Unveils 'You Can Dance' Jury with Polsat Star",
+        "description": "The program \"You Can Dance-Just Dance!\" is back on TVN. The station has just revealed its cards and announced the jury line-up. There's a bit of a surprise. The line-up will include a dancer who, until now, could be seen on the competition, Polsat. Who are we talking about?",
+        "link": "https://zyciegwiazd.dziennik.pl/telewizja/artykuly/9689316,tvn-odkrywa-karty-w-jury-you-can-dance-gwiazda-polsatu.html",
+        "published": "2024-12-13T10:00:40.000Z",
+        "optimized_at": "2024-12-13T12:55:24.980542",
+        "category": "Entertainment",
+        "summary": "TVN has announced the jury line-up for the upcoming season of \"You Can Dance-Just Dance!\" on their network, which includes a dancer known from the competition on rival channel Polsat. The surprise addition is expected to bring excitement and diversity to the show."
+    },
+    {
+        "original_title": "Poles have remade a megahit from the 80s. This is how they are promoting the provocative Polish series",
+        "optimized_title": "Polish Series 'Lady Love' Promotes with Modern Talking Cover",
+        "description": "The first Polish original premiere of the Max platform is approaching with great strides. The series \"Lady Love\" will tell the story of a girl from a town in the Polish People's Republic who makes a crazy career in the West. Anna Szymańczyk, known from Netflix's \"Znachor\", will play her first leading role in the role of a character inspired by Teresa Orlowski. A video for the single promoting the series has just appeared online - a cover of the megahit \"Cheri Cheri Lady\" by Modern Talking.",
+        "link": "https://film.dziennik.pl/news/artykuly/9689310,polacy-przerobili-megahit-z-lat-80-tak-promuja-prowokacyjny-polski-se.html",
+        "published": "2024-12-13T10:00:00.000Z",
+        "optimized_at": "2024-12-13T12:55:30.703559",
+        "category": "Polish Culture",
+        "summary": "The upcoming Polish original series \"Lady Love\" on the Max platform is promoting with a modern cover of Modern Talking's \"Cheri Cheri Lady.\" The series, starring Anna Szymańczyk, tells the story of a girl from a Polish town who makes a career in the West, reminiscent of Teresa Orlowski's journey."
+    },
+    {
+        "original_title": "Cezary Pazura's children will not receive an inheritance? \"We have made it clear",
+        "optimized_title": "Cezary Pazura Reveals Inheritance Plans for His Children",
+        "description": "In the latest interview, Cezary Pazura spoke about transience and the values ​​that are most important to him. The actor confessed that it was his wife, who is 26 years younger than him, who changed his life. The conversation also included a confession about the inheritance that the actor will leave to his children. Quite controversial words were said.",
+        "link": "https://zyciegwiazd.dziennik.pl/news/artykuly/9689304,dzieci-cezarego-pazury-nie-dostana-spadku-postawilismy-sprawe-jasno.html",
+        "published": "2024-12-13T09:41:43.000Z",
+        "optimized_at": "2024-12-13T12:55:49.238622",
+        "category": "Entertainment",
+        "summary": "Actor Cezary Pazura recently discussed his views on transience and the important values in his life during an interview. He credited his wife, who is 26 years his junior, with significantly changing his life. Notably, Pazura revealed his plans for his children's inheritance, sharing some surprising details."
+    },
+    {
+        "original_title": "New list of reimbursed drugs 2025. Breakthrough therapies in the fight against cancer and rare diseases",
+        "optimized_title": "Poland's 2025 Reimbursed Drug List: 31 New Therapies for Cancer, Cardio, and Rare Diseases",
+        "description": "As of January 1, 2025, a new list of reimbursed drugs will come into effect in Poland, which includes 31 new molecules-indications. The new therapies will be used in the treatment of, among others, oncological, cardiological, and rare and ultra-rare diseases. This information was announced by the Minister of Health Izabela Leszczyna during a press conference on Friday.",
+        "link": "https://wiadomosci.dziennik.pl/wydarzenia/artykuly/9689289,nowa-lista-lekow-refundowanych-2025-przelomowe-terapie-w-walce-z-raki.html",
+        "published": "2024-12-13T09:31:14.000Z",
+        "optimized_at": "2024-12-13T12:55:52.272176",
+        "category": "Health",
+        "summary": "Poland is set to implement a new list of reimbursed drugs in 2025, featuring 31 new therapies targeted at treating cancer, cardiovascular diseases, and rare conditions. The Minister of Health, Izabela Leszczyna, announced this update at a press conference, highlighting the significant addition to the country's healthcare offerings."
+    },
+    {
+        "original_title": "France has a new prime minister. Macron has appointed Francois Bayrou",
+        "optimized_title": "Macron Appoints Francois Bayrou as France's New Prime Minister",
+        "description": "Bayrou, 73, the founder of the centrist MoDem party and a political ally of Macron, has been mentioned by media in recent days as one of the most likely candidates for prime minister.",
+        "link": "https://wpolityce.pl/swiat/715686-francja-ma-nowego-premiera-macron-powolal-francois-bayrou",
+        "published": "Fri, 13 Dec 2024 12:14:52 +0000",
+        "optimized_at": "2024-12-13T12:55:55.549139",
+        "category": "Politics",
+        "summary": "French President Emmanuel Macron has appointed Francois Bayrou, a long-time political ally and founder of the centrist MoDem party, as France's new prime minister. Bayrou, 73, has been a key figure in French politics and was recently speculated by media as a likely candidate for the position."
+    },
+    {
+        "original_title": "We know almost all the rivals in the World Cup qualifiers",
+        "optimized_title": "Discover the 48 Countries Competing in the 2026 World Cup",
+        "description": "The 2026 World Cup in the USA, Canada and Mexico will be held - for the first time in history - with the participation of as many as 48 countries.",
+        "link": "https://wpolityce.pl/sport/715688-znamy-prawie-wszystkich-rywali-w-eliminacjach-do-mundialu",
+        "published": "Fri, 13 Dec 2024 12:13:58 +0000",
+        "optimized_at": "2024-12-13T12:55:59.139830",
+        "category": "Sports",
+        "summary": "The 2026 World Cup, set to be hosted by the USA, Canada, and Mexico, will feature an unprecedented 48 countries competing. This marks the first time in the event's history that so many nations will participate."
+    },
+    {
+        "original_title": "PiS Chairman on Father Popiełuszko: There was something extraordinary about him",
+        "optimized_title": "PiS Chairman Praises Father Popiełuszko's Extraordinary Spirit",
+        "description": "It is a completely different role, the role of a politician and the role of a clergyman. In this sense, it is difficult to compare. However, when it comes to attachment to other ideas and the ability to use words, although of course, the words are of a different kind than those in politicians' speeches\".",
+        "link": "https://wpolityce.pl/kosciol/715682-prezes-pis-o-ks-popieluszce-bylo-w-nim-cos-nadzwyczajnego",
+        "published": "Fri, 13 Dec 2024 11:55:28 +0000",
+        "optimized_at": "2024-12-13T12:56:03.617523",
+        "category": "Polish Culture",
+        "summary": "The PiS Chairman praise Father Popiełuszko's extraordinary spirit, noting that while the roles of a politician and a clergyman differ, his ability to express ideas and connect with people is remarkable."
+    },
+    {
+        "original_title": "The university canceled the EKR event! Obajtek: \"Shame",
+        "optimized_title": "University Cancels EKR Event: Obajtek Calls It 'Shame'",
+        "description": "Power failure? We were prepared to provide our own generators. Such a prestigious university should be able to provide a more credible explanation.",
+        "link": "https://wpolityce.pl/polityka/715683-uczelnia-odwolala-wydarzenie-ekr-obajtek-wstyd",
+        "published": "Fri, 13 Dec 2024 11:50:38 +0000",
+        "optimized_at": "2024-12-13T12:56:07.686815",
+        "category": "Education",
+        "summary": "A university decided to cancel an EKR event, which sparked criticism from Piotr Obajtek, who stated that they were prepared to provide their own generators. Obajtek expressed disappointment in the university's handling of the situation, calling it a \"shame.\""
+    },
+    {
+        "original_title": "What happened there?! Korwin-Mikke's strange behavior",
+        "optimized_title": "Korwin-Mikke's Bizarre Behavior: Live Stream Incident Caught on TikTok",
+        "description": "Nika, apparently there's some live stream on Tiktok where I'm sleeping.",
+        "link": "https://wpolityce.pl/polityka/715674-co-tam-sie-wydarzylo-dziwne-zachowanie-korwin-mikkego",
+        "published": "Fri, 13 Dec 2024 11:42:54 +0000",
+        "optimized_at": "2024-12-13T12:56:14.113100",
+        "category": "Polish Politics",
+        "summary": "Janusz Korwin-Mikke, a Polish politician, was caught sleeping during a live stream on TikTok. The incident has sparked curiosity and discussion among the public."
+    },
+    {
+        "original_title": "Wieczorek asked about resignation. Masterful display of shoes!",
+        "optimized_title": "Wieczorek Queries Resignation, Highlights Union Support in Tax Office Case",
+        "description": "Wieczorek informed that he had initiated two explanatory proceedings in the case described by the head of the trade union at the Tax Office, which means that the ministry acted in an \"absolutely pro-union\" manner.",
+        "link": "https://wpolityce.pl/polityka/715678-wieczorek-zapytany-o-dymisje-mistrzowski-popis-buty",
+        "published": "Fri, 13 Dec 2024 11:31:55 +0000",
+        "optimized_at": "2024-12-13T12:56:16.886660",
+        "category": "Polish Politics",
+        "summary": "Krzysztof Wieczorek, a prominent figure in Polish politics, has inquired about resignations related to a case involving the head of a trade union at the Tax Office. He emphasized that the ministry has demonstrated a pro-union stance by initiating two explanatory proceedings in the matter."
+    },
+    {
+        "original_title": "Niedzielski has been sentenced! It's about the doctor's data",
+        "optimized_title": "Former Health Minister Niedzielski Sentenced to Suspended Jail Time",
+        "description": "The former head of the Ministry of Health was sentenced to three months' imprisonment, suspended for two years.",
+        "link": "https://wpolityce.pl/polityka/715679-niedzielski-uslyszal-wyrok-chodzi-o-sprawe-danych-lekarza",
+        "published": "Fri, 13 Dec 2024 11:18:31 +0000",
+        "optimized_at": "2024-12-13T12:56:20.622595",
+        "category": "Law and Justice",
+        "summary": "Former Health Minister Niedzielski received a sentence of three months' imprisonment, suspended for two years, in relation to a case involving the leaking of doctors' data."
+    },
+    {
+        "original_title": "Big losses of state-owned companies! Sasin: Tusk's experts",
+        "optimized_title": "State-Owned Bogdanka Suffers Massive PLN 950 Billion Loss in Q2 2024",
+        "description": "Lubelski Węgiel \"Bogdanka\" recorded a huge loss for Q2 2024, over PLN 950 billion. In the same period, in 2023 alone, the company generated a profit of PLN 100 billion.",
+        "link": "https://wpolityce.pl/gospodarka/715671-duze-starty-spolek-skarbu-panstwa-sasin-fachowcy-tuska",
+        "published": "Fri, 13 Dec 2024 11:11:38 +0000",
+        "optimized_at": "2024-12-13T12:56:41.617669",
+        "category": "Polish Business",
+        "summary": "Lubelski Węgiel \"Bogdanka,\" a state-owned company, reported a significant loss of over PLN 950 billion in Q2 2024, contrasting sharply with the PLN 100 billion profit it made in the same period the previous year."
+    },
+    {
+        "original_title": "Dignity\" Association on the anniversary of Tusk's government",
+        "optimized_title": "Dignity Association Warns of Unrest on Tusk Government Anniversary",
+        "description": "Against the background of growing social polarization, provoked by Donald Tusk's brutal team, and the deteriorating living conditions of Poles, social unrest may occur.",
+        "link": "https://wpolityce.pl/polityka/715677-stowarzyszenie-godnosc-w-rocznice-rzadow-tuska",
+        "published": "Fri, 13 Dec 2024 11:00:42 +0000",
+        "optimized_at": "2024-12-13T12:56:46.337997",
+        "category": "Polish Politics",
+        "summary": "The Dignity Association warns of potential social unrest on the anniversary of Donald Tusk's government, citing growing social polarization and deteriorating living conditions for Poles."
+    },
+    {
+        "original_title": "The height of impudence! Szczerba quoted Lech Kaczyński",
+        "optimized_title": "Szczerba Quotes Lech Kaczyński to Defend Hypocrisy",
+        "description": "This Michał ... Szczerbaty morally finds justification for his own hypocrisy in cynicism...",
+        "link": "https://wpolityce.pl/polityka/715673-szczyt-bezczelnosci-szczerba-zacytowal-lecha-kaczynskiego",
+        "published": "Fri, 13 Dec 2024 10:51:47 +0000",
+        "optimized_at": "2024-12-13T12:56:50.470797",
+        "category": "Polish Politics",
+        "summary": "Michał Szczerba, a Polish politician, was criticized for using a quote from former President Lech Kaczyński to justify his own hypocritical behavior, sparking debate in Polish political circles."
+    },
+    {
+        "original_title": "Moldova's Parliament approves energy emergency",
+        "optimized_title": "Moldova's Parliament Declares Energy Emergency as Gas Flows Exclusively to Transnistria",
+        "description": "Gas from Russia goes exclusively to the rebellious, pro-Russian Transnistria. The rest of Moldova is not dependent on gas from Russia as of 2023.",
+        "link": "https://wpolityce.pl/swiat/715669-parlament-moldawii-zatwierdzil-stan-wyjatkowy-w-energetyce",
+        "published": "Fri, 13 Dec 2024 10:38:16 +0000",
+        "optimized_at": "2024-12-13T12:56:55.062481",
+        "category": "International Relations",
+        "summary": "Moldova's Parliament has declared an energy emergency due to the diversion of Russian gas exclusively to the pro-Russian breakaway region of Transnistria. As a result, the rest of Moldova is no longer dependent on Russian gas as of 2023."
+    },
+    {
+        "original_title": "Lakes in Wielkopolska are drying up. Polish Waters have blocked a key project",
+        "optimized_title": "**\"Wielkopolska's Lakes Drying Up, Project Blocked by Polish Waters\"**",
+        "description": "Eastern Wielkopolska is losing its green lungs. Piotr Woźny, president of ZE PAK, points to the drying lakes in the region, where the water level has dropped by several meters. This is also hitting local tourism. Polish Waters recently withdrew from the prepared recovery plan. - This process will not succeed without the involvement of the public authorities - emphasizes Piotr Woźny.",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/w-wielkopolsce-wysychaja-jeziora-wody-polskie-zablokowaly-kluczowy-projekt/",
+        "published": "Fri, 13 Dec 2024 13:10:00 +0100",
+        "optimized_at": "2024-12-13T12:56:59.740966",
+        "category": "Environment",
+        "summary": "The lakes in Eastern Wielkopolska are drying up, with water levels dropping by several meters, which is negatively impacting local tourism. Polish Waters has withdrawn from a recovery plan aimed at addressing this issue, and Piotr Woźny, president of ZE PAK, emphasizes that public authorities must be involved for the project to succeed."
+    },
+    {
+        "original_title": "Francois Bayrou appointed as new Prime Minister of France",
+        "optimized_title": "Bayrou Named New French Prime Minister by Macron",
+        "description": "Francois Bayrou has been appointed as the new Prime Minister of France, the Elysée Palace announced. The country's President Emmanuel Macron has entrusted him with the function and mission of forming a government. Bayrou is to present the composition of his cabinet in the coming days.",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/francois-bayrou-powolany-na-nowego-premiera-francji/",
+        "published": "Fri, 13 Dec 2024 12:47:00 +0100",
+        "optimized_at": "2024-12-13T12:57:04.725970",
+        "category": "Politics",
+        "summary": "Francois Bayrou has been appointed as the new Prime Minister of France by President Emmanuel Macron. Bayrou will be responsible for forming a new government and presenting the cabinet's composition in the coming days."
+    },
+    {
+        "original_title": "Lakes in Wielkopolska are drying up. Polish Waters have blocked a key project",
+        "optimized_title": "Wielkopolska's Lakes Dry Up: Polish Waters Blocks Recovery Plan",
+        "description": "Eastern Wielkopolska is losing its green lungs. Piotr Woźny, president of ZE PAK, points to the drying lakes in the region, where the water level has dropped by several meters. This is also hitting local tourism. Polish Waters recently withdrew from the prepared recovery plan. - This process will not succeed without the involvement of the public authorities - emphasizes Piotr Woźny.",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/w-wielkopolsce-wysychaja-jeziora-wody-polskie-zablokowaly-kluczowy-projekt/",
+        "published": "Fri, 13 Dec 2024 13:10:00 +0100",
+        "optimized_at": "2024-12-13T12:57:09.706222",
+        "category": "Environment",
+        "summary": "The lakes in Eastern Wielkopolska are drying up significantly, impacting both the region's environment and local tourism. Piotr Woźny, president of ZE PAK, highlights the issue and criticizes Polish Waters for withdrawing from a recovery plan, emphasizing the need for public authorities to intervene."
+    },
+    {
+        "original_title": "If you work in this profession, you can forget about a higher salary. Statistics GUS",
+        "optimized_title": "Discover Professions with Salaries Below Poland's Average of PLN 8,000",
+        "description": "According to the latest data from the Central Statistical Office, the average salary in Poland is slightly over PLN 8,000 gross, which may raise hopes for an improvement in the standard of living. However, as reality shows, many people cannot count on such high salaries. In Poland, there are a number of professions in which salaries are significantly below the national average. Which industries are the worst paid?",
+        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-13/pracujesz-w-tym-zawodzie-mozesz-zapomniec-o-wyzszej-pensji-szokujace-statystyki-gus/",
+        "published": "Fri, 13 Dec 2024 12:37:00 +0100",
+        "optimized_at": "2024-12-13T12:57:13.955501",
+        "category": "Economy",
+        "summary": "According to the Central Statistical Office, the average salary in Poland is around PLN 8,000 gross, but many professions fall significantly below this average. The article highlights industries with notably lower salaries, providing insights into the income disparities across various sectors in Poland."
+    },
+    {
+        "original_title": "There is a new list of reimbursed drugs. \"There are more therapies",
+        "optimized_title": "New Reimbursed Drug List Expands Treatment Options",
+        "description": "There is a new list of reimbursed drugs. \"There are more therapies",
+        "link": "https://www.polskieradio.pl/5/1222/Artykul/3458689,nowa-lista-lekow-refundowanych-oto-jakie-srodki-sie-na-niej-znalazly",
+        "published": "Fri, 13 Dec 2024 12:33:03 -0000",
+        "optimized_at": "2024-12-13T12:57:17.118427",
+        "category": "Health",
+        "summary": "A new list of reimbursed drugs has been released, expanding the range of available therapies for patients. This update aims to improve accessibility and affordability of essential treatments."
+    },
+    {
+        "original_title": "They beat up a 16-year-old and dragged him into the gate",
+        "optimized_title": "Teens Assault 16-Year-Old, Drag Him Through Gate",
+        "description": "They beat up a 16-year-old and dragged him into the gate",
+        "link": "https://www.polskieradio.pl/5/3/Artykul/3458670,najpierw-pobili-pozniej-wciagneli-do-bramy-oprawcy-16latka-sa-w-rekach-policji",
+        "published": "Fri, 13 Dec 2024 12:18:03 -0000",
+        "optimized_at": "2024-12-13T12:57:21.610403",
+        "category": "Social Issues",
+        "summary": "A group of teens assaulted a 16-year-old, causing physical harm, and then forcibly moved him through a gate. The incident highlights issues of youth violence and bullying in communities."
+    },
+    {
+        "original_title": "He fatally hit a 32-year-old and fled. He then turned himself in at the police station.",
+        "optimized_title": "70-Year-Old Turns Self In After Fatally Hitting 32-Year-Old",
+        "description": "A 32-year-old man was lying dead on a provincial road near the town of Nadrzecze (Lublin Province). The police suspected that someone had hit him. After more than two hours, a 70-year-old man reported to the police station and stated that he had hit the pedestrian and fled the scene.",
+        "link": "https://tvn24.pl/lublin/nadrzecze-potracil-smiertelnie-32-latka-i-uciekl-potem-sam-zglosil-sie-na-komende-st8221087?source=rss",
+        "published": "Fri, 13 Dec 2024 12:22:35 GMT",
+        "optimized_at": "2024-12-13T12:57:25.890526",
+        "category": "Law and Justice",
+        "summary": "A 70-year-old man turned himself in to the police after fatally hitting a 32-year-old pedestrian and fleeing the scene. The incident occurred on a provincial road near the town of Nadrzecze in Lublin Province, with the man surrendering to authorities after over two hours."
+    },
+    {
+        "original_title": "He used to criticize Trump, now he will give him a million dollars",
+        "optimized_title": "Amazon Pledges $1M to Trump's Inauguration, Will Stream Event",
+        "description": "Amazon will donate $1 million to President-elect Donald Trump's inauguration fund, and the company will broadcast the event on its streaming service, a company spokesman said on Thursday. As noted by the American agency Associated Press, this is yet another corporation that has tried to gain the president-elect's favor in this way. Meta has previously taken such a step.",
+        "link": "https://tvn24.pl/biznes/ze-swiata/amazon-przekaze-na-rzecz-funduszu-donalda-trumpa-milion-dolarow-st8220975?source=rss",
+        "published": "Fri, 13 Dec 2024 12:17:22 GMT",
+        "optimized_at": "2024-12-13T12:57:31.584501",
+        "category": "Business",
+        "summary": "Amazon has pledged $1 million to President-elect Donald Trump's inauguration fund and will stream the event on its platform, following a similar move by Meta. This decision is seen as an attempt to gain favor with the incoming administration."
+    },
+    {
+        "original_title": "At the start of the ski season they will block the road because they do not want a railway line",
+        "optimized_title": "Residents to Block Zakopianka Over Railway Line at Ski Season Start",
+        "description": "For PiS politicians, it is a \"golden train\", for some residents, a \"trail of human wrongs\". Residents of the Mogilany commune near Kraków will block the Zakopianka on Saturday in protest against the construction of the Kraków-Myślenice railway line. They do not agree with its course, which is to divide their estates and result in demolitions. The protest will coincide with the start of the ski season on the lifts in the Tatras.",
+        "link": "https://tvn24.pl/krakow/blokada-zakopianki-na-poczatku-sezonu-narciarskiego-protest-w-sprawie-kolei-utrudni-dojazd-na-otwarte-stoki-st8219567?source=rss",
+        "published": "Fri, 13 Dec 2024 12:11:33 GMT",
+        "optimized_at": "2024-12-13T12:57:41.427394",
+        "category": "Polish Society",
+        "summary": "Residents of the Mogilany commune near Kraków plan to block the Zakopianka road on Saturday to protest against the construction of the Kraków-Myślenice railway line. They oppose the planned route, which they believe will divide their properties and lead to demolitions. The protest is scheduled to coincide with the start of the ski season in the Tatras."
+    },
+    {
+        "original_title": "He cut down a lamppost, hit a building and ran away",
+        "optimized_title": "Driver Crashes into Building After Hitting Lamppost in Ostrów Wielkopolski",
+        "description": "Police from Ostrów Wielkopolski are looking for a driver who drove off the road at night, cut down a lamppost, and then drove into a shopping and service complex under construction. It is known that he was driving an acquaintance's car.",
+        "link": "https://tvn24.pl/poznan/ostrow-wielkopolski-scial-latarnie-sforsowal-ogrodzenie-i-uderzyl-w-budynek-kierowca-zniknal-st8221014?source=rss",
+        "published": "Fri, 13 Dec 2024 12:06:31 GMT",
+        "optimized_at": "2024-12-13T12:57:45.029128",
+        "category": "Law and Justice",
+        "summary": "Police in Ostrów Wielkopolski are searching for a driver who caused significant damage after losing control of a vehicle, hitting a lamppost and then crashing into a building. The driver fled the scene, leaving behind the car belonging to an acquaintance."
+    },
+    {
+        "original_title": "Emmanuel Macron has appointed a new prime minister",
+        "optimized_title": "Macron Appoints François Bayrou as France's New Prime Minister",
+        "description": "Francois Bayrou has been appointed as the new Prime Minister of France. French President Emmanuel Macron has entrusted him with the task of forming a government. In early December, the French parliament passed a motion of no confidence against Michel Barnier's government.",
+        "link": "https://tvn24.pl/swiat/francja-francois-bayrou-powolany-na-premiera-st8221101?source=rss",
+        "published": "Fri, 13 Dec 2024 11:57:15 GMT",
+        "optimized_at": "2024-12-13T12:57:48.058094",
+        "category": "Politics",
+        "summary": "French President Emmanuel Macron has appointed François Bayrou as the new Prime Minister of France following a no-confidence vote against the previous government led by Michel Barnier. Bayrou has been tasked with forming a new government."
+    },
+    {
+        "original_title": "Layoffs to be bigger than announced. Bosch plans heavy cuts",
+        "optimized_title": "Bosch to Layoff 8,250, More Than Initially Announced",
+        "description": "In November, Bosch announced layoffs of around 5,500 people. However, on Friday, CNN reported that the number will be higher. German industrial giant Bosch plans to lay off around 8,250 employees worldwide, a company spokesman told CNN. The job cuts will hit the Mobility division the hardest, which supplies parts to automotive companies. At the end of 2023, the company employed over 429,000 people.",
+        "link": "https://tvn24.pl/biznes/najnowsze/zwolnienia-beda-wieksze-niz-zapowiadano-bosch-planuje-mocne-ciecia-st8221113?source=rss",
+        "published": "Fri, 13 Dec 2024 11:56:55 GMT",
+        "optimized_at": "2024-12-13T12:57:53.268549",
+        "category": "Business",
+        "summary": "Bosch initially announced layoffs of around 5,500 employees in November, but has now revealed that the number will be higher, with plans to lay off around 8,250 employees worldwide. The job cuts will primarily affect the Mobility division, which supplies parts to automotive companies. At the end of 2023, Bosch employed over 429,000 people."
+    },
+    {
+        "original_title": "50-year-old man beaten and stabbed, son suspected of murder",
+        "optimized_title": "50-Year-Old Man Found Dead: Son Suspected in Murder",
+        "description": "A resident of Katowice informed the police that she had not been in contact with her partner for several days. Officers entered the 50-year-old's apartment and found his body there. Two people were detained, including the deceased's son.",
+        "link": "https://tvn24.pl/katowice/katowice-50-latek-zostal-pobity-i-dzgniety-nozem-o-zabojstwo-podejrzewaja-syna-st8221097?source=rss",
+        "published": "Fri, 13 Dec 2024 11:54:57 GMT",
+        "optimized_at": "2024-12-13T12:57:57.703918",
+        "category": "Law and Justice",
+        "summary": "Police in Katowice discovered the body of a 50-year-old man in his apartment after his partner reported not hearing from him for several days. The man's son was among two individuals detained in connection with the suspected murder."
+    },
+    {
+        "original_title": "Spy\" Case in \"Last Stage\". It is known who will live there",
+        "optimized_title": "Spy\" Building to be City's Final Act: Who Will Live There?",
+        "description": "The matter of donating the so-called Szpiegowo building complex to the city is already in its final stages. The buildings will be transferred to the municipal resources. According to the capital city hall, after renovation, representatives of \"professional groups important from the perspective of the public interest\" are to live there.",
+        "link": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-miasto-czeka-na-decyzje-wojewody-w-sprawie-szpiegowa-wiadomo-kto-tam-zamieszka-st8220924?source=rss",
+        "published": "Fri, 13 Dec 2024 11:48:34 GMT",
+        "optimized_at": "2024-12-13T12:58:01.362983",
+        "category": "Polish Politics",
+        "summary": "The transfer of the Szpiegowo building complex to the city of Warsaw is in its final stages. The buildings will be renovated and then used to house representatives of important professional groups as determined by the city hall."
+    },
+    {
+        "original_title": "Michał Adamczyk lost in court against Roman Giertych",
+        "optimized_title": "Michał Adamczyk Must Pay 25K for False Claims About Roman Giertych",
+        "description": "Michał Adamczyk, former presenter of TVP's \"Wiadomości\", is to pay 25 thousand złoty with statutory interest to the Great Orchestra of Christmas Charity. The court issued a verdict concerning Adamczyk's dissemination of falsehoods about Roman Giertych.",
+        "link": "https://tvn24.pl/najnowsze/michal-adamczyk-przegral-w-sadzie-z-romanem-giertychem-st8220853?source=rss",
+        "published": "Fri, 13 Dec 2024 11:37:33 GMT",
+        "optimized_at": "2024-12-13T12:58:06.467925",
+        "category": "Law and Justice",
+        "summary": "Michał Adamczyk, a former TVP presenter, has been ordered by a court to pay 25,000 złoty with interest to the Great Orchestra of Christmas Charity for spreading false claims about Roman Giertych. This verdict highlights the consequences of defamation and the legal system's response to such actions."
+    },
+    {
+        "original_title": "A giant on Poland's path! Footballers meet their rivals in the fight for the World Cup",
+        "optimized_title": "Poland's Footballers Face Rivals in 2026 World Cup Qualifiers",
+        "description": "Malta, Lithuania, Finland, as well as Spain or the Netherlands - these are the rivals of the Polish national football team in the 2026 World Cup qualifiers. The White and Reds are in the five-team Group G. The winners of 12 groups will advance directly to the World Cup. As many as 16 teams will fight for the remaining four in play-offs. The draw took place on Friday in Zurich.",
+        "link": "https://www.rmf24.pl/sport/pilka-nozna/news-gigant-na-drodze-polski-pilkarze-poznali-rywali-w-walce-o-mu,nId,7874947",
+        "published": "Fri, 13 Dec 2024 12:59:00 +0100",
+        "optimized_at": "2024-12-13T12:58:16.368394",
+        "category": "Sports",
+        "summary": "Poland's national football team has learned its rivals for the 2026 World Cup qualifiers, including Malta, Lithuania, Finland, as well as Spain or the Netherlands. The White and Reds are in Group G, and the winners of 12 groups will advance directly to the World Cup, with 16 teams competing in play-offs for the remaining four spots. The draw took place on Friday in Zurich."
+    },
+    {
+        "original_title": "Former Minister of Health Adam Niedzielski has been sentenced",
+        "optimized_title": "Former Health Minister Adam Niedzielski Sentenced to Suspended Jail Term",
+        "description": "Former Minister of Health in the Law and Justice government, Adam Niedzielski, has been sentenced to three months of imprisonment, suspended for two years.",
+        "link": "https://www.rmf24.pl/fakty/polska/news-byly-minister-zdrowia-adam-niedzielski-uslyszal-wyrok,nId,7874961",
+        "published": "Fri, 13 Dec 2024 12:43:36 +0100",
+        "optimized_at": "2024-12-13T12:58:25.103610",
+        "category": "Law and Justice",
+        "summary": "Former Health Minister Adam Niedzielski from the Law and Justice government has been sentenced to three months of imprisonment, suspended for two years. This ruling follows a conviction related to his role in the previous government."
+    },
+    {
+        "original_title": "Francois Bayrou is the new Prime Minister of France",
+        "optimized_title": "Francois Bayrou Named New Prime Minister of France",
+        "description": "The Elysee Palace announced on Friday that Francois Bayrou is the new prime minister of France. The politician is a member of the Democratic Movement. He previously served as minister of justice, among other things. He is a political ally of Emmanuel Macron.",
+        "link": "https://www.rmf24.pl/fakty/swiat/news-francois-bayrou-nowym-premierem-francji,nId,7875025",
+        "published": "Fri, 13 Dec 2024 12:55:47 +0100",
+        "optimized_at": "2024-12-13T12:58:34.074424",
+        "category": "Politics",
+        "summary": "Francois Bayrou has been appointed as the new Prime Minister of France, as announced by the Elysee Palace. Bayrou, a member of the Democratic Movement, has previously held the position of Minister of Justice and is a political ally of President Emmanuel Macron."
+    },
+    {
+        "original_title": "Brutal murder on Nowy Świat. Dawid M. charged",
+        "optimized_title": "Dawid M. Charged with Murder on Warsaw's Nowy Świat Street",
+        "description": "Dawid M. has been charged with murder, suspected of fatally wounding a 29-year-old man on Nowy Świat Street in Warsaw two and a half years ago. The man was extradited from Turkey to Poland on Thursday.",
+        "link": "https://www.rmf24.pl/regiony/warszawa/news-brutalne-zabojstwo-na-nowym-swiecie-dawid-m-z-zarzutem,nId,7874953",
+        "published": "Fri, 13 Dec 2024 11:55:00 +0100",
+        "optimized_at": "2024-12-13T12:58:37.625979",
+        "category": "Law and Justice",
+        "summary": "Dawid M. has been formally charged with murder for the fatal wounding of a 29-year-old man on Warsaw's Nowy Świat Street in 2020. After being apprehended in Turkey, he was extradited to Poland to face charges."
+    },
+    {
+        "original_title": "Priest convicted of molesting a minor",
+        "optimized_title": "Catholic Priest Sentenced to Six Years for Molesting Minor",
+        "description": "The District Court in Ostrołęka dismissed the defense attorney's appeal and upheld the six-year prison sentence for the Catholic priest accused of, among other things, sexually abusing a boy under the age of 15, the Ostrołęka District Prosecutor's Office reported on Friday. The convict must also pay the injured party PLN 50,000 in compensation.",
+        "link": "https://www.rmf24.pl/fakty/polska/news-ksiadz-skazany-za-molestowanie-maloletniego,nId,7875031",
+        "published": "Fri, 13 Dec 2024 13:11:08 +0100",
+        "optimized_at": "2024-12-13T12:58:40.466148",
+        "category": "Law and Justice",
+        "summary": "A District Court in Ostrołęka, Poland, upheld a six-year prison sentence for a Catholic priest convicted of sexually abusing a minor under the age of 15. Additionally, the priest was ordered to pay PLN 50,000 in compensation to the victim."
+    },
+    {
+        "original_title": "Naimski on the nuclear power plant in Poland: The government lacks a responsible person",
+        "optimized_title": "Naimski Warns: Poland's Nuclear Plant Project Lacks Gov't Oversight",
+        "description": "Delays can be made up for. This is not a tragedy\" – admits Piotr Naimski on RMF24 radio regarding the construction of a nuclear power plant on the Vistula River. The former deputy minister of economy and former government plenipotentiary for strategic energy infrastructure in the PiS government admits that the lack of a person appointed by the government to be responsible for such a project is more risky. \"This poses a mortal danger to this project\" – assesses Piotr Naimski in an interview with ",
+        "link": "https://www.rmf24.pl/fakty/polska/news-naimski-o-elektrowni-atomowej-w-polsce-w-rzadzie-brakuje-oso,nId,7875027",
+        "published": "Fri, 13 Dec 2024 13:07:01 +0100",
+        "optimized_at": "2024-12-13T12:58:50.285781",
+        "category": "Polish Energy",
+        "summary": "Piotr Naimski, former deputy minister and government plenipotentiary for strategic energy infrastructure, cautions that delays in Poland's nuclear power plant project on the Vistula River are not the main concern. Instead, he warns that the absence of a government-appointed responsible person poses a significant threat to the project's success."
+    },
+    {
+        "original_title": "What is PiS's plan for Karol Nawrocki's campaign? For now, he's supposed to \"get used to it\", and in February, a Duda-style restart",
+        "optimized_title": "PiS's Plan: Karol Nawrocki to 'Get Used to It' Now, Duda-Style Restart in February",
+        "description": "Karol Nawrocki has already visited the president, introduced the campaign spokeswoman, travels to other cities where he holds \"ordinary Polish conversations\", poses for photos, gives autographs. And PiS is saying that this is just the beginning.",
+        "link": "https://wyborcza.pl/7,75398,31542339,jaki-ma-plan-pis-na-kampanie-karola-nawrockiego-na-razie-ma.html",
+        "published": "Fri, 13 Dec 2024 12:31:00 GMT",
+        "optimized_at": "2024-12-13T12:58:54.507129",
+        "category": "Polish Politics",
+        "summary": "The Law and Justice (PiS) party has begun Karol Nawrocki's presidential campaign with a focus on public engagement, such as city visits, public conversations, and photo sessions. The party emphasizes that these initial steps are just the beginning, with a more substantial campaign restart planned for February, similar to President Andrzej Duda's successful re-election strategy."
+    },
+    {
+        "original_title": "Moldova introduces a state of emergency, court sentences Adam Niedzielski [SUMMARY OF THE DAILY'S EVENTS]",
+        "optimized_title": "Moldova Declares State of Emergency; Adam Niedzielski Sentenced",
+        "description": "Every day we publish hundreds of texts, our site changes very dynamically. Here we collect the most important news of the day.",
+        "link": "https://wyborcza.pl/7,75398,31542123,moldawia-wprowadza-stan-wyjatkowy-sad-skazuje-adama-niedzielskiego.html",
+        "published": "Fri, 13 Dec 2024 12:09:00 GMT",
+        "optimized_at": "2024-12-13T12:59:01.170434",
+        "category": "International Relations",
+        "summary": "Moldova has introduced a state of emergency due to unspecified reasons. Additionally, Adam Niedzielski has been sentenced by a court, but the details of the sentence are not provided. These events are among the most significant news of the day."
+    },
+    {
+        "original_title": "A Year in Health: Serious Condition, No Promise [OPINION]",
+        "optimized_title": "**Health System Deteriorates: Promised Reforms Unfulfilled**",
+        "description": "The situation in the public health system has worsened, not improved. And not a single one of the grandly announced reforms has been implemented. We must be content with spot changes that improve the situation of a small percentage of society.",
+        "link": "https://wiadomosci.wp.pl/rok-w-zdrowiu-stan-ciezki-nierokujacy-opinia-7102757776411264a",
+        "published": "Fri, 13 Dec 2024 13:22:42 +0100",
+        "optimized_at": "2024-12-13T12:59:05.179015",
+        "category": "",
+        "summary": ""
+    },
+    {
+        "original_title": "He Recorded a Falling Plane in Texas. The Plane Crashed into Cars",
+        "optimized_title": "Plane Crashes onto Texas Highway, Captured on Camera",
+        "description": "Blood-curdling footage from the USA. There was a plane crash on a highway in Victoria, Texas. One of the drivers' camera captured the moment the plane fell just above the local highway. The AP agency shared the witness's footage, as well as shots of the wreckage after it hit the ground. It turned out that fortunately there was no explosion, but the Piper PA-31 plane tore into pieces. The machine fell onto the road, damaging three cars and breaking into two pieces. The pilot was the only person o",
+        "link": "https://wiadomosci.wp.pl/nagral-spadajacy-samolot-w-teksasie-maszyna-rozbila-sie-o-auta-7102835377956481v",
+        "published": "Fri, 13 Dec 2024 13:20:54 +0100",
+        "optimized_at": "2024-12-13T12:59:10.078452",
+        "category": "Accidents",
+        "summary": "A plane crash was captured on camera as it fell onto a highway in Victoria, Texas. The Piper PA-31 plane tore into pieces and damaged three cars upon impact, but fortunately, there was no explosion. The pilot was the sole occupant of the aircraft."
+    },
+    {
+        "original_title": "Ukraine under fire. Zelenskyy comments on Russian attack",
+        "optimized_title": "Ukraine Battered by Massive Russian Attack: Zelenskyy Reacts",
+        "description": "Throughout the morning, an air raid alert was in effect in all Ukrainian regions due to the massive Russian attack. \"This is one of the largest attacks on Ukraine's energy sector,\" Volodymyr Zelensky emphasized in a post published later.",
+        "link": "https://wiadomosci.wp.pl/ukraina-pod-ostrzalem-zelenski-skomentowal-rosyjski-atak-7102833915484800a",
+        "published": "Fri, 13 Dec 2024 13:14:19 +0100",
+        "optimized_at": "2024-12-13T12:59:13.026865",
+        "category": "International Relations",
+        "summary": "Ukraine has been subjected to a large-scale Russian attack, with air raid alerts sounding across all regions. Ukrainian President Volodymyr Zelenskyy has described the assault as one of the most significant on the country's energy sector."
+    },
+    {
+        "original_title": "Skoda falls to pieces, three young people die",
+        "optimized_title": "Tragic Crash: Skoda Shatters, Three Young Lives Lost",
+        "description": "Tragic accident near Gostynin in the Mazovian province. A car carrying three young people stopped against a tree. The force of the impact was so great that the entire front of the vehicle was torn off. Everyone died.",
+        "link": "https://wiadomosci.wp.pl/skoda-rozpadla-sie-na-kawalki-trzy-mlode-osoby-nie-zyja-7102835567221408a",
+        "published": "Fri, 13 Dec 2024 13:05:18 +0100",
+        "optimized_at": "2024-12-13T12:59:15.986649",
+        "category": "Social Issues",
+        "summary": "A tragic accident occurred in Gostynin, Mazovian province, where a car carrying three young people collided with a tree. The impact was severe, resulting in the car's front being torn off, and unfortunately, all three young individuals lost their lives."
+    },
+    {
+        "original_title": "Macron announced. France has a new prime minister",
+        "optimized_title": "Macron Appoints François Bayrou as New French Prime Minister Following No-Confidence Vote",
+        "description": "The new prime minister of France is the leader of the MoDem party, Francois Bayrou, the Elysee Palace announced. The previous government was forced to resign following a vote of no confidence.",
+        "link": "https://wiadomosci.wp.pl/macron-oglosil-francja-ma-nowego-premiera-7102837054626432a",
+        "published": "Fri, 13 Dec 2024 13:00:21 +0100",
+        "optimized_at": "2024-12-13T12:59:19.273822",
+        "category": "Politics",
+        "summary": "French President Emmanuel Macron has appointed François Bayrou, leader of the MoDem party, as the new prime minister following a no-confidence vote that led to the resignation of the previous government."
+    },
+    {
+        "original_title": "Chaos in Italy. General strike continues",
+        "optimized_title": "Italy in Turmoil: General Strike Disrupts Transportation",
+        "description": "There are trains, buses, and a metro station.",
+        "link": "http://www.tvp.info/83974168/wlochy-strajk-sparalizowal-komunikacje-w-calym-kraju",
+        "published": "Fri, 13 Dec 24 13:10:00 +0100",
+        "optimized_at": "2024-12-13T12:59:23.333243",
+        "category": "Social Issues",
+        "summary": "A general strike in Italy continues to disrupt transportation services, including trains, buses, and metro stations, causing significant turmoil and inconvenience for citizens. The strike is a response to ongoing political and economic issues, highlighting the dissatisfaction among workers and the public."
+    },
+    {
+        "original_title": "Francois Bayrou appointed as new Prime Minister of France",
+        "optimized_title": "Francois Bayrou Named France's New Prime Minister",
+        "description": "No surprise.",
+        "link": "http://www.tvp.info/83974146/francja-francois-bayrou-nowym-premierem-kim-jest-sylwetka",
+        "published": "Fri, 13 Dec 24 12:58:00 +0100",
+        "optimized_at": "2024-12-13T12:59:27.922922",
+        "category": "Politics",
+        "summary": "Francois Bayrou has been appointed as the new Prime Minister of France, with the announcement not coming as a surprise."
+    },
+    {
+        "original_title": "EUR, USD, CHF exchange rates on Friday, December 13, 2024. Check the official NBP rates",
+        "optimized_title": "NBP Releases December 13, 2024 EUR, USD, CHF Rates: See Official Figures",
+        "description": "The National Bank of Poland has published new data on currency rates.",
+        "link": "http://www.tvp.info/83974333/kursy-walut-nbp-13122024-eur-usd-chf-w-piatek-13-grudnia-euro-dolar-frank-szwajcarski",
+        "published": "Fri, 13 Dec 24 13:00:00 +0100",
+        "optimized_at": "2024-12-13T12:59:33.764475",
+        "category": "Economy",
+        "summary": "The National Bank of Poland has released the official exchange rates for EUR, USD, and CHF as of December 13, 2024. This update provides crucial information for individuals and businesses involved in international transactions or financial planning."
+    },
+    {
+        "original_title": "Everything is clear! Poles have found out who their group rivals will be in the World Cup qualifiers",
+        "optimized_title": "Poles Revealed: World Cup Qualifier Group Rivals Unveiled",
+        "description": "Next important matches for the national team.",
+        "link": "http://www.tvp.info/83972044/eliminacje-mistrzostw-swiata-2026-polska-poznala-grupowych-rywali",
+        "published": "Fri, 13 Dec 24 10:44:00 +0100",
+        "optimized_at": "2024-12-13T12:59:42.948825",
+        "category": "Sports",
+        "summary": "The Polish national football team has learned the identities of their group rivals for the upcoming World Cup qualifiers, setting the stage for their next significant matches."
+    },
+    {
+        "original_title": "No plans. Expensive prices continue to empty Poles' wallets",
+        "optimized_title": "Prices Soar, Poles' Wallets Struggle: No Relief in Sight for 2025",
+        "description": "What will it be like at the beginning of 2025?",
+        "link": "http://www.tvp.info/83973753/inflacja-w-polsce-2024-ile-wynosi-inflacja-w-polsce-i-jak-szybko-rosna-ceny-inflacja-w-polsce-na-przestrzeni-lat",
+        "published": "Fri, 13 Dec 24 12:11:00 +0100",
+        "optimized_at": "2024-12-13T12:59:47.522128",
+        "category": "Economy",
+        "summary": "The article discusses the ongoing economic challenges facing Poland as prices continue to soar, putting financial strain on the Polish population. It highlights the lack of immediate relief measures planned for the beginning of 2025, suggesting a tough economic outlook for the upcoming year."
+    },
+    {
+        "original_title": "Poll: PiS voters stand behind Mateusz Morawiecki. Donald Tusk's government has convinced 3 percent of them",
+        "optimized_title": "Poll: Morawiecki Loyalty Strong Among PiS Voters; Tusk Sways 3%",
+        "description": "In a survey conducted by United Surveys, Poles assessed the quality of life during the governments of Donald Tusk and Mateusz Morawiecki. The results indicate clearly diversified opinions, depending on the political preferences of the respondents.",
+        "link": "https://www.rp.pl/polityka/art41578781-sondaz-wyborcy-pis-murem-za-mateuszem-morawieckim-rzady-donalda-tuska-przekonaly-3-proc-z-nich",
+        "published": "Fri, 13 Dec 2024 12:39:00 +0100",
+        "optimized_at": "2024-12-13T13:32:08.568477",
+        "category": "Polish Politics",
+        "summary": "A recent poll by United Surveys shows that voters of Poland's ruling Law and Justice (PiS) party overwhelmingly support Prime Minister Mateusz Morawiecki, with only 3% of them being convinced by the policies of former Prime Minister and current European Union leader Donald Tusk. The survey highlights the stark political divide in Poland, with opinions on the quality of life during these two administrations being strongly influenced by partisan affiliations."
+    },
+    {
+        "original_title": "UPDATE: President Macron adjusts Poland visit ahead of new French PM announcement",
+        "optimized_title": "Macron Adjusts Poland Visit Ahead of New French PM Announcement",
+        "description": "UPDATE: President Macron adjusts Poland visit ahead of new French PM announcement",
+        "link": "https://www.polskieradio.pl/395/7785/Artykul/3458685,update-president-macron-adjusts-poland-visit-ahead-of-new-french-pm-announcement",
+        "published": "Fri, 13 Dec 2024 13:04:38 -0000",
+        "optimized_at": "2024-12-13T13:32:18.096096",
+        "category": "International Relations",
+        "summary": "French President Emmanuel Macron has adjusted his schedule for an upcoming visit to Poland, likely in anticipation of the announcement of a new Prime Minister in France. The shift in his itinerary suggests a focus on maintaining diplomatic relations and addressing any potential changes in France's political landscape."
+    },
+    {
+        "original_title": "Football: Poland to play Spain or Netherlands in 2026 World Cup qualifiers",
+        "optimized_title": "Poland to Face Spain or Netherlands in 2026 World Cup Qualifiers",
+        "description": "Football: Poland to play Spain or Netherlands in 2026 World Cup qualifiers",
+        "link": "https://www.polskieradio.pl/395/7790/Artykul/3458690,football-poland-to-play-spain-or-netherlands-in-2026-world-cup-qualifiers",
+        "published": "Fri, 13 Dec 2024 13:04:38 -0000",
+        "optimized_at": "2024-12-13T13:32:22.173319",
+        "category": "Sports",
+        "summary": "Poland will face either Spain or the Netherlands in the 2026 World Cup qualifiers. The match-up is part of the qualification process for the FIFA World Cup, which will take place in 2026."
+    },
+    {
+        "original_title": "Russians close to capturing strategically important city of Kurahove",
+        "optimized_title": "Russians Near Capture of Key City Kurakhove",
+        "description": "Russians close to capturing strategically important city of Kurahove",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3458742,rosjanie-bliscy-zajecia-strategicznie-waznego-miasta-kurachowe",
+        "published": "Fri, 13 Dec 2024 13:03:00 -0000",
+        "optimized_at": "2024-12-13T13:32:25.577425",
+        "category": "Military",
+        "summary": "Russian forces are nearing the capture of the strategically important city of Kurakhove, which is a significant development in the ongoing conflict. The city's capture could potentially shift the balance of power and control over key infrastructure in the region."
+    },
+    {
+        "original_title": "Confederation: the only achievement of this government was its establishment",
+        "optimized_title": "Confederation: This Government's Sole Achievement",
+        "description": "Confederation: the only achievement of this government was its establishment",
+        "link": "https://www.pap.pl/aktualnosci/konfederacja-jedynym-osiagnieciem-tego-rzadu-bylo-jego-powolanie",
+        "published": "Fri, 13 Dec 2024 13:04:47 -0000",
+        "optimized_at": "2024-12-13T13:32:32.082098",
+        "category": "Polish Politics",
+        "summary": "The article critiques the current Polish government, asserting that their only notable accomplishment is the establishment of the Confederation, a political alliance. The piece implies a lack of other significant achievements or progress under their leadership."
     }
 ]
