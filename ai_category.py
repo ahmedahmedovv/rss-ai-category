@@ -103,13 +103,19 @@ def analyze_and_categorize_data():
                         Description: {entry.get('description', 'No description available')}
                         """
 
-                        # Get category from Mistral AI with simplified prompt
+                        # Modify the API call to get both category and summary
                         response = client.chat.complete(
                             model="mistral-small-latest",
                             messages=[
                                 {
                                     "role": "system",
-                                    "content": f"You are a content categorizer. Analyze the given content and assign ONE category from the following list: {categories_str}. Return ONLY the category name, nothing else."
+                                    "content": f"""You have two tasks:
+                                    1. Categorize the content into ONE of these categories: {categories_str}
+                                    2. Create a brief 2-3 sentence summary of the content.
+                                    
+                                    Format your response exactly like this:
+                                    CATEGORY: [category name]
+                                    SUMMARY: [2-3 sentence summary]"""
                                 },
                                 {
                                     "role": "user",
@@ -118,14 +124,27 @@ def analyze_and_categorize_data():
                             ]
                         )
                         
-                        category = response.choices[0].message.content.strip()
+                        # Parse the response to extract category and summary
+                        response_text = response.choices[0].message.content.strip()
+                        category = ""
+                        summary = ""
 
-                        # Add category to entry
+                        # Extract category and summary from response
+                        for line in response_text.split('\n'):
+                            if line.startswith('CATEGORY:'):
+                                category = line.replace('CATEGORY:', '').strip()
+                            elif line.startswith('SUMMARY:'):
+                                summary = line.replace('SUMMARY:', '').strip()
+
+                        # Add both category and summary to entry
                         categorized_entry = entry.copy()
                         categorized_entry['category'] = category
+                        categorized_entry['summary'] = summary
                         categorized_data.append(categorized_entry)
                         
-                        print(f"✅ Categorized: {entry['original_title']} -> {category}")
+                        print(f"✅ Processed: {entry['original_title']}")
+                        print(f"Category: {category}")
+                        print(f"Summary: {summary[:100]}...")  # Print first 100 chars of summary
                         
                         # Add exponential backoff for rate limiting
                         retry_delay = 5 * (2 ** retry_count)  # Exponential backoff
