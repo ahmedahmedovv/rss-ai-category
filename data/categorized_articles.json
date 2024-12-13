@@ -4541,13 +4541,13 @@
     },
     {
         "original_title": "The Last Generation will take to the streets again. \"The biggest lockdown in history",
-        "optimized_title": "Last Generation to Blockade Warsaw Highway, Largest Protest Yet",
+        "optimized_title": "Last Generation Plans Historic Blockade After PM Snub",
         "description": "On Friday at 5:00 PM, you can expect huge traffic jams on the Warsaw highway. This is because the Last Generation has announced the largest blockade in history. Climate activists decided to protest again after the Prime Minister did not come to their negotiating table, which they set up in front of the Chancellery of the Prime Minister.",
         "link": "https://www.polsatnews.pl/wiadomosc/2024-12-11/ostatnie-pokolenie-znowu-wyjdzie-na-ulice-najwieksza-blokada-w-historii/",
         "published": "Wed, 11 Dec 2024 21:40:00 +0100",
-        "optimized_at": "2024-12-12T02:07:48.329455",
+        "optimized_at": "2024-12-12T02:07:59.378156",
         "category": "Social Issues",
-        "summary": "Climate activist group The Last Generation plans to blockade the Warsaw highway on Friday evening, causing significant traffic disruptions. This action is a response to the Prime Minister's refusal to engage in negotiations set up by the activists in front of the Chancellery of the Prime Minister."
+        "summary": "Climate activist group \"Last Generation\" plans to stage a massive protest on Warsaw's highways, causing significant traffic disruptions. The protest is a response to the Prime Minister's refusal to engage with their negotiating table set up outside the Chancellery."
     },
     {
         "original_title": "Zelenskyy jabs at Orban: \"We hope he won't call Assad",
@@ -4558,16 +4558,6 @@
         "optimized_at": "2024-12-12T02:07:51.294937",
         "category": "International Relations",
         "summary": "Ukrainian President Volodymyr Zelenskyy criticized Hungarian Prime Minister Viktor Orban's stance on a Christmas ceasefire, stating that there can be no discussion of war without Ukraine. Orban, in response to Zelenskyy's remarks, expressed disappointment and highlighted Hungary's efforts during its EU presidency."
-    },
-    {
-        "original_title": "The Last Generation will take to the streets again. \"The biggest lockdown in history",
-        "optimized_title": "Last Generation Plans Historic Blockade After PM Snub",
-        "description": "On Friday at 5:00 PM, you can expect huge traffic jams on the Warsaw highway. This is because the Last Generation has announced the largest blockade in history. Climate activists decided to protest again after the Prime Minister did not come to their negotiating table, which they set up in front of the Chancellery of the Prime Minister.",
-        "link": "https://www.polsatnews.pl/wiadomosc/2024-12-11/ostatnie-pokolenie-znowu-wyjdzie-na-ulice-najwieksza-blokada-w-historii/",
-        "published": "Wed, 11 Dec 2024 21:40:00 +0100",
-        "optimized_at": "2024-12-12T02:07:59.378156",
-        "category": "Social Issues",
-        "summary": "Climate activist group \"Last Generation\" plans to stage a massive protest on Warsaw's highways, causing significant traffic disruptions. The protest is a response to the Prime Minister's refusal to engage with their negotiating table set up outside the Chancellery."
     },
     {
         "original_title": "Global outage of Facebook, Messenger and Instagram",
@@ -5068,5 +5058,515 @@
         "optimized_at": "2024-12-12T03:02:11.530481",
         "category": "Polish Business",
         "summary": "Zygmunt Solorz has lost control of Polsat Group after a court appointed a curator from Liechtenstein, signaling a significant change in the management and ownership of the media conglomerate. This move comes amidst ongoing legal and financial disputes within the company."
+    },
+    {
+        "original_title": "Companies will have to be careful what they write in food ads. This is a reaction to frequent violations of the law",
+        "optimized_title": "Food Ads Face Scrutiny: Inspectors to Monitor Labels & Promotions",
+        "description": "Not only the information on the label of an agri-food product, but also in advertising materials and on websites will be verified by inspectors from the Agricultural and Food Quality Inspection.",
+        "link": "https://www.gazetaprawna.pl/firma-i-prawo/artykuly/9687837,firmy-beda-musialy-uwazac-co-pisza-w-reklamach-zywnosci-to-reakcja-n.html",
+        "published": "2024-12-11T21:02:46.000Z",
+        "optimized_at": "2024-12-12T02:08:27.006676",
+        "category": "Business",
+        "summary": "The Agricultural and Food Quality Inspection in Poland will tighten regulations on food advertising. This crackdown comes in response to frequent violations of food labeling laws, with inspectors now monitoring not just product labels but also promotional materials and website content."
+    },
+    {
+        "original_title": "Poland prepares to test driverless vehicles on public roads",
+        "optimized_title": "Poland Set to Test Driverless Cars on Public Roads",
+        "description": "Poland prepares to test driverless vehicles on public roads",
+        "link": "https://www.polskieradio.pl/395/7786/Artykul/3456489,poland-prepares-to-test-driverless-vehicles-on-public-roads",
+        "published": "Tue, 10 Dec 2024 14:16:14 -0000",
+        "optimized_at": "2024-12-12T03:02:14.594445",
+        "category": "Polish Technology",
+        "summary": "Poland is preparing to conduct tests of driverless vehicles on public roads, marking a significant step in the country's technological advancement and innovation in autonomous driving. This initiative aims to evaluate the safety and efficiency of driverless cars in real-world conditions, potentially leading to future regulations and widespread adoption."
+    },
+    {
+        "original_title": "Canada may provide financial support for Poland's first nuclear power plant",
+        "optimized_title": "Canada Eyes Funding Poland's First Nuclear Plant",
+        "description": "Canada may provide financial support for Poland's first nuclear power plant",
+        "link": "https://www.polskieradio.pl/395/7786/Artykul/3456492,canada-may-provide-financial-support-for-polands-first-nuclear-power-plant",
+        "published": "Tue, 10 Dec 2024 14:01:14 -0000",
+        "optimized_at": "2024-12-12T03:02:17.308267",
+        "category": "Polish Economy",
+        "summary": "Canada is considering providing financial support for Poland's first nuclear power plant, indicating potential international investment in Poland's energy infrastructure. This could significantly enhance Poland's energy independence and reduce its reliance on fossil fuels."
+    },
+    {
+        "original_title": "Polish Agriculture Minister demands compensation for Mercosur deal",
+        "optimized_title": "Polish Minister Seeks Compensation for Mercosur Trade Deal",
+        "description": "Polish Agriculture Minister demands compensation for Mercosur deal",
+        "link": "https://www.polskieradio.pl/395/7786/Artykul/3456119,polish-agriculture-minister-demands-compensation-for-mercosur-deal",
+        "published": "Mon, 09 Dec 2024 16:03:55 -0000",
+        "optimized_at": "2024-12-12T03:02:20.182772",
+        "category": "Polish Economy",
+        "summary": "The Polish Agriculture Minister has expressed concerns over the Mercosur trade deal, demanding compensation to protect domestic farmers from potential negative impacts of increased imports from South American countries. The minister emphasized the need to safeguard the interests of Polish agriculture in the face of this international trade agreement."
+    },
+    {
+        "original_title": "Netherlands implements border controls with Germany and Belgium",
+        "optimized_title": "Netherlands Imposes Border Controls with Germany and Belgium",
+        "description": "Netherlands implements border controls with Germany and Belgium",
+        "link": "https://www.polskieradio.pl/395/7785/Artykul/3456080,netherlands-implements-border-controls-with-germany-and-belgium",
+        "published": "Mon, 09 Dec 2024 15:48:55 -0000",
+        "optimized_at": "2024-12-12T03:02:28.319378",
+        "category": "Border Security",
+        "summary": "The Netherlands has imposed border controls with Germany and Belgium, likely due to increased security concerns or policy changes aimed at managing cross-border movements."
+    },
+    {
+        "original_title": "Over 1.03 million foreign workers in Poland: stats office",
+        "optimized_title": "Poland Hits 1.03 Million Foreign Workers: Official Stats",
+        "description": "Over 1.03 million foreign workers in Poland: stats office",
+        "link": "https://www.polskieradio.pl/395/7786/Artykul/3456033,over-103-million-foreign-workers-in-poland-stats-office",
+        "published": "Mon, 09 Dec 2024 13:53:18 -0000",
+        "optimized_at": "2024-12-12T03:02:31.647175",
+        "category": "Polish Economy",
+        "summary": "According to recent statistics from the Polish Central Statistical Office, Poland now has over 1.03 million foreign workers, indicating a significant growth in the country's labor force from overseas. This increase highlights the growing importance of international workers in the Polish economy."
+    },
+    {
+        "original_title": "Jesse Eisenberg's film 'A Real Pain,' set in Poland, earns four Golden Globe nominations",
+        "optimized_title": "Jesse Eisenberg's 'A Real Pain' Earns Four Golden Globe Nods",
+        "description": "Jesse Eisenberg's film 'A Real Pain,' set in Poland, earns four Golden Globe nominations",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3456591,jesse-eisenbergs-film-a-real-pain-set-in-poland-earns-four-golden-globe-nominations",
+        "published": "Tue, 10 Dec 2024 15:35:08 -0000",
+        "optimized_at": "2024-12-12T03:02:37.011422",
+        "category": "Entertainment",
+        "summary": "Jesse Eisenberg's film 'A Real Pain,' set in Poland, has received notable recognition with four Golden Globe nominations. The film is gaining significant attention in the entertainment industry."
+    },
+    {
+        "original_title": "2025 Oscars: Polish short film 'Sunflower' screened in New York",
+        "optimized_title": "Polish Short 'Sunflower' Screened at 2025 Oscars in New York",
+        "description": "2025 Oscars: Polish short film 'Sunflower' screened in New York",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3456141,2025-oscars-polish-short-film-sunflower-screened-in-new-york",
+        "published": "Tue, 10 Dec 2024 11:25:09 -0000",
+        "optimized_at": "2024-12-12T03:02:39.797698",
+        "category": "Entertainment",
+        "summary": "The Polish short film 'Sunflower' was screened at the 2025 Oscars in New York, marking a significant moment for Polish cinema on the global stage. The film was one of the selected shorts to be featured at the prestigious event, highlighting its artistic merit and international recognition."
+    },
+    {
+        "original_title": "HIGH NOTE :: Gombrowicz at the opera",
+        "optimized_title": "Gombrowicz Takes Center Stage at the Opera",
+        "description": "HIGH NOTE :: Gombrowicz at the opera",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3456258,high-note-gombrowicz-at-the-opera",
+        "published": "Tue, 10 Dec 2024 01:57:37 -0000",
+        "optimized_at": "2024-12-12T03:02:43.486678",
+        "category": "Polish Culture",
+        "summary": "The article explores the presence and influence of Polish author Witold Gombrowicz at the opera, highlighting his significant role in cultural events and his enduring legacy in the arts."
+    },
+    {
+        "original_title": "Polish-Danish-Swedish film 'The Girl with the Needle' gets Golden Globe nomination",
+        "optimized_title": "Polish-Danish-Swedish Film 'The Girl with the Needle' Earns Golden Globe Nomination",
+        "description": "Polish-Danish-Swedish film 'The Girl with the Needle' gets Golden Globe nomination",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3456244,polishdanishswedish-film-the-girl-with-the-needle-gets-golden-globe-nomination",
+        "published": "Mon, 09 Dec 2024 22:23:35 -0000",
+        "optimized_at": "2024-12-12T03:02:46.439988",
+        "category": "Entertainment",
+        "summary": "The Polish-Danish-Swedish film 'The Girl with the Needle' has been recognized with a Golden Globe nomination, highlighting international collaboration in cinema. This nomination underscores the global appeal of the film's storytelling and production values."
+    },
+    {
+        "original_title": "Katarzyna Roj wins Polish Pavilion spot at the 2025 Triennale Milano",
+        "optimized_title": "Katarzyna Roj Secures Polish Pavilion at 2025 Triennale Milano",
+        "description": "Katarzyna Roj wins Polish Pavilion spot at the 2025 Triennale Milano",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3455934,katarzyna-roj-wins-polish-pavilion-spot-at-the-2025-triennale-milano",
+        "published": "Mon, 09 Dec 2024 12:29:12 -0000",
+        "optimized_at": "2024-12-12T03:02:54.685466",
+        "category": "Polish Culture",
+        "summary": "Katarzyna Roj has been selected to represent Poland at the 2025 Triennale Milano with her exhibition in the Polish Pavilion. This prestigious event is a significant opportunity for Polish art and culture to gain international recognition."
+    },
+    {
+        "original_title": "Polish tenor Piotr Beczała to perform at Carnegie Hall",
+        "optimized_title": "Polish Tenor Piotr Beczała Set for Carnegie Hall Performance",
+        "description": "Polish tenor Piotr Beczała to perform at Carnegie Hall",
+        "link": "https://www.polskieradio.pl/395/7791/Artykul/3455814,polish-tenor-piotr-beczala-to-perform-at-carnegie-hall",
+        "published": "Mon, 09 Dec 2024 08:06:58 -0000",
+        "optimized_at": "2024-12-12T03:02:59.242999",
+        "category": "Entertainment",
+        "summary": "Polish tenor Piotr Beczała is scheduled to perform at the prestigious Carnegie Hall, marking a significant event in his career and a highlight for Polish culture in the international arts scene. This performance is expected to showcase his renowned vocal talent to a global audience."
+    },
+    {
+        "original_title": "Poland to abolish Anti-Corruption Bureau, shift focus to European legal system",
+        "optimized_title": "Poland Disbands Anti-Corruption Bureau, Shifts to EU Legal Framework",
+        "description": "Poland to abolish Anti-Corruption Bureau, shift focus to European legal system",
+        "link": "https://www.polskieradio.pl/395/7784/Artykul/3456648,poland-to-abolish-anticorruption-bureau-shift-focus-to-european-legal-system",
+        "published": "Tue, 10 Dec 2024 16:21:17 -0000",
+        "optimized_at": "2024-12-12T03:03:01.925748",
+        "category": "Polish Politics",
+        "summary": "Poland has decided to disband its Anti-Corruption Bureau, opting to align with the European legal system instead. This move is part of the country's broader efforts to integrate more closely with European Union norms and regulations."
+    },
+    {
+        "original_title": "Memorials to Polish WWII soldiers destroyed in Russia",
+        "optimized_title": "Polish WWII Memorials Destroyed in Russia",
+        "description": "Memorials to Polish WWII soldiers destroyed in Russia",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456543,memorials-to-polish-wwii-soldiers-destroyed-in-russia",
+        "published": "Tue, 10 Dec 2024 16:06:17 -0000",
+        "optimized_at": "2024-12-12T03:03:05.813888",
+        "category": "Polish Military, Polish History",
+        "summary": "Memorials dedicated to Polish World War II soldiers have been destroyed in Russia, raising concerns about historical preservation and respect for the fallen soldiers. The vandalism highlights ongoing tensions between Poland and Russia regarding historical narratives and commemoration of war events."
+    },
+    {
+        "original_title": "Polish parliamentary Speaker to visit Finland",
+        "optimized_title": "Polish Parliament Speaker to Visit Finland",
+        "description": "Polish parliamentary Speaker to visit Finland",
+        "link": "https://www.polskieradio.pl/395/7784/Artykul/3456445,polish-parliamentary-speaker-to-visit-finland",
+        "published": "Tue, 10 Dec 2024 10:53:11 -0000",
+        "optimized_at": "2024-12-12T03:03:11.103790",
+        "category": "Polish International Relations",
+        "summary": "The Polish parliamentary Speaker is scheduled to visit Finland, likely to discuss bilateral relations and potential collaborations between the two countries. This visit is expected to strengthen diplomatic ties and foster political cooperation."
+    },
+    {
+        "original_title": "Polish, Tunisian FMs discuss security, tourism, EU policies",
+        "optimized_title": "Polish, Tunisian FMs Meet: Security, Tourism, EU Policies on Agenda",
+        "description": "Polish, Tunisian FMs discuss security, tourism, EU policies",
+        "link": "https://www.polskieradio.pl/395/7784/Artykul/3456253,polish-tunisian-fms-discuss-security-tourism-eu-policies",
+        "published": "Tue, 10 Dec 2024 13:21:41 -0000",
+        "optimized_at": "2024-12-12T03:03:15.561747",
+        "category": "International Relations",
+        "summary": "The foreign ministers of Poland and Tunisia met to discuss key areas of cooperation, including security, tourism, and EU policies. The meeting aimed to strengthen bilateral relations and align their approaches on regional and international issues."
+    },
+    {
+        "original_title": "Trump suggests reduced U.S. support for Ukraine, ties NATO membership to Europe ‘paying their bills’",
+        "optimized_title": "Trump Links Ukraine Aid to Europe's NATO Spending",
+        "description": "Trump suggests reduced U.S. support for Ukraine, ties NATO membership to Europe ‘paying their bills’",
+        "link": "https://www.polskieradio.pl/395/7785/Artykul/3456107,trump-suggests-reduced-us-support-for-ukraine-ties-nato-membership-to-europe-%E2%80%98paying-their-bills%E2%80%99",
+        "published": "Mon, 09 Dec 2024 16:03:57 -0000",
+        "optimized_at": "2024-12-12T03:03:18.180840",
+        "category": "International Relations",
+        "summary": "President Trump suggested that U.S. support for Ukraine might be reduced, and he tied NATO membership for other European countries to their willingness to pay their bills, emphasizing the financial contributions of allies."
+    },
+    {
+        "original_title": "Driverless vehicles will appear on Polish roads",
+        "optimized_title": "Poland Prepares for Autonomous Vehicles on Roads",
+        "description": "Driverless vehicles will appear on Polish roads",
+        "link": "https://www.polskieradio.pl/399/7976/Artykul/3456326,pojazdy-bez-kierowcow-wyjada-na-polskie-drogi",
+        "published": "Tue, 10 Dec 2024 09:40:21 -0000",
+        "optimized_at": "2024-12-12T03:03:22.269908",
+        "category": "Technology",
+        "summary": "Poland is preparing for the introduction of autonomous vehicles on its roads, signaling advancements in transportation technology and infrastructure. This development aims to enhance road safety and efficiency, marking a significant step towards modernizing the country's transportation sector."
+    },
+    {
+        "original_title": "Thousands of fish die after hydropower plant malfunction in Poland",
+        "optimized_title": "Fish Die En Masse After Polish Hydropower Plant Malfunction",
+        "description": "Thousands of fish die after hydropower plant malfunction in Poland",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456604,thousands-of-fish-die-after-hydropower-plant-malfunction-in-poland",
+        "published": "Tue, 10 Dec 2024 14:58:44 -0000",
+        "optimized_at": "2024-12-12T03:03:25.448534",
+        "category": "Environment",
+        "summary": "A significant environmental incident occurred in Poland after a malfunction at a hydropower plant resulted in the deaths of thousands of fish. The incident highlights the potential ecological impacts of industrial accidents."
+    },
+    {
+        "original_title": "Canadian suspect in Kraków student murder confirmed dead, post-mortem results released",
+        "optimized_title": "Canadian Suspect in Kraków Murder Confirmed Dead: Post-Mortem Reveals Details",
+        "description": "Canadian suspect in Kraków student murder confirmed dead, post-mortem results released",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456464,canadian-suspect-in-krakow-student-murder-confirmed-dead-postmortem-results-released",
+        "published": "Tue, 10 Dec 2024 14:43:44 -0000",
+        "optimized_at": "2024-12-12T03:03:34.576729",
+        "category": "Law and Justice",
+        "summary": "A Canadian suspect in the murder of a Kraków student has been confirmed dead, with post-mortem results recently released. The details of the cause of death have been disclosed, providing crucial information for the ongoing investigation."
+    },
+    {
+        "original_title": "Polish physician among world's Highly Cited Researchers",
+        "optimized_title": "Polish Physician Named Among World's Top Cited Researchers",
+        "description": "Polish physician among world's Highly Cited Researchers",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456243,polish-physician-among-worlds-highly-cited-researchers",
+        "published": "Mon, 09 Dec 2024 22:23:40 -0000",
+        "optimized_at": "2024-12-12T03:03:37.194431",
+        "category": "Polish Science",
+        "summary": "A Polish physician has been named among the world's top cited researchers, recognizing their significant contributions to the scientific community. This distinction highlights Poland's growing influence in global scientific research."
+    },
+    {
+        "original_title": "Poland's First Lady of song, Irena Santor, turns 90",
+        "optimized_title": "Iconic Singer Irena Santor Celebrates 90th Birthday",
+        "description": "Poland's First Lady of song, Irena Santor, turns 90",
+        "link": "https://www.polskieradio.pl/395/7784/Artykul/3456140,polands-first-lady-of-song-irena-santor-turns-90",
+        "published": "Mon, 09 Dec 2024 16:03:58 -0000",
+        "optimized_at": "2024-12-12T03:03:40.116626",
+        "category": "Polish Culture",
+        "summary": "Iconic Polish singer Irena Santor, known as the \"First Lady of Polish Song,\" celebrated her 90th birthday, marking a significant milestone in her illustrious career in music."
+    },
+    {
+        "original_title": "Poland's Catholic Radio Maryja turns 33 amid corruption controversy",
+        "optimized_title": "Poland's Catholic Radio Maryja Celebrates 33 Years Amid Corruption Controversy",
+        "description": "Poland's Catholic Radio Maryja turns 33 amid corruption controversy",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456064,polands-catholic-radio-maryja-turns-33-amid-corruption-controversy",
+        "published": "Mon, 09 Dec 2024 15:48:58 -0000",
+        "optimized_at": "2024-12-12T03:03:43.575873",
+        "category": "Media",
+        "summary": "Poland's Catholic Radio Maryja is celebrating its 33rd anniversary, but its milestone is overshadowed by a corruption controversy that has recently surfaced. The station, known for its conservative stance and significant influence in Polish society, is currently under scrutiny for alleged financial mismanagement and improprieties."
+    },
+    {
+        "original_title": "Poland honors top young talents: Olympiad champions meet with politicians",
+        "optimized_title": "Poland Celebrates Young Olympiad Champs Meeting with Politicians",
+        "description": "Poland honors top young talents: Olympiad champions meet with politicians",
+        "link": "https://www.polskieradio.pl/395/7784/Artykul/3456047,poland-honors-top-young-talents-olympiad-champions-meet-with-politicians",
+        "published": "Mon, 09 Dec 2024 15:16:31 -0000",
+        "optimized_at": "2024-12-12T03:03:46.479737",
+        "category": "Education",
+        "summary": "Poland celebrated its top young talents by hosting a meeting between Olympiad champions and politicians, highlighting the importance of recognizing and supporting academic excellence. This event aimed to inspire and encourage young minds, fostering a positive relationship between education and governance."
+    },
+    {
+        "original_title": "Excessive screen time may shorten children's lives, expert warns",
+        "optimized_title": "Expert Warns: Too Much Screen Time May Shorten Kids' Lives",
+        "description": "Excessive screen time may shorten children's lives, expert warns",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3455347,excessive-screen-time-may-shorten-childrens-lives-expert-warns",
+        "published": "Mon, 09 Dec 2024 15:01:31 -0000",
+        "optimized_at": "2024-12-12T03:03:54.642754",
+        "category": "Health",
+        "summary": "A health expert has warned that excessive screen time can potentially shorten children's lives, highlighting the need for balanced usage of digital devices. The warning underscores the importance of moderating the time kids spend in front of screens to promote overall health and well-being."
+    },
+    {
+        "original_title": "Body of missing Polish professor found in car, University confirms his death",
+        "optimized_title": "Missing Polish Professor Found Dead in Car, University Confirms",
+        "description": "Body of missing Polish professor found in car, University confirms his death",
+        "link": "https://www.polskieradio.pl/395/7789/Artykul/3456013,body-of-missing-polish-professor-found-in-car-university-confirms-his-death",
+        "published": "Mon, 09 Dec 2024 14:46:31 -0000",
+        "optimized_at": "2024-12-12T03:03:59.228035",
+        "category": "Polish Society",
+        "summary": "The body of a missing Polish professor was discovered in a car, with the university confirming his death. The circumstances surrounding his disappearance and death are currently under investigation."
+    },
+    {
+        "original_title": "Firefighters and local community from Podlasie in action to help Poles in the Borderlands",
+        "optimized_title": "Podlasie Firefighters and Community Aid Poles in Borderlands",
+        "description": "Firefighters and local community from Podlasie in action to help Poles in the Borderlands",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456646,strazacy-i-lokalna-spolecznosc-z-podlasia-w-akcji-pomocy-polakom-na-kresach",
+        "published": "Tue, 10 Dec 2024 20:30:21 -0000",
+        "optimized_at": "2024-12-12T03:04:01.942535",
+        "category": "Polish Society",
+        "summary": "Firefighters and local residents from Podlasie have come together to provide assistance to Poles living in the borderlands. This community-driven initiative aims to support and strengthen the community in the border regions."
+    },
+    {
+        "original_title": "Devastation of Home Army soldiers' memorial sites in Russia. Poland demands explanations from Moscow",
+        "optimized_title": "Poland Outraged: Home Army Memorials Vandalized in Russia",
+        "description": "Devastation of Home Army soldiers' memorial sites in Russia. Poland demands explanations from Moscow",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456621,dewastacja-miejsc-pamieci-zolnierzy-ak-w-rosji-polska-domaga-sie-wyjasnien-od-moskwy",
+        "published": "Tue, 10 Dec 2024 15:35:08 -0000",
+        "optimized_at": "2024-12-12T03:04:05.392978",
+        "category": "Polish Military, Polish Military History, International Relations",
+        "summary": "Memorial sites dedicated to the Home Army soldiers in Russia have been vandalized, sparking outrage in Poland. The Polish government has demanded explanations from Moscow regarding these acts of desecration, highlighting the historical significance of the Home Army in Polish military history."
+    },
+    {
+        "original_title": "In Georgia, demonstrations are becoming increasingly anti-Russian. Media warn of terror against the opposition",
+        "optimized_title": "Georgia Sees Rising Anti-Russian Protests; Media Warn of Opposition Threats",
+        "description": "In Georgia, demonstrations are becoming increasingly anti-Russian. Media warn of terror against the opposition",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456419,w-gruzji-demonstracje-coraz-bardziej-antyrosyjskie-media-ostrzegaja-o-terrorze-przeciw-opozycji",
+        "published": "Tue, 10 Dec 2024 10:02:46 -0000",
+        "optimized_at": "2024-12-12T03:04:09.285336",
+        "category": "International Relations",
+        "summary": "Ongoing demonstrations in Georgia are increasingly focused on anti-Russian sentiment. Media outlets have issued warnings about potential acts of terror targeting the opposition."
+    },
+    {
+        "original_title": "Fans said goodbye to Lucjan Brychczy - a legend of Polish football",
+        "optimized_title": "Fans Bid Farewell to Polish Football Legend Lucjan Brychczy",
+        "description": "Fans said goodbye to Lucjan Brychczy - a legend of Polish football",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456136,kibice-pozegnali-lucjana-brychczego-legende-polskiej-pilki-noznej",
+        "published": "Mon, 09 Dec 2024 16:04:04 -0000",
+        "optimized_at": "2024-12-12T03:04:12.601048",
+        "category": "Sports",
+        "summary": "Fans gathered to bid farewell to Lucjan Brychczy, a renowned figure in Polish football, celebrating his contributions to the sport and his lasting legacy. Despite his passing, his impact on Polish football continues to be remembered and cherished by supporters."
+    },
+    {
+        "original_title": "Polish Nobel Prize winners are the heroes of light installations in Stockholm",
+        "optimized_title": "Polish Nobel Laureates Honored in Stockholm's Light Installations",
+        "description": "Polish Nobel Prize winners are the heroes of light installations in Stockholm",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456070,polskie-noblistki-bohaterkami-swietlnych-instalacji-w-sztokholmie",
+        "published": "Mon, 09 Dec 2024 15:49:04 -0000",
+        "optimized_at": "2024-12-12T03:04:21.044375",
+        "category": "Polish Culture",
+        "summary": "Polish Nobel laureates are being commemorated through light installations in Stockholm. The installations honor the significant contributions of Polish Nobel Prize winners in various fields. This cultural event showcases Poland's intellectual achievements on an international stage."
+    },
+    {
+        "original_title": "Lukashenko pardons 29 political prisoners. Opposition: it's an image game",
+        "optimized_title": "Lukashenko Pardons 29 Political Prisoners; Opposition Calls It Image Stunt",
+        "description": "Lukashenko pardons 29 political prisoners. Opposition: it's an image game",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3456046,lukaszenka-ulaskawia-29-wiezniow-politycznych-opozycja-to-gra-na-wizerunek",
+        "published": "Mon, 09 Dec 2024 15:34:04 -0000",
+        "optimized_at": "2024-12-12T03:04:24.117096",
+        "category": "Politics",
+        "summary": "Belarusian President Alexander Lukashenko has pardoned 29 political prisoners, a move that the opposition has criticized as a mere public relations stunt aimed at improving his image."
+    },
+    {
+        "original_title": "Vilnius: brochures on how to behave during the crisis. Also available in Polish",
+        "optimized_title": "Vilnius Offers Crisis Behavior Guides in Polish",
+        "description": "Vilnius: brochures on how to behave during the crisis. Also available in Polish",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3455961,wilno-broszury-o-tym-jak-zachowac-sie-podczas-kryzysu-dostepne-sa-tez-po-polsku",
+        "published": "Mon, 09 Dec 2024 12:36:56 -0000",
+        "optimized_at": "2024-12-12T03:04:26.993585",
+        "category": "International Relations",
+        "summary": "The city of Vilnius has created crisis management guides to inform residents and visitors on appropriate behavior during emergencies. These brochures are available in multiple languages, including Polish, to ensure clear communication with a diverse population."
+    },
+    {
+        "original_title": "Georgians complain about Russian disinformation",
+        "optimized_title": "Georgians Decry Russian Misinformation",
+        "description": "Georgians complain about Russian disinformation",
+        "link": "https://www.polskieradio.pl/399/7977/Artykul/3455905,gruzini-skarza-sie-na-rosyjska-dezinformacje",
+        "published": "Mon, 09 Dec 2024 12:21:56 -0000",
+        "optimized_at": "2024-12-12T03:04:29.609540",
+        "category": "International Relations",
+        "summary": "Georgians are expressing frustration with Russian disinformation campaigns, highlighting the ongoing impact of propaganda on their society and relations with Russia."
+    },
+    {
+        "original_title": "HNS Conference",
+        "optimized_title": "Annual HNS Conference: Defense System Integration in Focus",
+        "description": "“The functioning of the HNS system in the units and organizational cells of the Ministry of National Defense and non-military elements of the country’s defense system” was the topic of the annual conference of the Plenipotentiary of the Minister of National Defense for HNS.",
+        "link": "https://www.wojsko-polskie.pl/sgwp/articles/aktualnosci-w/konferencja-na-temat-hns/",
+        "published": "Mon, 09 Dec 2024 16:04:47 -0000",
+        "optimized_at": "2024-12-12T03:04:38.065269",
+        "category": "Polish Military",
+        "summary": "The annual HNS (Humanitarian and Civil-Military Cooperation) conference, organized by the Plenipotentiary of the Minister of National Defense for HNS, focused on the integration and effective functioning of the HNS system within military units and non-military elements of Poland's defense system. The event aimed to strengthen coordination and cooperation among different sectors involved in national defense."
+    },
+    {
+        "original_title": "Liquidation of the CBA and the priorities of the Polish presidency - decisions of the Council of Ministers",
+        "optimized_title": "Poland Aims for EU Leadership as Council Liquidates CBA",
+        "description": "During Tuesday's session, the Council of Ministers adopted a draft law on the liquidation of the Central Anticorruption Bureau. The government also adopted the priorities of the Polish presidency of the Council of the European Union. \"Poland is to be a leader in actions that will result in peace,\" emphasized Prime Minister Donald Tusk. The Council of Ministers also listened to information from the Minister of Justice and the Prosecutor General's Office on the actions of the prosecutor's office r",
+        "link": "https://www.gov.pl/web/premier/likwidacja-cba-i-priorytety-polskiej-prezydencji--decyzje-rady-ministrow",
+        "published": "Tue, 10 Dec 2024 19:17:04 -0000",
+        "optimized_at": "2024-12-12T03:04:40.854342",
+        "category": "Polish Politics, Polish EU Relations",
+        "summary": "The Council of Ministers of Poland has approved a draft law to dissolve the Central Anticorruption Bureau (CBA) and established priorities for the country's presidency of the Council of the European Union. Prime Minister Donald Tusk declared that Poland aims to be a leading force in promoting peace within the EU. Additionally, the Council received updates from the Minister of Justice and the Prosecutor General regarding the actions of the prosecutor's office."
+    },
+    {
+        "original_title": "Young geniuses at the Chancellery of the Prime Minister - meeting with winners of international science olympiads",
+        "optimized_title": "Prime Minister Honors Young Polish Scientists, Topping Global Olympiads",
+        "description": "Prime Minister Donald Tusk and Minister of Education Barbara Nowacka met with laureates of international science Olympiads at the Chancellery of the Prime Minister to sum up their extraordinary achievements in 2024. Representatives of Poland won a total of 77 medals in 10 science categories. Polish students are one of the most successful teams in the world in subject competitions. \"We treat all students as the greatest national treasure,\" said Donald Tusk during the meeting.",
+        "link": "https://www.gov.pl/web/premier/mlodzi-geniusze-w-kprm---spotkanie-z-laureatami-miedzynarodowych-olimpiad-naukowych",
+        "published": "Mon, 09 Dec 2024 19:02:26 -0000",
+        "optimized_at": "2024-12-12T03:04:43.807360",
+        "category": "Polish Education",
+        "summary": "Prime Minister Donald Tusk and Minister of Education Barbara Nowacka met with young Polish scientists who won a total of 77 medals in 10 international science Olympiads in 2024. They are among the most successful students globally in subject competitions. Tusk emphasized the importance of young students as a national treasure."
+    },
+    {
+        "original_title": "The war in Ukraine shows the necessary changes in the field of European security",
+        "optimized_title": "Ukraine War Reshapes European Security: Lessons and Adaptation",
+        "description": "- Our approach is guided by the principle of continuing those actions that are beneficial and rectifying those that are detrimental. As General Kukuła observed, the lessons of the war in Ukraine are being implemented. It would be erroneous to assume that a one-off solution is being adopted - rather, flexibility is required. The ability to adapt is of paramount importance in order to ensure that the military is able to respond effectively to changing circumstances. (…) After two years and, in a m",
+        "link": "https://www.gov.pl/web/national-defence/the-war-in-ukraine-shows-the-necessary-changes-in-the-field-of-european-security",
+        "published": "Tue, 10 Dec 2024 09:40:22 -0000",
+        "optimized_at": "2024-12-12T03:04:47.919862",
+        "category": "Military Strategy",
+        "summary": "The war in Ukraine has highlighted the need for adaptability and flexibility in European security strategies. As noted by General Kukuła, the lessons from the conflict are being implemented, emphasizing the importance of continuous improvement and rectifying past errors. The key is to maintain a flexible approach that allows military forces to respond effectively to evolving situations."
+    },
+    {
+        "original_title": "Seminar “Remembrance, Understanding, Future” for youth from Western Balkans, Poland, and Germany",
+        "optimized_title": "Youth from Western Balkans, Poland, Germany Gather for 'Remembrance, Understanding, Future' Seminar in Krzyżowa and Wrocław",
+        "description": "Another edition of the “Remembrance, Understanding, Future” seminar is due to start on 10 December 2024. Representatives of the young generation from Albania, Bosnia and Herzegovina, Kosovo, Montenegro, North Macedonia, and Serbia, as well as from Poland and Germany will attend the meeting in Krzyżowa and Wrocław.",
+        "link": "https://www.gov.pl/web/diplomacy/seminar-remembrance-understanding-future-for-youth-from-western-balkans-poland-and-germany",
+        "published": "Tue, 10 Dec 2024 00:00:00 -0000",
+        "optimized_at": "2024-12-12T03:04:53.296074",
+        "category": "Education",
+        "summary": "A seminar titled \"Remembrance, Understanding, Future\" is scheduled to begin on December 10, 2024, in Krzyżowa and Wrocław, Poland. The event will bring together youth from Albania, Bosnia and Herzegovina, Kosovo, Montenegro, North Macedonia, Serbia, Poland, and Germany to foster understanding and remembrance among the younger generations."
+    },
+    {
+        "original_title": "Meeting of state secretaries and secretaries general for EU",
+        "optimized_title": "Poland Hosts EU State Secretaries, Preps for Presidency",
+        "description": "On 9 and 10 December 2024 in Warsaw, in view of Poland’s upcoming presidency of the Council of the European Union, Undersecretary of State at the Polish MFA Marek Prawda and Undersecretary of State for the EU at the Chancellery of the Prime Minister Magdalena Sobkowiak-Czarnecka hosted secretaries of state and secretaries general for the EU from EU member states. The meeting was co-hosted by Secretary-General of the European External Action Service Stefano Sannino.",
+        "link": "https://www.gov.pl/web/diplomacy/meeting-of-state-secretaries-and-secretaries-general-for-eu",
+        "published": "Tue, 10 Dec 2024 00:00:00 -0000",
+        "optimized_at": "2024-12-12T03:04:56.096662",
+        "category": "Poland EU Relations",
+        "summary": "Poland hosted a meeting of state secretaries and secretaries general for the EU in Warsaw on 9 and 10 December 2024, in preparation for its upcoming presidency of the Council of the European Union. The meeting was co-hosted by Undersecretaries Marek Prawda and Magdalena Sobkowiak-Czarnecka, along with Stefano Sannino, Secretary-General of the European External Action Service."
+    },
+    {
+        "original_title": "The war in Ukraine shows the necessary changes in the area of ​​European security.",
+        "optimized_title": "Ukraine War Spurs EU Security Shifts",
+        "description": "- We operate according to the principle: what is good - continue, what is bad - fix. In accordance with what General Kukuła said, we are implementing the conclusions from the war in Ukraine. We do not accept solutions once and for all - we need to remain flexible. Flexibility is key to adapting the army to the changing reality. (…) After two, and soon after three years of experience of the war in Ukraine, there must be an analysis and redefinition of the activities we conduct - said Deputy Prime",
+        "link": "https://www.gov.pl/web/obrona-narodowa/wojna-na-ukrainie-pokazuje-konieczne-zmiany-w-obszarze-europejskiego-bezpieczenstwa",
+        "published": "Mon, 09 Dec 2024 15:38:11 -0000",
+        "optimized_at": "2024-12-12T03:04:59.494080",
+        "category": "International Relations",
+        "summary": "The ongoing war in Ukraine has prompted the EU to reassess and adapt its security measures, emphasizing the importance of flexibility in military adaptation to evolving threats. Deputy Prime Minister Kukuła stressed that after several years of war, a thorough analysis and redefinition of current security activities are necessary."
+    },
+    {
+        "original_title": "Deputy Minister Paweł Bejda meets with the Korean delegation",
+        "optimized_title": "Poland's Deputy Defense Minister Meets South Korean Delegation Led by Minister Seok Jonggun",
+        "description": "Deputy Minister of National Defense Paweł Bejda met with a delegation from South Korea led by Minister Seok Jonggun, head of the Korean Defense Acquisition Program Administration (DAPA). The meeting was attended by, among others, Deputy Minister of DAPA Hyunki Cho and the Korean Ambassador to Poland, Hoonmim Lim.",
+        "link": "https://www.gov.pl/web/obrona-narodowa/spotkanie-wiceministra-pawla-bejdy-z-delegacja-koreanska",
+        "published": "Mon, 09 Dec 2024 15:23:11 -0000",
+        "optimized_at": "2024-12-12T03:05:08.020315",
+        "category": "Polish Defense",
+        "summary": "Deputy Minister of National Defense Paweł Bejda met with a South Korean delegation led by Minister Seok Jonggun, focusing on defense acquisition and cooperation. The meeting included Deputy Minister of DAPA Hyunki Cho and Korean Ambassador to Poland Hoonmim Lim."
+    },
+    {
+        "original_title": "Athletes of DG RSZ",
+        "optimized_title": "Military Athletes Shine at Warsaw Citadel Gala",
+        "description": "On December 6, at the Warsaw Citadel as part of the Military Sports Gala, a summary of sports and training activities at the General Command of the Armed Forces in 2024 took place …",
+        "link": "https://www.wojsko-polskie.pl/dgrsz/articles/aktualnosci-w/sportowcy-dg-rsz/",
+        "published": "Mon, 09 Dec 2024 16:05:02 -0000",
+        "optimized_at": "2024-12-12T03:05:10.791434",
+        "category": "Polish Military",
+        "summary": "The Military Sports Gala held at the Warsaw Citadel on December 6 celebrated the accomplishments of athletes from the General Command of the Armed Forces in 2024. The event showcased the training and sports activities of military personnel, highlighting their dedication and achievements."
+    },
+    {
+        "original_title": "Training in removing ice jams from helicopters.",
+        "optimized_title": "Helicopter Crews Train to Tackle Ice Jams",
+        "description": "From December 2 to 6, the 2nd Engineering Regiment in Inowrocław hosted training for aircraft crews and engineers in the field of eliminating traffic jams…",
+        "link": "https://www.wojsko-polskie.pl/dgrsz/articles/aktualnosci-w/szkolenie-w-zakresie-niszczenia-zatorow-lodowych-ze-smiglowcow/",
+        "published": "Mon, 09 Dec 2024 09:37:51 -0000",
+        "optimized_at": "2024-12-12T03:05:13.482147",
+        "category": "Military Training",
+        "summary": "The 2nd Engineering Regiment in Inowrocław recently conducted training for aircraft crews and engineers from December 2 to 6, focusing on eliminating ice jams. The training aimed to enhance the skills and preparedness of helicopter crews in dealing with winter-related operational challenges."
+    },
+    {
+        "original_title": "LOBSTER in action",
+        "optimized_title": "Rocket Brigade Tests HOMAR Launchers in Action",
+        "description": "From November 25 to December 5, selected elements of the 1st Rocket Brigade and the 18th Artillery Brigade conducted the first combat training using HOMAR multiple launcher systems …",
+        "link": "https://www.wojsko-polskie.pl/dgrsz/articles/aktualnosci-w/homar-akcji-na-terytorium-kraju/",
+        "published": "Mon, 09 Dec 2024 09:22:51 -0000",
+        "optimized_at": "2024-12-12T03:05:16.560276",
+        "category": "Polish Military",
+        "summary": "Selected units from the 1st Rocket Brigade and the 18th Artillery Brigade conducted the first combat training with HOMAR multiple launcher systems from November 25 to December 5. This training highlights Poland's efforts to modernize and enhance its military capabilities."
+    },
+    {
+        "original_title": "Transfer of command in PKW Latvia",
+        "optimized_title": "PKW Latvia: 15th Rotation Command Transfer on December 8, 2024",
+        "description": "On December 8, 2024, the official handover of duties took place by soldiers of the 15th rotation of the Polish Military Contingent (PKW) in Latvia, the core of which was made up of soldiers from the 34th …",
+        "link": "https://www.wojsko-polskie.pl/articles/tym-zyjemy-v/2024-12-09p-przekazanie-dowodzenia-w-pkw-otwa/",
+        "published": "Mon, 09 Dec 2024 14:55:29 -0000",
+        "optimized_at": "2024-12-12T03:05:20.097453",
+        "category": "Polish Military",
+        "summary": "On December 8, 2024, the 15th rotation of the Polish Military Contingent (PKW) in Latvia underwent a command transfer, with core soldiers from the 34th unit. This event signifies a change in leadership for Polish troops deployed in Latvia as part of international military operations."
+    },
+    {
+        "original_title": "Lessons from the war in Ukraine (...)",
+        "optimized_title": "Polish Military Commander Shares Insights on War in Ukraine",
+        "description": "On December 9, 2024, the Operational Commander of the Armed Forces, Maj. Gen. Maciej Klisz, participated in the conference entitled \"Lessons learned from the war in Ukraine – equipment and structure of the Polish …",
+        "link": "https://www.wojsko-polskie.pl/dorsz/articles/aktualnosci-w/wnioski-z-wojny-na-ukrainie/",
+        "published": "Mon, 09 Dec 2024 16:05:28 -0000",
+        "optimized_at": "2024-12-12T03:05:27.362007",
+        "category": "Polish Military",
+        "summary": "Maj. Gen. Maciej Klisz, the Operational Commander of the Polish Armed Forces, shared insights on the war in Ukraine during a conference held on December 9, 2024. He discussed key lessons learned regarding equipment and military structure, highlighting the importance of these insights for Poland's military modernization and preparedness."
+    },
+    {
+        "original_title": "Transfer of command in PKW Latvia",
+        "optimized_title": "Polish Military Contingent in Latvia Sees Command Transfer",
+        "description": "On December 8, 2024, the official handover of duties took place by soldiers of the 15th rotation of the Polish Military Contingent (PKW) in Latvia, the core of which was made up of soldiers from the 34th …",
+        "link": "https://www.wojsko-polskie.pl/dorsz/articles/aktualnosci-w/4-przekazanie-dowodzenia-w-pkw-lotwa/",
+        "published": "Mon, 09 Dec 2024 08:08:25 -0000",
+        "optimized_at": "2024-12-12T03:05:30.008693",
+        "category": "Polish Military",
+        "summary": "On December 8, 2024, the 15th rotation of the Polish Military Contingent in Latvia underwent a command transfer ceremony, with a significant number of soldiers from the 34th Infantry Division participating in the handover process."
+    },
+    {
+        "original_title": "Polish accent at the Winter Festival in EUFOR ALTHEA",
+        "optimized_title": "Polish Traditions Shine at EUFOR ALTHEA's Winter Festival",
+        "description": "On December 6, 2024, the annual cyclical event called \"Winter Festival\" took place at the Camp Butmir base, the aim of which is to present national traditions and heritage …",
+        "link": "https://www.wojsko-polskie.pl/dorsz/articles/aktualnosci-w/polski-akcent-na-winter-festival-w-eufor-althea/",
+        "published": "Mon, 09 Dec 2024 12:36:43 -0000",
+        "optimized_at": "2024-12-12T03:05:33.437029",
+        "category": "Polish Culture",
+        "summary": "The annual Winter Festival at EUFOR ALTHEA's Camp Butmir in 2024 featured Polish cultural traditions and heritage, showcasing the richness and diversity of Polish culture to an international audience. The event highlighted the importance of cultural exchange and understanding within the context of international military cooperation."
+    },
+    {
+        "original_title": "Naturosa Catania Marathon with the participation of PKW",
+        "optimized_title": "Polish Soldiers Join Naturosa Catania Marathon: 10.5km & 21.097km Races",
+        "description": "Soldiers and employees of the Ministry of National Defense of the 10th rotation of the Polish Military Contingent IRINI participated in street runs over a distance of 10.5 km and 21.097 km organized in …",
+        "link": "https://www.wojsko-polskie.pl/dorsz/articles/aktualnosci-w/naturosa-catania-marathon-z-udzialem-pkw/",
+        "published": "Tue, 10 Dec 2024 15:35:23 -0000",
+        "optimized_at": "2024-12-12T03:05:36.754632",
+        "category": "Polish Military",
+        "summary": "Polish soldiers and ministry employees participated in the Naturosa Catania Marathon, running distances of 10.5 km and 21.097 km while serving in the IRINI mission in Italy."
+    },
+    {
+        "original_title": "Lessons from the war in Ukraine (...)",
+        "optimized_title": "Polish General Shares War Lessons from Ukraine",
+        "description": "On December 9, 2024, the Operational Commander of the Armed Forces, Maj. Gen. Maciej Klisz, participated in the conference entitled \"Lessons learned from the war in Ukraine – equipment and structure of the Polish …",
+        "link": "https://www.wojsko-polskie.pl/dorsz/articles/aktualnosci-w/wnioski-z-wojny-na-ukrainie/",
+        "published": "Mon, 09 Dec 2024 16:05:09 -0000",
+        "optimized_at": "2024-12-12T03:05:39.877580",
+        "category": "Polish Military",
+        "summary": "Maj. Gen. Maciej Klisz, the Operational Commander of the Polish Armed Forces, shared insights from the war in Ukraine during a conference in December 2024. The event focused on lessons learned regarding equipment and the structure of the Polish military, emphasizing the importance of adapting to modern warfare challenges."
     }
 ]
